@@ -1,0 +1,80 @@
+/* Universal attributes */
+html, body {
+    min-height:100%;
+    min-width:100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+
+/* Supports checks whether the user browswer supports this */
+@supports (grid-area:auto) {
+    .section {
+        height: 100vh;
+    }
+
+    .landing {
+        display: grid;
+        grid-template-areas: 
+          "main-heading main-heading main-heading main-heading"
+          "img img img img"
+          "hover-text hover-text hover-text hover-text";
+        grid-template-rows: 200px auto 50px;  
+        grid-template-columns: auto auto auto;
+    }
+
+    .main-heading {
+        grid-area: main-heading;
+    }
+
+    .img {
+        grid-area: img;
+    }
+
+    .hover-text {
+        grid-area: hover-text;
+    }
+
+    #title {
+        background-color: #FFDE67;
+    }
+
+    .layout {
+        display: grid;
+        grid-template-areas: 
+          "nav head head head"
+          "nav main main main"
+          "nav main main main";
+        grid-template-rows: 200px auto auto;  
+        grid-template-columns: 45% auto auto;
+    }
+
+    .nav {
+        grid-area: nav;
+    }
+
+    .head {
+        grid-area: head;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    #intro {
+        background-color: #FC8D81;
+    }
+
+    #history {
+        background-color: #80A6CF;
+    }
+
+    #stats {
+        background-color: #67C9A1;
+    }
+
+    #interactive {
+        background-color: #FF6653;
+    }
+
+}
