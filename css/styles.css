@@ -94,15 +94,17 @@ a {
 
     /* Navigation Menu */
     #nav {
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
         position: fixed;
         height: 8%;
+        padding-top: 1.5em;
         top: 0;
         z-index: 100;
     }
 
     #menu {
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: row;
     }
@@ -110,7 +112,7 @@ a {
     #menu a {
         width: 9em;
         background-color: #FFFFFF;
-        color: #575757;
+        color: hsl(0, 0%, 34%);
         padding: 0.5em;
         margin-left: 1em;
         margin-right: 1em;
@@ -150,6 +152,11 @@ a {
     #intro {
         background-color: #FC8D81;
         position: relative;
+    }
+
+    #red {
+        background-image: url('../img/Ellipse_Red.png');
+        background-position: cover;
     }
 
     #history {

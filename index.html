@@ -24,7 +24,7 @@
     
 <body>
     <!-- Title Page -->
-    <div id="title" class="landing section">
+    <div id="title" class="landing">
         <div class="main-heading">
             <h1 class="big-heading gray">It's Boba Time</h1>
             <p class="gray">Hover over each boba drink to learn more</p>
@@ -52,9 +52,10 @@
 
     <!-- Introduction -->
     <div id="intro" class="layout section">
-        <div class="front"></div>
-        <img data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
-        <img data-depth="0.6" class="bubble small-bubble" src="img/bubble_red.png" alt="red bubble">
+        <div id="red">
+            <img data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
+            <img data-depth="0.6" class="bubble small-bubble" src="img/bubble_red.png" alt="red bubble">
+        </div>
         <div class="head display">
             <h2 class="white big">What is Boba?</h2>
         </div>
@@ -64,6 +65,50 @@
             </div>
             <div id="how">
                 <div id="player"></div>
+
+                <script>
+                    // This code loads the IFrame Player API code asynchronously.
+                    var tag = document.createElement('script');
+                
+                    tag.src = "https://www.youtube.com/iframe_api";
+                    var firstScriptTag = document.getElementsByTagName('script')[0];
+                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                    
+                    //    This function creates an <iframe> (and YouTube player)
+                    //    after the API code downloads.
+                    var player;
+                    function onYouTubeIframeAPIReady() {
+                        player = new YT.Player('player', {
+                        height: '390',
+                        width: '640',
+                        videoId: 'M7lc1UVf-VE',
+                        events: {
+                            'onReady': onPlayerReady,
+                            'onStateChange': onPlayerStateChange
+                        }
+                        });
+                    }
+                  
+                    // The API will call this function when the video player is ready.
+                    function onPlayerReady(event) {
+                        event.target.playVideo();
+                    }
+                
+                    //    The API calls this function when the player's state changes.
+                    //    The function indicates that when playing a video (state=1),
+                    //    the player should play for six seconds and then stop.
+                    var done = false;
+                    function onPlayerStateChange(event) {
+                        if (event.data == YT.PlayerState.PLAYING && !done) {
+                        setTimeout(stopVideo, 6000);
+                        done = true;
+                        }
+                    }
+
+                    function stopVideo() {
+                        player.stopVideo();
+                    }
+                </script>
             </div>
         </div>
     </div>
