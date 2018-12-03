@@ -1,5 +1,12 @@
 $(function() {
-    var location = 'Raleigh, NC';
+    // location is global variable, will change based on user input
+    var location = 'Chapel Hill, NC';
+
+    $('#search').click(function() {
+        var userInput = $('#location').val();
+        location = userInput;
+    });
+
     // Geocode
     var locationData = '';
     $.ajax({
@@ -17,6 +24,8 @@ $(function() {
     // use these filters to narrow down search results
     var filters = ['Bubble Tea Shop']; 
     var bobaResults = [];
+    var bobaLocation = [];
+    var bobaHTML = '';
 
     $.ajax({
         url: 'https://api.foursquare.com/v2/venues/search?client_id=' + config.CLIENT_ID + '&client_secret=' + config.CLIENT_SECRET + '&v=20180323&categoryId=52e81612bcbc57f1066b7a0c,4bf58dd8d48988d1dc931735&near=' + location,
@@ -32,8 +41,9 @@ $(function() {
                 var filterItem = filters[i];
                 // go through all venues
                 foursquaredata.response.venues.forEach(venue => {
-                    // create a variable to store shop name
+                    // create variable to store shop name 
                     var shop = venue.name;
+
                     // go into categories list
                     for (var j = 0; j < venue.categories.length; j++) {
                         // get each name
@@ -43,30 +53,45 @@ $(function() {
                             bobaResults.push(shop);
                         }
                     }
+
+                    // go into location
+
+                    // create variable to store full address and reset each time looping through each locatino so that additional locations do not add onto html variable before pushing into array
+                    var fullAddress = '';
+
+                    // get location parts of venue
+                    
+                    var address = venue.location.address;
+                    var city = venue.location.city;
+                    var state = venue.location.state;
+
+                    fullAddress += address;
+                    fullAddress += ', ';
+                    fullAddress += city;
+                    fullAddress += ', ';
+                    fullAddress += state;
+
+                    console.log(fullAddress);
+                    bobaLocation.push(fullAddress);
                 });
             }
-
-            // callAnotherQuery();
-
+            // results after being filtered
             console.log(bobaResults);
+
+            console.log(bobaLocation);
+
+            // add names to bobaHTML
+            for (var b = 0; b < bobaResults.length; b++) {
+                bobaHTML += bobaResults[b];
+                bobaHTML += '</br>';
+                bobaHTML += bobaLocation[b];
+                bobaHTML += '</br>';
+            }
+
+            // show results in div
+            $('#boba-results').html(bobaHTML);
         }
     });
-
-    // function callAnotherQuery() {
-    //     $.ajax({
-    //         url: 'https://api.foursquare.com/v2/venues/search?client_id=' + config.CLIENT_ID + '&client_secret=' + config.CLIENT_SECRET + '&v=20180323&query=tea&near=' + location,
-    //         data: foursquaredata,
-    //         type: 'GET',
-    //         dataType: 'json',
-    //         async: true,
-    //         success: function(foursquaredata) {
-                
-    //         }
-    // }
-
-    // function searchBoba(location, foursquaredata) {
-
-    // }
 
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
