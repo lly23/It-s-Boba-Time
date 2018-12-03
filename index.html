@@ -30,47 +30,67 @@
             <p class="gray">Hover over each boba drink to learn more</p>
         </div>
         <div class="img">
-            <img id="strawberry" src="img/strawberry_boba.svg" alt="strawberry boba">
+            <!-- <img id="strawberry" src="img/strawberry_boba.svg" alt="strawberry boba">
             <img id="milktea" src="img/milktea_boba.svg" alt="milk tea boba">
             <img id="matcha" src="img/matcha_boba.svg" alt="matcha boba">
-            <img id="mocha" src="img/mocha_boba.svg" alt="mocha boba">
+            <img id="mocha" src="img/mocha_boba.svg" alt="mocha boba"> -->
         </div>
-        <div class="hover-text">Introduction</div>
+        <div class="hover-text">Hover text</div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <div id="nav">    
+        <ul id="menu">
+            <a href="#title"><li>Home</li></a>
+            <a href="#intro"><li>Introduction<img src="img/strawberry_boba.svg" alt="strawberry boba"></li></a>
+            <a href="#history"><li>History<img id="milktea" src="img/milktea_boba.svg" alt="milk tea boba"></li></a>
+            <a href="#stats"><li>Stats<img id="matcha" src="img/matcha_boba.svg" alt="matcha boba"></li></a>
+            <a href="#interactive"><li>Fun<img id="mocha" src="img/mocha_boba.svg" alt="mocha boba"></li></a>
+            <a href="#sources"><li>Sources</li></a>
+        </ul>
     </div>
 
     <!-- Introduction -->
     <div id="intro" class="layout section">
-        <div class="nav">
-            <!-- Navigation Menu -->
+        <div class="front"></div>
+        <img data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
+        <img data-depth="0.6" class="bubble small-bubble" src="img/bubble_red.png" alt="red bubble">
+        <div class="head display">
+            <h2 class="white big">What is Boba?</h2>
         </div>
-        <div class="head"></div>
-        <div class="main"></div>
+        <div class="main display white">
+            <div id="what">
+                <p>Boba, Boba Tea, or Bubble Tea is a Taiwanese-based dessert drink that comes in different flavors of tea mixed with milk and sweet, chewy tapioca balls called boba. Hence the name, Boba Tea.</p>
+            </div>
+            <div id="how">
+                <div id="player"></div>
+            </div>
+        </div>
     </div>
 
     <!-- History -->
     <div id="history" class="layout section">
-        <div class="nav">
-            <!-- Navigation Menu -->
+        <div class="head display">
+            <h2 class="white big">The History of Boba</h2>
         </div>
-        <div class="head"></div>
         <div class="main"></div>
     </div>
 
     <!-- Stats -->
     <div id="stats" class="layout section">
-        <div class="nav">
-            <!-- Navigation Menu -->
+        <div class="head display">
+            <h2 class="white big">Impact</h2>
         </div>
-        <div class="head"></div>
-        <div class="main"></div>
+        <div class="main">
+            <div id="map"></div>
+        </div>
     </div>
 
     <!-- Interactive -->
-    <div id="interactive" class="layout section">
-        <div class="nav">
-            <!-- Navigation Menu -->
+    <div id="interactive" class="layout section">  
+        <div class="head display">
+            <h2 class="white big">Fun Time</h2>
         </div>
-        <div class="head"></div>
         <div class="main"></div>
     </div>
 
@@ -81,6 +101,9 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="plugins/kartograph.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
