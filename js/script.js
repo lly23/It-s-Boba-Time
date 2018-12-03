@@ -23,10 +23,10 @@ $(function() {
         dataType: 'json',
         async: true,
         success: function(foursquaredata) {
-            console.log(foursquaredata.response);
+            console.log(foursquaredata.response.venues);
             for (var i = 0; i < filters.length; i++) {
-                foursquaredata.forEach(element => {
-                    
+                foursquaredata.response.venues.forEach(venue => {
+                    console.log(venue);
                 });
             }
         }
