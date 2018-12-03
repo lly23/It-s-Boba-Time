@@ -14,27 +14,59 @@ $(function() {
     });
     // FourSquare API
     var foursquaredata = [];
-    var filters = ['Tea Room', 'Bubble Tea Shop'];
+    // use these filters to narrow down search results
+    var filters = ['Bubble Tea Shop']; 
+    var bobaResults = [];
 
     $.ajax({
-        url: 'https://api.foursquare.com/v2/venues/search?client_id=' + config.CLIENT_ID + '&client_secret=' + config.CLIENT_SECRET + '&v=20180323&query=tea&near=' + location,
+        url: 'https://api.foursquare.com/v2/venues/search?client_id=' + config.CLIENT_ID + '&client_secret=' + config.CLIENT_SECRET + '&v=20180323&categoryId=52e81612bcbc57f1066b7a0c,4bf58dd8d48988d1dc931735&near=' + location,
         data: foursquaredata,
         type: 'GET',
         dataType: 'json',
         async: true,
         success: function(foursquaredata) {
+            // show all venues under query 'tea'
             console.log(foursquaredata.response.venues);
+            // check first filter item
             for (var i = 0; i < filters.length; i++) {
+                var filterItem = filters[i];
+                // go through all venues
                 foursquaredata.response.venues.forEach(venue => {
-                    console.log(venue);
+                    // create a variable to store shop name
+                    var shop = venue.name;
+                    // go into categories list
+                    for (var j = 0; j < venue.categories.length; j++) {
+                        // get each name
+                        var name = venue.categories[j].name;
+                        // if name matches filter item then add it to boba results array
+                        if (name == filterItem) {
+                            bobaResults.push(shop);
+                        }
+                    }
                 });
             }
+
+            // callAnotherQuery();
+
+            console.log(bobaResults);
         }
     });
 
-    function searchBoba(location, foursquaredata) {
+    // function callAnotherQuery() {
+    //     $.ajax({
+    //         url: 'https://api.foursquare.com/v2/venues/search?client_id=' + config.CLIENT_ID + '&client_secret=' + config.CLIENT_SECRET + '&v=20180323&query=tea&near=' + location,
+    //         data: foursquaredata,
+    //         type: 'GET',
+    //         dataType: 'json',
+    //         async: true,
+    //         success: function(foursquaredata) {
+                
+    //         }
+    // }
 
-    }
+    // function searchBoba(location, foursquaredata) {
+
+    // }
 
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
