@@ -93,6 +93,10 @@ a {
     }
 
     /* Navigation Menu */
+    #nav-button img {
+        width: 3em;
+    }
+
     #nav {
         display: none;
         position: fixed;

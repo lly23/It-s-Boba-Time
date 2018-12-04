@@ -123,7 +123,10 @@ $(function() {
     }
 
 
+    // Draw SVG 
+    var mySVG = $('#history-path').drawsvg();
 
+    mySVG.drawsvg('animate');
 
 
 
