@@ -45,10 +45,7 @@ a {
 /* Supports checks whether the user browswer supports this */
 @supports (grid-area:auto) {
     /* each section will be full screen */
-    .section {
-        /* height: 100vh; */
-        /* z-index: 30; */
-        height: auto;
+    .page {
         padding-top: 10%;
     }
 
@@ -93,27 +90,23 @@ a {
     }
 
     /* Navigation Menu */
-    #nav-button img {
-        width: 3em;
-    }
-
     #nav {
         display: none;
         position: fixed;
         height: 8%;
-        padding-top: 1.5em;
+        padding-top: 1em;
         top: 0;
+        left: 2em;
         z-index: 100;
+        text-align: center;
     }
 
-    #menu {
-        margin-left: auto;
-        margin-right: auto;
+    .menu {
         display: flex;
         flex-direction: row;
     }
 
-    #menu a {
+    /* .menu a {
         width: 9em;
         background-color: #FFFFFF;
         color: hsl(0, 0%, 34%);
@@ -123,15 +116,152 @@ a {
         text-align: center;
     }
 
-    #menu a li {
+    .menu a li {
         position: relative;
-    }
+    } */
 
-    #menu a li img {
+    .menu li img {
         height: 5em;
         position: absolute;
-        left: 8em;
-        top: -2em;
+        left: 5em;
+        top: 0;
+    }
+
+    /* sliding navigation menu properties */
+    ul {
+        width: 750px;
+        height: 100px;
+        background: transparent;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+    }
+      
+    ul li {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        cursor: pointer;
+        color: #575757;
+        opacity: 0;
+    }
+      
+    ul li:first-child {
+        padding-left: 0;
+        z-index: 10;
+        opacity: 1;
+        width: 100px;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    ul li:nth-child(2) {
+        margin-left: 1em;
+    }
+
+    #menu-button .bar {
+        width: 20px;
+        height: 2px;
+        background: #575757;
+        -webkit-transition: 0.3s linear;
+        transition: 0.3s linear;
+    }
+      
+    #menu-button .bar:nth-child(2) { 
+        margin: 5px 0; 
+    }
+      
+    #menu-button.active .bar:first-child {
+        -webkit-animation: barOne 0.4s ease-in-out forwards;
+        animation: barOne 0.4s ease-in-out forwards;
+    }
+      
+    @-webkit-keyframes 
+    barOne {  
+        0% {
+            -webkit-transform: none;
+            transform: none;
+        }
+        25% {
+            -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+        }
+        100% {
+            -webkit-transform: translateY(7px) rotate(45deg);
+            transform: translateY(7px) rotate(45deg);
+        }
+    }
+      
+    @keyframes 
+    barOne {  
+        0% {
+            -webkit-transform: none;
+            transform: none;
+        } 
+        25% {
+            -webkit-transform: translateY(7px);
+            transform: translateY(7px);
+        }
+        100% {
+            -webkit-transform: translateY(7px) rotate(45deg);
+            transform: translateY(7px) rotate(45deg);
+        }
+    }
+      
+    #menu-button.active .bar:nth-child(2) {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+      
+    #menu-button.active .bar:last-child {
+        -webkit-animation: barTwo 0.4s ease-in-out forwards;
+        animation: barTwo 0.4s ease-in-out forwards;
+    }
+      
+    @-webkit-keyframes 
+    barTwo {  
+        0% {
+            -webkit-transform: none;
+            transform: none;
+        }
+        25% {
+            -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+        }
+        100% {
+            -webkit-transform: translateY(-7px) rotate(-45deg);
+            transform: translateY(-7px) rotate(-45deg);
+        }
+    }
+   
+    @keyframes 
+    barTwo {  
+       0% {
+        -webkit-transform: none;
+        transform: none;
+       }
+       25% {
+       -webkit-transform: translateY(-7px);
+       transform: translateY(-7px);
+       }
+       100% {
+       -webkit-transform: translateY(-7px) rotate(-45deg);
+       transform: translateY(-7px) rotate(-45deg);
+       }
     }
 
     /* layout of other sections */
@@ -141,7 +271,7 @@ a {
           "head head head head"
           "main main main main"
           "main main main main";
-        grid-template-rows: 200px auto auto;  
+        grid-template-rows: 150px auto auto;  
         grid-template-columns: 25% 25% 25% 25%;
     }
 
@@ -155,16 +285,67 @@ a {
 
     #intro {
         background-color: #FC8D81;
+        height: 100vh;
+    }
+
+    #red-background {
         position: relative;
     }
 
-    #red {
-        background-image: url('../img/Ellipse_Red.png');
-        background-position: cover;
+    #red-background img {
+        position: absolute;
+        top: 0;
+        left: -5em;
+        height: 100vh;
+    }
+
+    /* intro text properties */
+    #what {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #how p, #what p {
+        text-align: left;
+    }
+
+    .right-arrow {
+        position: absolute;
+        right: -25%;
+        top: 5%;
+    }
+
+    .left-arrow img, .right-arrow img {
+        width: 6em;
+    }
+
+    #how {
+        display: none;
+        width: 50%;
+        margin-top: 8em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .left-arrow {
+        position: absolute;
+        left: 25%;
+        top: 5%;
+    }
+
+    #intro2 {
+        display: none;
     }
 
     #history {
         background-color: #80A6CF;
+    }
+
+    .container {
+        position: relative;
     }
 
     #stats {
@@ -187,10 +368,6 @@ a {
         left: -180px;
         height: 70em;
     }
-/* 
-    .front {
-        background-image: url('../img/Ellipse_Red.png');
-    } */
 
     .bubble {
         position: absolute;
@@ -203,5 +380,85 @@ a {
         width: 7em;
         left: 65%;
         top: 50%;
+    }
+
+    /* horizontal scroll attributes */
+
+
+    /* Hitory page attributes */
+    #history-line {
+        width: 80%;
+        margin-bottom: 4em;
+    }
+
+    .history-box {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .history-box:first-child {
+        width: 70%;  
+        right: 0;
+        height: 5em;
+    }
+
+    .history-box:nth-child(2) {
+        width: 60%;
+        left: 0;
+        top: 25%;
+    }
+
+    .history-box:nth-child(3) {
+        width: 80%;
+        right: 0;  
+        top: 50%; 
+    }
+
+    .history-box:nth-child(4) {
+        width: 60%;
+        right: 0;
+        top: 57%;
+    }
+
+    .history-box:nth-child(5) {
+        width: 60%;
+        left: 0;
+        top: 75%;
+    }
+
+    /* Timeline circles with dates */
+    .history-circle {
+        position: relative;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .history-circle img {
+
+    }
+
+    .history-circle h4 {
+        position: absolute;
+        top: -1.5em;
+        left: 1.5em;
+    }
+
+    .history-text {
+
+    }
+
+    .history-circle h4 {
+        line-height: 9em;
+    }
+}
+
+/* media screen for navigation menu */
+@media screen and (max-width: 467px) {
+    ul {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
 }

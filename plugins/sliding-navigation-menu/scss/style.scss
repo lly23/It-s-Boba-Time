@@ -1,0 +1,123 @@
+//variables
+$primary: #5408FF;
+$secondary: #11111C;
+$third: #FF08FF;
+
+$var-1: 100px;
+
+
+
+
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: $secondary;
+  position: relative;
+}
+
+.rounded {
+  border-radius: 100%;
+  height: $var-1;
+  width: $var-1;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  li {
+    @extend .rounded;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: $primary;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    span {
+      color: $secondary;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: 0.1px;
+    }
+    
+    .sub-menu {
+      @extend .rounded;
+      height: $var-1;
+      width: $var-1;
+      position: absolute;
+      top: $var-1;
+      background-color: white;
+    }
+
+    &:hover {
+      background-color: $third;
+    }
+
+    &#push {
+      z-index: 50;
+      background-color: $third;
+      
+      span {
+        font-size: 2rem;
+      }
+      
+      &.move {
+        left: -$var-1 * 2;
+      }
+      
+      &.rotate {
+        transform: rotate(-315deg);
+      }
+    }
+
+    &#pushed-center {
+      z-index: 10;
+    }
+    
+    &#pushed-left-1 {
+      z-index: 20;
+      
+      &.move {
+        left: -$var-1;
+      }
+      
+      ul {
+        
+        li {
+          
+        }
+      }
+    }
+    
+    &#pushed-right-1 {
+      z-index: 30;
+      
+      &.move {
+        left: $var-1;
+      }
+    }
+    
+    &#pushed-right-2 {
+      z-index: 40;
+      
+      &.move {
+        left: $var-1 * 2;
+      }
+    }
+  }
+}
+

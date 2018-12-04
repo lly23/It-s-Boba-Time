@@ -1,0 +1,88 @@
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #11111C;
+  position: relative;
+}
+
+.rounded, ul.menu li, ul.menu li .sub-menu {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.menu li {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #5408FF;
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.menu li span {
+  color: #11111C;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.1px;
+}
+ul.menu li .sub-menu {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  background-color: white;
+}
+ul.menu li:hover {
+  background-color: #FF08FF;
+}
+ul.menu li#push {
+  z-index: 50;
+  background-color: #FF08FF;
+}
+ul.menu li#push span {
+  font-size: 2rem;
+}
+ul.menu li#push.move {
+  left: -200px;
+}
+ul.menu li#push.rotate {
+  transform: rotate(-315deg);
+}
+ul.menu li#pushed-center {
+  z-index: 10;
+}
+ul.menu li#pushed-left-1 {
+  z-index: 20;
+}
+ul.menu li#pushed-left-1.move {
+  left: -100px;
+}
+ul.menu li#pushed-right-1 {
+  z-index: 30;
+}
+ul.menu li#pushed-right-1.move {
+  left: 100px;
+}
+ul.menu li#pushed-right-2 {
+  z-index: 40;
+}
+ul.menu li#pushed-right-2.move {
+  left: 200px;
+}
