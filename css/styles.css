@@ -361,6 +361,12 @@ a {
         background-color: #FF6653;
     }
 
+    /* Leaflet map */
+    #mapid { 
+        width: 80%;
+        height: 30vh; 
+    }
+
     /* background shapes */
     .ellipse {
         /* width: 100%;
@@ -458,10 +464,6 @@ a {
         margin-right: 3em;
     }
 
-    .history-circle img {
-
-    }
-
     .history-circle h4 {
         position: absolute;
         top: -1.5em;
@@ -484,5 +486,78 @@ a {
     ul {
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
+    }
+}
+
+/* media query for everything else */
+@media only screen and (max-width: 600px) {
+    .layout {
+        display: grid;
+        grid-template-areas: 
+          "head"
+          "main"
+          "main";
+        grid-template-rows: 150px auto auto;  
+        grid-template-columns: 100%;
+    }
+
+    .head {
+        grid-area: head;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    /* History Section */
+    .history-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0em;
+        margin-right: 0em;        
+    }
+
+    .history-box:first-child {
+        top: 3%;
+        width: 100%;  
+        right: 0;
+    }
+
+    .history-box:nth-child(2) {
+        width: 100%;
+        left: 0;
+        top: 25%;
+    }
+
+    .history-box:nth-child(3) {
+        width: 100%;
+        right: 0;  
+        top: 50%; 
+    }
+
+    .history-box:nth-child(4) {
+        width: 100%;
+        right: 0;
+        top: 59%;
+    }
+
+    .history-box:nth-child(5) {
+        width: 100%;
+        left: 0;
+        top: 75%;
+    }
+
+    .history-circle {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .history-text {
+        
+    }
+
+    #history-line {
+        display: none;
     }
 }

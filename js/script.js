@@ -171,17 +171,17 @@ $(function() {
     }
 
     // Google Places API
-    var placesdata = [];
+    // var placesdata = [];
 
-    $.ajax({
-        url: 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=' + config.GOOGLE_API_KEY,
-        data: placesdata,
-        type: 'GET',
-        dataType: 'jsonp',
-        success: function(placesdata) {
-            console.log(placesdata);
-        }
-    });
+    // $.ajax({
+    //     url: 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=' + config.GOOGLE_API_KEY,
+    //     data: placesdata,
+    //     type: 'GET',
+    //     dataType: 'jsonp',
+    //     success: function(placesdata) {
+    //         console.log(placesdata);
+    //     }
+    // });
 
     // Sliding Navigation
     let menu = $('li:first-child'),
@@ -219,6 +219,7 @@ $(function() {
     var red = document.getElementById('red');
     var parallaxInstance = new Parallax(red);
 
+    // History section animation
     // create a counter for the number of cls-1 classes touched when scrolling
     var clsCounter = 0;
     $(window).scroll(function() {
@@ -287,8 +288,15 @@ $(function() {
 
     });    
 
-    
+    // Leaflet JS and MapBox
+    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: config.MAPBOX_TOKEN
+    }).addTo(mymap);
     
     
     // var map = kartograph.map('#map');
