@@ -47,6 +47,7 @@ a {
     /* each section will be full screen */
     .page {
         padding-top: 10%;
+        height: 100vh;
     }
 
     /* #intro, #history, #stats, #interactive {
@@ -57,11 +58,11 @@ a {
     .landing {
         display: grid;
         grid-template-areas: 
-          "main-heading main-heading main-heading main-heading"
-          "img img img img"
-          "hover-text hover-text hover-text hover-text";
-        grid-template-rows: 200px auto 50px;  
-        grid-template-columns: auto auto auto;
+          "main-heading"
+          "content"
+          "content";
+        grid-template-rows: 200px auto auto;  
+        grid-template-columns: 100%;
     }
 
     .main-heading {
@@ -69,24 +70,24 @@ a {
         text-align: center;
     }
 
-    .img {
-        grid-area: img;
+    .content {
+        grid-area: content;
         text-align: center;
     }
 
-    .img img {
-        width: 12%;
-        padding: 3em;
-    }
-
-    .hover-text {
-        grid-area: hover-text;
-        text-align: center;
-    }
+    /* .overlay {
+        background: rgba(255, 222, 103, 0.9);
+        overflow: hidden;
+        height: 100vh;
+        z-index: 2;
+    } */
 
     #title {
-        background-color: #FFDE67;
-        z-index: 40;
+        background-image: url('../img/boba_title.png');
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     /* Navigation Menu */
@@ -129,7 +130,7 @@ a {
 
     /* sliding navigation menu properties */
     ul {
-        width: 750px;
+        width: 850px;
         height: 100px;
         background: transparent;
         border-radius: 5px;
@@ -170,6 +171,14 @@ a {
     }
 
     ul li:nth-child(2) {
+        margin-left: 1em;
+    }
+
+    ul li:nth-child(3) {
+        margin-left: 1em;
+    }
+
+    ul li:nth-child(4) {
         margin-left: 1em;
     }
 
@@ -288,17 +297,6 @@ a {
         height: 100vh;
     }
 
-    #red-background {
-        position: relative;
-    }
-
-    #red-background img {
-        position: absolute;
-        top: 0;
-        left: -5em;
-        height: 100vh;
-    }
-
     /* intro text properties */
     #what {
         width: 50%;
@@ -332,7 +330,7 @@ a {
 
     .left-arrow {
         position: absolute;
-        left: 25%;
+        left: -25%;
         top: 5%;
     }
 
@@ -342,6 +340,13 @@ a {
 
     #history {
         background-color: #80A6CF;
+        padding-top: 10%;
+    }
+
+    .headline {
+        margin-left: 3em;
+        margin-top: 3em;
+        margin-bottom: 3em;
     }
 
     .container {
@@ -369,12 +374,20 @@ a {
         height: 70em;
     }
 
-    .bubble {
+    #red {
+        position: relative;
+    }
+
+    #red-bubble {
         position: absolute;
+    }
+
+    /* .bubble {
+        
         left: 15%;
         top: 15%;
         z-index: 10;
-    }
+    } */
 
     .small-bubble {
         width: 7em;
@@ -388,7 +401,16 @@ a {
     /* Hitory page attributes */
     #history-line {
         width: 80%;
+        margin-top: 4em;
         margin-bottom: 4em;
+    }
+
+    #box1, #box2, #box3, #box4, #box5 {
+        opacity: 0;
+    }
+
+    .cls-1 {
+        opacity: 0;
     }
 
     .history-box {
@@ -400,9 +422,9 @@ a {
     }
 
     .history-box:first-child {
+        top: 3%;
         width: 70%;  
         right: 0;
-        height: 5em;
     }
 
     .history-box:nth-child(2) {
@@ -420,7 +442,7 @@ a {
     .history-box:nth-child(4) {
         width: 60%;
         right: 0;
-        top: 57%;
+        top: 59%;
     }
 
     .history-box:nth-child(5) {
@@ -447,7 +469,9 @@ a {
     }
 
     .history-text {
-
+        background-color: #FFFFFF;
+        padding: 1em;
+        border-radius: 1em;
     }
 
     .history-circle h4 {

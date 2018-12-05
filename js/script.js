@@ -4,13 +4,13 @@ $(function() {
         $('#intro1').fadeOut( "slow", function() {
             $('#intro1').css('display', 'none');
             $('#intro2').fadeIn("slow", function() {
-                css('display', 'block');
+                $('#intro2').css('display', 'block');
             });
         });
         $('#what').fadeOut( "slow", function() {
             $('#what').css('display', 'none');
             $('#how').fadeIn("slow", function() {
-                css('display', 'block');
+                $('#how').css('display', 'block');
             });
         });
     });
@@ -19,31 +19,45 @@ $(function() {
         $('#intro2').fadeOut( "slow", function() {
             $('#intro2').css('display', 'none');
             $('#intro1').fadeIn("slow", function() {
-                css('display', 'block');
+                $('#intro1').css('display', 'block');
             });
         });
         $('#how').fadeOut( "slow", function() {
             $('#how').css('display', 'none');
             $('#what').fadeIn("slow", function() {
-                css('display', 'block');
+                $('#what').css('display', 'block');
             });
         });
     });
 
-    //horizontal scrolling
-    // $('ul.nav a').bind('click',function(event){
-	// 	var $anchor = $(this);
-	// 	/*
-	// 	if you want to use one of the easing effects:
-	// 	$('html, body').stop().animate({
-	// 		scrollLeft: $($anchor.attr('href')).offset().left
-	// 	}, 1500,'easeInOutExpo');
-	// 	 */
-	// 	$('html, body').stop().animate({
-	// 		scrollLeft: $($anchor.attr('href')).offset().left
-	// 	}, 1000);
-	// 	event.preventDefault();
-	// });
+    // navigation menu
+    $('#list1').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#intro").offset().top
+          }, 500);
+    });
+
+    $('#list2').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#history").offset().top
+          }, 500);
+    });
+
+    $('#list3').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#stats").offset().top
+          }, 500);
+    });
+
+    $('#list4').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#interactive").offset().top
+          }, 500);
+    });
 
     // location and radius will change based on user input
     var location = $('#location').val();
@@ -172,23 +186,23 @@ $(function() {
     // Sliding Navigation
     let menu = $('li:first-child'),
         menuButton = $('#menu-button'),
-        Home = $('li:nth-child(2)'),
-        Plugins = $('li:nth-child(3)'),
-        about = $('li:nth-child(4)'),
-        contact = $('li:nth-child(5)');
+        intro = $('li:nth-child(2)'),
+        history = $('li:nth-child(3)'),
+        stats = $('li:nth-child(4)'),
+        fun = $('li:nth-child(5)');
 
     menu.on('click',() => {
         menuButton.toggleClass('active');
         if(menuButton.hasClass('active')){
-            Home.animate({'left':'110px','opacity':'1','z-index':'8'},500);
-            Plugins.animate({'left':'210px','opacity':'1','z-index':'6'},500);
-            about.animate({'left':'310px','opacity':'1','z-index':'4'},500);
-            contact.animate({'left':'410px','opacity':'1','z-index':'2'},500);
+            intro.animate({'left':'180px','opacity':'1','z-index':'8'},500);
+            history.animate({'left':'340px','opacity':'1','z-index':'6'},500);
+            stats.animate({'left':'500px','opacity':'1','z-index':'4'},500);
+            fun.animate({'left':'680px','opacity':'1','z-index':'2'},500);
         } else {
-            Home.animate({'left':'0','opacity':'0'},500);
-            Plugins.animate({'left':'0','opacity':'0'},500);
-            about.animate({'left':'0','opacity':'0'},500);
-            contact.animate({'left':'0','opacity':'0'},500);
+            intro.animate({'left':'0','opacity':'0'},500);
+            history.animate({'left':'0','opacity':'0'},500);
+            stats.animate({'left':'0','opacity':'0'},500);
+            fun.animate({'left':'0','opacity':'0'},500);
         }
     });
 
@@ -205,14 +219,13 @@ $(function() {
     var red = document.getElementById('red');
     var parallaxInstance = new Parallax(red);
 
-    // var mySVG = $('svg').drawsvg();
-    // var max = ($(document).height() - $(window).height);
-
+    // create a counter for the number of cls-1 classes touched when scrolling
+    var clsCounter = 0;
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
 
         // display menu button after title
-        if (scrollTop >= $('#intro').offset().top) {
+        if (scrollTop >= $('#title').offset().top) {
             $('#nav').css('display', 'block');
         }
 
@@ -221,14 +234,56 @@ $(function() {
             $('#nav').css('display', 'none');
         }
 
-        // var p = scrollTop / max;
-        // mySVG.drawsvg('progress', p);
-
         // Scroll Animation
-        if (scrollTop > $('#intro').offset().top) {
-            $('.cls-1').css('display', 'block');
-            $('.cls-1').first().css('color', '#000');
+        // if user has scrolled past the top of the history section...
+        if (scrollTop > $('#history').offset().top && scrollTop < $('#stats').offset().top) {
+            clsCounter += 1; 
+            $('#box1').fadeTo("slow", 1);
+            $('.cls-1:nth-child(' + clsCounter + ')').fadeTo(1000, 1);
+
+            if (scrollTop >= $('.cls-1:nth-child(8)').offset().top) {
+                $('#box2').fadeTo("slow", 1);
+            }
+
+            if (scrollTop >= $('.cls-1:nth-child(12)').offset().top) {
+                $('#box3').fadeTo("slow", 1);
+            }
+
+            if (scrollTop >= $('.cls-1:nth-child(16)').offset().top) {
+                $('#box4').fadeTo("slow", 1);
+            }
+
+            if (scrollTop >= $('.cls-1:nth-child(20)').offset().top) {
+                $('#box5').fadeTo("slow", 1);
+            }
+            
+            // if user has reached the top of a yellow rectangle
+            // if (scrollTop >= $('.cls-1').offset().top) {
+            //     clsCounter += 1;
+            //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 0);
+            //     console.log(clsCounter);
+            // }  else if (scrollTop <= $('.cls-1').offset().top){
+            //     clsCounter -= 1;
+            //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
+            //     console.log(clsCounter);
+            // }
+            // $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
         }
+
+        // if (scrollTop > $('#history').offset().top) {
+            // console.log($('.cls-1:nth-child(' + 3 + ')').offset().top);
+            // clsCounter += 1; 
+            // $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
+
+            // $('.cls-1').first().fadeTo( "slow" , 1, function() {
+            //     $('#box1').fadeTo("slow", 1);
+            //     clsCounter += 1; 
+            // });
+            // if (clsCounter >= 1) {
+            //     clsCounter += 1; 
+            //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
+            // }
+        // } 
 
     });    
 
