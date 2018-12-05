@@ -59,6 +59,13 @@ $(function() {
           }, 500);
     });
 
+    $('#list5').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#sources").offset().top
+          }, 500);
+    });
+
     // location and radius will change based on user input
     var location = $('#location').val();
     var radius = $('#radius').val();
@@ -258,6 +265,7 @@ $(function() {
         history = $('li:nth-child(3)'),
         stats = $('li:nth-child(4)'),
         fun = $('li:nth-child(5)');
+        sources = $('li:nth-child(6)');
 
     menu.on('click',() => {
         menuButton.toggleClass('active');
@@ -266,11 +274,13 @@ $(function() {
             history.animate({'left':'340px','opacity':'1','z-index':'6'},500);
             stats.animate({'left':'500px','opacity':'1','z-index':'4'},500);
             fun.animate({'left':'680px','opacity':'1','z-index':'2'},500);
+            sources.animate({'left':'840px','opacity':'1','z-index':'1'},500);
         } else {
             intro.animate({'left':'0','opacity':'0'},500);
             history.animate({'left':'0','opacity':'0'},500);
             stats.animate({'left':'0','opacity':'0'},500);
             fun.animate({'left':'0','opacity':'0'},500);
+            sources.animate({'left':'0','opacity':'0'},500);
         }
     });
 
@@ -285,23 +295,13 @@ $(function() {
 
     // Parallax bubbles
     var red = document.getElementById('red');
-    var parallaxInstance = new Parallax(red);
+    var parallaxInstance = new Parallax('red');
 
     // History section animation
     // create a counter for the number of cls-1 classes touched when scrolling
     var clsCounter = 0;
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
-
-        // hide menu button on title
-        if (scrollTop > $('#title').height) {
-            $('#nav').css('display', 'none');
-        }
-
-        // display menu button after title
-        if (scrollTop >= $('#intro').offset().top) {
-            $('#nav').css('display', 'block');
-        }
 
         // Scroll Animation
         // if user has scrolled past the top of the history section...
@@ -401,5 +401,67 @@ $(function() {
 
         return coordinates;
     }
+
+    // High Charts 
+    // Prepare random data
+var data = [
+    ['DE.SH', 728],
+    ['DE.BE', 710],
+    ['DE.MV', 963],
+    ['DE.HB', 541],
+    ['DE.HH', 622],
+    ['DE.RP', 866],
+    ['DE.SL', 398],
+    ['DE.BY', 785],
+    ['DE.SN', 223],
+    ['DE.ST', 605],
+    ['DE.NW', 237],
+    ['DE.BW', 157],
+    ['DE.HE', 134],
+    ['DE.NI', 136],
+    ['DE.TH', 704],
+    ['DE.', 361]
+];
+
+$.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/germany.geo.json', function (geojson) {
+
+    // Initiate the chart
+    Highcharts.mapChart('caliChart', {
+        chart: {
+            map: geojson
+        },
+
+        title: {
+            text: 'GeoJSON in Highmaps'
+        },
+
+        mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
+        },
+
+        colorAxis: {
+            tickPixelInterval: 100
+        },
+
+        series: [{
+            data: data,
+            keys: ['code_hasc', 'value'],
+            joinBy: 'code_hasc',
+            name: 'Random data',
+            states: {
+                hover: {
+                    color: '#a4edba'
+                }
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.properties.postal}'
+            }
+        }]
+    });
+});
   
 });

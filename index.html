@@ -29,14 +29,12 @@
     
 <body>
     <!-- Title Page -->
-    <div id="title" class="landing page parallax">
-        <div class="overlay">
-            <div class="main-heading">
-                <h1 class="big-heading gray" data-md-skew>It's Boba Time</h1>
-            </div>
-            <div class="content">
-                
-            </div>
+    <div id="title" class="landing parallax">
+        <div class="main-heading">
+            <h1 class="big-heading black" data-md-skew>It's Boba Time</h1>
+        </div>
+        <div class="content">
+            
         </div>
     </div>
 
@@ -52,21 +50,21 @@
             </li>
             <li id="list1"><a>Intro<img src="img/strawberry_boba.svg" alt="strawberry boba"></a></li>
             <li id="list2"><a>History<img id="milktea" src="img/milktea_boba.svg" alt="milk tea boba"></a></li>
-            <li id="list3"><a>Stats<img id="matcha" src="img/matcha_boba.svg" alt="matcha boba"></a></li>
+            <li id="list3"><a>Impact<img id="matcha" src="img/matcha_boba.svg" alt="matcha boba"></a></li>
             <li id="list4"><a>Find your Boba<img id="mocha" src="img/mocha_boba.svg" alt="mocha boba"></a></li>
-            <li>Sources</li>
+            <li id="list5"><a>Sources</a></li>
         </ul>
     </div>
 
     <!-- Introduction -->
     <div id="intro" class="layout page parallax">
         <div id="red">
-            <img id="" data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
-            <img data-depth="0.6" class="bubble small-bubble" src="img/bubble_red.png" alt="red bubble">
+            <img data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
+            <img data-depth="0.6" class="small-bubble" src="img/bubble_red.png" alt="red bubble">
         </div>
         <div id="red-background" class="head display">
             <h2 class="white big" id="intro1" data-md-skew>What is Boba?</h2>
-            <h2 class="white big" id="intro2" data-md-skew>How is Boba Made?</h2>
+            <!-- <h2 class="white big" id="intro2" data-md-skew>How is Boba Made?</h2> -->
         </div>
         <div class="main display white">
             <div id="what">
@@ -206,28 +204,35 @@
             <h2 class="white big" data-md-skew>Impact</h2>
         </div>
         <div class="main">
-            
+            <div id="caliChart"></div>
         </div>
     </div>
 
     <!-- Interactive -->
     <div id="interactive" class="layout">  
         <div class="head display">
-            <h2 class="white big" data-md-skew>Fun Time</h2>
+            <h2 class="white big" data-md-skew>Find Your Boba</h2>
         </div>
         <div class="main">
             <div id="lookup">
                 <div class="search"> 
                     <div class="input-field">
-                        Enter your city and state: <input type="text" id="location" value="Chapel Hill, NC"/>
+                        Enter your <span class="salmon headline-text">City</span> and <span class="salmon headline-text">State</span>
                         <br>
                         <br>
-                        Radius: <input type="number" id="radius" value="250" /> Meters (Max: 100,000)
+                        <input type="text" id="location" value="Chapel Hill, NC"/>
+                        <br>
+                        <br>
+                        and the <span class="salmon headline-text">radius</span> (in meters) of your search results (Max is 100,000)
+                        <br>
+                        <br>
+                        <input type="number" id="radius" value="250" />
                         <br>
                         <br>
                         <input type="button" id="search" value="Submit"></button>
                         <br>
-                        <h4>Results:</h4>
+                        <br>
+                        <span class="salmon headline-text">Results:</span>
                     </div>
                     
                     <div id="boba-results">
@@ -243,18 +248,44 @@
     </div>
 
     <!-- Sources and Credits -->
+    <div id="sources" class="layout page">
+        <div class="head display">
+            <h2 class="black big" data-md-skew>Sources</h2>
+        </div>
+        <div class="main">
+            <div class="source-flex">
+                <div class="credits">
+                <h3>Articles and Data</h3>
+                    <ol>
+                        <li><a href="https://www.bubbleteasupply.com/bubble-tea-history/">Bubble Tea History</a></li>
+                        <li></li>
+                    </ol>
+                <br>
+                <br>
+                <h3>Pictures</h3>
+                    <ol>
+                        <li><a href="https://www.vecteezy.com/vector-art/101291-bubble-tea-fun">Bubble Tea Fun</a></li>
+                    </ol>
+                </div>
+                <div class="credits-image">
+                    <img id="source-pic" src="img/strawberry_boba.svg" alt="strawberry boba">
+                </div>
+            </div>
+        </div>
+    </div>
                 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
         crossorigin="anonymous">
     </script> 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="plugins/mdSkew.js-master/dist/mdSkew.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
     integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
     crossorigin=""></script>
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
     <script src="plugins/pagination.min.js"></script>
 
     <!-- JavaScript -->
