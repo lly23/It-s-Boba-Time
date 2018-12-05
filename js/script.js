@@ -9,8 +9,8 @@ $(function() {
         });
         $('#what').fadeOut( "slow", function() {
             $('#what').css('display', 'none');
-            $('#how').fadeIn("slow", function() {
-                $('#how').css('display', 'block');
+            $('#types').fadeIn("slow", function() {
+                $('#types').css('display', 'block');
             });
         });
     });
@@ -22,8 +22,8 @@ $(function() {
                 $('#intro1').css('display', 'block');
             });
         });
-        $('#how').fadeOut( "slow", function() {
-            $('#how').css('display', 'none');
+        $('#types').fadeOut( "slow", function() {
+            $('#types').css('display', 'none');
             $('#what').fadeIn("slow", function() {
                 $('#what').css('display', 'block');
             });
@@ -176,14 +176,6 @@ $(function() {
 
             // show results in div
             $('#boba-results').html(results);
-            // $('#boba-results').pagination({
-            //     dataSource: [1, 2, 3, 4, 5, 6, 7],
-            //     callback: function(data, pagination) {
-            //         // template method of yourself
-            //         var html = template(data);
-            //         dataContainer.html(html);
-            //     }
-            // });
         }
     });
 
@@ -294,8 +286,8 @@ $(function() {
     });
 
     // Parallax bubbles
-    var red = document.getElementById('red');
-    var parallaxInstance = new Parallax('red');
+    // var red = document.getElementById('red');
+    // var parallaxInstance = new Parallax('red');
 
     // History section animation
     // create a counter for the number of cls-1 classes touched when scrolling
@@ -305,10 +297,11 @@ $(function() {
 
         // Scroll Animation
         // if user has scrolled past the top of the history section...
-        if (scrollTop > $('#history').offset().top && scrollTop < $('#stats').offset().top) {
+        if (scrollTop > $('#history').offset().top && scrollTop < $('#interactive').offset().top) {
             clsCounter += 1; 
-            $('#box1').fadeTo("slow", 1);
+            $('#sidebox').fadeTo("slow", 1);
             $('.cls-1:nth-child(' + clsCounter + ')').fadeTo(1000, 1);
+            $('#box1').fadeTo("slow", 1);
 
             if (scrollTop >= $('.cls-1:nth-child(8)').offset().top) {
                 $('#box2').fadeTo("slow", 1);
@@ -325,34 +318,7 @@ $(function() {
             if (scrollTop >= $('.cls-1:nth-child(20)').offset().top) {
                 $('#box5').fadeTo("slow", 1);
             }
-            
-            // if user has reached the top of a yellow rectangle
-            // if (scrollTop >= $('.cls-1').offset().top) {
-            //     clsCounter += 1;
-            //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 0);
-            //     console.log(clsCounter);
-            // }  else if (scrollTop <= $('.cls-1').offset().top){
-            //     clsCounter -= 1;
-            //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
-            //     console.log(clsCounter);
-            // }
-            // $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
-
-                    // if (scrollTop > $('#history').offset().top) {
-            // console.log($('.cls-1:nth-child(' + 3 + ')').offset().top);
-            // clsCounter += 1; 
-            // $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
-
-            // $('.cls-1').first().fadeTo( "slow" , 1, function() {
-            //     $('#box1').fadeTo("slow", 1);
-            //     clsCounter += 1; 
-            // });
-            // if (clsCounter >= 1) {
-            //     clsCounter += 1; 
-            //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
-            // }
-        // } 
-        } else if (scrollTop < $('#history').offset().top || scrollTop > $('#stats').offset().top) {
+        } else if (scrollTop < $('#history').offset().top || scrollTop > $('#interactive').offset().top) {
         // if user goes past history section or before history section, reset yellow path animation
             clsCounter = 0; 
             $('#box1').css("opacity", 0);
@@ -404,64 +370,76 @@ $(function() {
 
     // High Charts 
     // Prepare random data
-var data = [
-    ['DE.SH', 728],
-    ['DE.BE', 710],
-    ['DE.MV', 963],
-    ['DE.HB', 541],
-    ['DE.HH', 622],
-    ['DE.RP', 866],
-    ['DE.SL', 398],
-    ['DE.BY', 785],
-    ['DE.SN', 223],
-    ['DE.ST', 605],
-    ['DE.NW', 237],
-    ['DE.BW', 157],
-    ['DE.HE', 134],
-    ['DE.NI', 136],
-    ['DE.TH', 704],
-    ['DE.', 361]
-];
+    // var data = [
+    //     ['DE.SH', 728],
+    //     ['DE.BE', 710],
+    //     ['DE.MV', 963],
+    //     ['DE.HB', 541],
+    //     ['DE.HH', 622],
+    //     ['DE.RP', 866],
+    //     ['DE.SL', 398],
+    //     ['DE.BY', 785],
+    //     ['DE.SN', 223],
+    //     ['DE.ST', 605],
+    //     ['DE.NW', 237],
+    //     ['DE.BW', 157],
+    //     ['DE.HE', 134],
+    //     ['DE.NI', 136],
+    //     ['DE.TH', 704],
+    //     ['DE.', 361]
+    // ];
 
-$.getJSON('https://cdn.rawgit.com/highcharts/highcharts/057b672172ccc6c08fe7dbb27fc17ebca3f5b770/samples/data/germany.geo.json', function (geojson) {
+    // var caliData = [];
+    // $.ajax({
+    //     url: '../data/bayarea_boba_spots.json',
+    //     data: caliData,
+    //     dataType: 'json',
+    //     type: 'GET',
+    //     success: function(caliData) {
+    //         console.log(caliData);
+    //         // Initiate the chart
+    //         Highcharts.mapChart('caliChart', {
+    //             chart: {
+    //                 map: caliData
+    //             },
 
-    // Initiate the chart
-    Highcharts.mapChart('caliChart', {
-        chart: {
-            map: geojson
-        },
+    //             title: {
+    //                 text: 'Boba Shops in the Bay Area'
+    //             },
 
-        title: {
-            text: 'GeoJSON in Highmaps'
-        },
+    //             mapNavigation: {
+    //                 enabled: true,
+    //                 buttonOptions: {
+    //                     verticalAlign: 'bottom'
+    //                 }
+    //             },
 
-        mapNavigation: {
-            enabled: true,
-            buttonOptions: {
-                verticalAlign: 'bottom'
-            }
-        },
+    //             colorAxis: {
+    //                 tickPixelInterval: 100
+    //             },
 
-        colorAxis: {
-            tickPixelInterval: 100
-        },
+    //             series: [{
+    //                 data: caliData,
+    //                 keys: ['code_hasc', 'value'],
+    //                 joinBy: 'code_hasc',
+    //                 name: 'Random data',
+    //                 states: {
+    //                     hover: {
+    //                         color: '#a4edba'
+    //                     }
+    //                 },
+    //                 dataLabels: {
+    //                     enabled: true,
+    //                     format: '{point.properties.postal}'
+    //                 }
+    //             }]
+    //         });
+    //     }
+    // });
 
-        series: [{
-            data: data,
-            keys: ['code_hasc', 'value'],
-            joinBy: 'code_hasc',
-            name: 'Random data',
-            states: {
-                hover: {
-                    color: '#a4edba'
-                }
-            },
-            dataLabels: {
-                enabled: true,
-                format: '{point.properties.postal}'
-            }
-        }]
-    });
-});
+    // $.getJSON('../data/bayarea_boba_spots.json', function (caliData) {
+
+        
+    // });
   
 });

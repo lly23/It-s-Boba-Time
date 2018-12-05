@@ -172,10 +172,6 @@ a {
         margin-left: 1em;
     }
 
-    ul li:last-child {
-        border: 3px solid #575757;
-    }
-
     #menu-button .bar {
         width: 20px;
         height: 2px;
@@ -300,7 +296,7 @@ a {
         position: relative;
     }
 
-    #how p, #what p {
+    #types p, #what p {
         text-align: left;
     }
 
@@ -314,7 +310,7 @@ a {
         width: 6em;
     }
 
-    #how {
+    #types {
         display: none;
         width: 50%;
         margin-top: 8em;
@@ -342,6 +338,12 @@ a {
         margin-left: 3em;
         margin-top: 3em;
         margin-bottom: 3em;
+    }
+
+    /* history picture items */
+    #teapot {
+        width: 10em;
+        padding-top: 2em;
     }
 
     .container {
@@ -421,15 +423,23 @@ a {
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 70%;
     }
 
     .credits {
-        width: 80%;
+        width: 70%;
+    }
+
+    .credits a {
+        color: #000;
+    }
+
+    .credits a:hover {
+        color: #DD4D9B;
     }
 
     #source-pic {
-        width: 5em;
+        width: 10em;
     }
 
     /* Leaflet map */
@@ -467,6 +477,20 @@ a {
 
     #box1, #box2, #box3, #box4, #box5 {
         opacity: 0;
+    }
+
+    #box2 img {
+        position: absolute;
+        width: 10em;
+    }
+
+    #sidebox {
+        opacity: 0;
+    }
+
+    #sidebox img {
+        position: absolute;
+        left: 1em;
     }
 
     .no-opacity {

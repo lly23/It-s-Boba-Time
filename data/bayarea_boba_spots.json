@@ -1,0 +1,5429 @@
+[
+  {
+    "id": 0,
+    "name": "99-tea-house-fremont-2",
+    "rating": "99% Tea House",
+    "address": 4.5,
+    "city": "3623 Thornton Ave",
+    "lat": "Fremont",
+    "long": 37.56295
+  },
+  {
+    "id": 1,
+    "name": "one-tea-fremont-2",
+    "rating": "One Tea",
+    "address": 4.5,
+    "city": "46809 Warm Springs Blvd",
+    "lat": "Fremont",
+    "long": 37.4890666928572
+  },
+  {
+    "id": 2,
+    "name": "royaltea-usa-fremont",
+    "rating": "Royaltea USA",
+    "address": 4,
+    "city": "38509 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.551315128803296
+  },
+  {
+    "id": 3,
+    "name": "teco-tea-and-coffee-bar-fremont",
+    "rating": "TECO Tea & Coffee Bar",
+    "address": 4.5,
+    "city": "39030 Paseo Padre Pkwy",
+    "lat": "Fremont",
+    "long": 37.5536945
+  },
+  {
+    "id": 4,
+    "name": "t-lab-fremont-3",
+    "rating": "T-LAB",
+    "address": 4,
+    "city": "34133 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.576149
+  },
+  {
+    "id": 5,
+    "name": "q-tea-monster-newark",
+    "rating": "Q-Tea Monster",
+    "address": 4,
+    "city": "39181 Cedar Blvd",
+    "lat": "Newark",
+    "long": 37.5229604101756
+  },
+  {
+    "id": 6,
+    "name": "gong-cha-fremont",
+    "rating": "Gong Cha",
+    "address": 4,
+    "city": "46827 Warm Springs Blvd",
+    "lat": "Fremont",
+    "long": 37.4885682635695
+  },
+  {
+    "id": 7,
+    "name": "happy-lemon-fremont-2",
+    "rating": "Happy Lemon",
+    "address": 4.5,
+    "city": "46873 Warm Spring Blvd",
+    "lat": "Fremont",
+    "long": 37.488442909347604
+  },
+  {
+    "id": 8,
+    "name": "factory-tea-bar-fremont-2",
+    "rating": "Factory Tea Bar",
+    "address": 3.5,
+    "city": "46461 Mission Blvd",
+    "lat": "Fremont",
+    "long": 37.4922976027806
+  },
+  {
+    "id": 9,
+    "name": "super-cue-cafe-fremont",
+    "rating": "Super Cue Cafe",
+    "address": 3.5,
+    "city": "43743 Boscell Rd",
+    "lat": "Fremont",
+    "long": 37.500778287649204
+  },
+  {
+    "id": 10,
+    "name": "milk-and-honey-cafe-fremont",
+    "rating": "Milk and Honey Cafe",
+    "address": 3.5,
+    "city": "34265 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.575448103287
+  },
+  {
+    "id": 11,
+    "name": "tea-island-fremont-2",
+    "rating": "Tea Island",
+    "address": 4,
+    "city": "46196 Warm Springs Blvd",
+    "lat": "Fremont",
+    "long": 37.493541436044296
+  },
+  {
+    "id": 12,
+    "name": "taro-taro-dessert-and-tea-house-fremont",
+    "rating": "Taro Taro Dessert & Tea House",
+    "address": 3.5,
+    "city": "6018 Stevenson Blvd",
+    "lat": "Fremont",
+    "long": 37.5195973820395
+  },
+  {
+    "id": 13,
+    "name": "i-tea-fremont-2",
+    "rating": "i-Tea",
+    "address": 3.5,
+    "city": "43421 Christy St",
+    "lat": "Fremont",
+    "long": 37.504992442164
+  },
+  {
+    "id": 14,
+    "name": "i-tea-newark",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "34925 Newark Blvd",
+    "lat": "Newark",
+    "long": 37.550693578716995
+  },
+  {
+    "id": 15,
+    "name": "sharetea-fremont-2",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "3948 Washington Blvd",
+    "lat": "Fremont",
+    "long": 37.53195
+  },
+  {
+    "id": 16,
+    "name": "urbain-tea-fremont",
+    "rating": "uRbain tea",
+    "address": 3.5,
+    "city": "1590 Washington Blvd",
+    "lat": "Fremont",
+    "long": 37.531231411929795
+  },
+  {
+    "id": 17,
+    "name": "mandro-teahouse-newark-3",
+    "rating": "MandRo Teahouse",
+    "address": 4,
+    "city": "34956 Newark Blvd",
+    "lat": "Newark",
+    "long": 37.55150491512379
+  },
+  {
+    "id": 18,
+    "name": "gong-cha-newark",
+    "rating": "Gong Cha",
+    "address": 4,
+    "city": "39730 Cedar Blvd",
+    "lat": "Newark",
+    "long": 37.5208
+  },
+  {
+    "id": 19,
+    "name": "tea-six-fremont-2",
+    "rating": "Tea Six",
+    "address": 3.5,
+    "city": "34460 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.57509
+  },
+  {
+    "id": 20,
+    "name": "tata-teahouse-fremont-2",
+    "rating": "Tata Teahouse",
+    "address": 3,
+    "city": "39230 Argonaut Way",
+    "lat": "Fremont",
+    "long": 37.543782
+  },
+  {
+    "id": 21,
+    "name": "tea-station-newark",
+    "rating": "Tea Station",
+    "address": 3.5,
+    "city": "39115 Cedar Blvd",
+    "lat": "Newark",
+    "long": 37.523356
+  },
+  {
+    "id": 22,
+    "name": "sno-crave-tea-house-fremont",
+    "rating": "Sno-Crave Tea House",
+    "address": 3,
+    "city": "43773 Boscell Rd",
+    "lat": "Fremont",
+    "long": 37.500044
+  },
+  {
+    "id": 23,
+    "name": "boba-queen-fremont",
+    "rating": "Boba Queen",
+    "address": 3.5,
+    "city": "34420 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.5757
+  },
+  {
+    "id": 24,
+    "name": "t4-tea-fremont-2",
+    "rating": "T4 Tea",
+    "address": 3.5,
+    "city": "43430 Mission Blvd",
+    "lat": "Fremont",
+    "long": 37.53181
+  },
+  {
+    "id": 25,
+    "name": "boba-fitt-drinks-union-city",
+    "rating": "Boba Fitt Drinks",
+    "address": 3.5,
+    "city": "31877 Alvarado Blvd",
+    "lat": "Union City",
+    "long": 37.5897191178595
+  },
+  {
+    "id": 26,
+    "name": "sweet-home-cafe-fremont-2",
+    "rating": "Sweet Home Cafe",
+    "address": 3.5,
+    "city": "6068 Stevenson Blvd",
+    "lat": "Fremont",
+    "long": 37.518066641964204
+  },
+  {
+    "id": 27,
+    "name": "tea-era-mountain-view-2",
+    "rating": "Tea Era",
+    "address": 4,
+    "city": "271 Castro St",
+    "lat": "Mountain View",
+    "long": 37.3929561
+  },
+  {
+    "id": 28,
+    "name": "teaspoon-los-altos",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "4546 El Camino Real",
+    "lat": "Los Altos",
+    "long": 37.401254171244
+  },
+  {
+    "id": 29,
+    "name": "t4-fremont-8",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "46132 Warm Springs Blvd",
+    "lat": "Fremont",
+    "long": 37.4932967
+  },
+  {
+    "id": 30,
+    "name": "my-delights-fremont",
+    "rating": "My Delights",
+    "address": 4,
+    "city": "43486 Ellsworth St",
+    "lat": "Fremont",
+    "long": 37.53049850463871
+  },
+  {
+    "id": 31,
+    "name": "t4-fremont-3",
+    "rating": "T4",
+    "address": 3,
+    "city": "36400 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.5631118502019
+  },
+  {
+    "id": 32,
+    "name": "sno-crave-teahouse-union-city",
+    "rating": "Sno-Crave Teahouse",
+    "address": 4,
+    "city": "1788 Decoto Rd",
+    "lat": "Union City",
+    "long": 37.588998700000005
+  },
+  {
+    "id": 33,
+    "name": "sharetea-union-city-3",
+    "rating": "Sharetea",
+    "address": 3.5,
+    "city": "34391 Alvarado Niles Rd",
+    "lat": "Union City",
+    "long": 37.587234
+  },
+  {
+    "id": 34,
+    "name": "tastea-san-jose-2",
+    "rating": "Tastea",
+    "address": 4,
+    "city": "1160 N Capitol Ave",
+    "lat": "San Jose",
+    "long": 37.3878
+  },
+  {
+    "id": 35,
+    "name": "i-tea-castro-valley",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "20666 Redwood Rd",
+    "lat": "Castro Valley",
+    "long": 37.695910999999995
+  },
+  {
+    "id": 36,
+    "name": "caface-newark-2",
+    "rating": "CaFace",
+    "address": 3.5,
+    "city": "6180 Jarvis Ave",
+    "lat": "Newark",
+    "long": 37.54872
+  },
+  {
+    "id": 37,
+    "name": "tea-villa-milpitas",
+    "rating": "Tea Villa",
+    "address": 4,
+    "city": "1679 N Milpitas Blvd",
+    "lat": "Milpitas",
+    "long": 37.4547351745994
+  },
+  {
+    "id": 38,
+    "name": "mr-green-bubble-union-city",
+    "rating": "Mr Green Bubble",
+    "address": 3.5,
+    "city": "1644 Decoto Rd",
+    "lat": "Union City",
+    "long": 37.5895754513833
+  },
+  {
+    "id": 39,
+    "name": "pop-tea-bar-palo-alto-2",
+    "rating": "Pop Tea Bar",
+    "address": 4,
+    "city": "456 Cambridge Ave",
+    "lat": "Palo Alto",
+    "long": 37.42655
+  },
+  {
+    "id": 40,
+    "name": "i-tea-milpitas",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "760 E Calaveras Blvd",
+    "lat": "Milpitas",
+    "long": 37.43274
+  },
+  {
+    "id": 41,
+    "name": "joy-4-tea-union-city",
+    "rating": "Joy 4 Tea",
+    "address": 3.5,
+    "city": "32148 Alvarado Blvd",
+    "lat": "Union City",
+    "long": 37.589416387910795
+  },
+  {
+    "id": 42,
+    "name": "sweet-coco-fremont-3",
+    "rating": "Sweet CoCo",
+    "address": 4,
+    "city": "46164 Warm Springs Blvd",
+    "lat": "Fremont",
+    "long": 37.49369
+  },
+  {
+    "id": 43,
+    "name": "icy-blue-fremont",
+    "rating": "Icy Blue",
+    "address": 3.5,
+    "city": "43360 Mission Blvd",
+    "lat": "Fremont",
+    "long": 37.53259
+  },
+  {
+    "id": 44,
+    "name": "teatop-milpitas",
+    "rating": "TeaTop",
+    "address": 4.5,
+    "city": "82 Ranch Dr",
+    "lat": "Milpitas",
+    "long": 37.42644
+  },
+  {
+    "id": 45,
+    "name": "ten-ren-tea-co-of-milpitas-milpitas",
+    "rating": "Ten Ren Tea Co of Milpitas",
+    "address": 4.5,
+    "city": "1732 N Milpitas Blvd",
+    "lat": "Milpitas",
+    "long": 37.4555854711176
+  },
+  {
+    "id": 46,
+    "name": "fantasia-coffee-and-tea-milpitas-2",
+    "rating": "Fantasia Coffee & Tea",
+    "address": 4,
+    "city": "528 Barber Ln",
+    "lat": "Milpitas",
+    "long": 37.4208151690146
+  },
+  {
+    "id": 47,
+    "name": "tapioca-express-union-city-2",
+    "rating": "Tapioca Express",
+    "address": 3.5,
+    "city": "1707 Decoto Rd",
+    "lat": "Union City",
+    "long": 37.589445484175
+  },
+  {
+    "id": 48,
+    "name": "gong-cha-palo-alto",
+    "rating": "Gong Cha",
+    "address": 4,
+    "city": "439 Waverley St",
+    "lat": "Palo Alto",
+    "long": 37.447628
+  },
+  {
+    "id": 49,
+    "name": "sharetea-san-leandro-3",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "699 Lewelling Blvd",
+    "lat": "San Leandro",
+    "long": 37.687487183018
+  },
+  {
+    "id": 50,
+    "name": "boba-guys-san-francisco-6",
+    "rating": "Boba Guys",
+    "address": 4,
+    "city": "429 Stockton St",
+    "lat": "San Francisco",
+    "long": 37.7899434017563
+  },
+  {
+    "id": 51,
+    "name": "boba-guys-san-francisco-4",
+    "rating": "Boba Guys",
+    "address": 4,
+    "city": "3491 19th St",
+    "lat": "San Francisco",
+    "long": 37.75994
+  },
+  {
+    "id": 52,
+    "name": "wonderful-dessert-and-cafe-san-francisco-2",
+    "rating": "Wonderful Dessert & Cafe",
+    "address": 4,
+    "city": "2035 Irving St",
+    "lat": "San Francisco",
+    "long": 37.7633252984489
+  },
+  {
+    "id": 53,
+    "name": "little-sweet-san-francisco-10",
+    "rating": "Little Sweet",
+    "address": 4,
+    "city": "3836 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.781425
+  },
+  {
+    "id": 54,
+    "name": "teaspoon-san-francisco",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "2125 Polk St",
+    "lat": "San Francisco",
+    "long": 37.7963159707234
+  },
+  {
+    "id": 55,
+    "name": "boba-guys-san-francisco-10",
+    "rating": "Boba Guys",
+    "address": 4,
+    "city": "1522 Fillmore St",
+    "lat": "San Francisco",
+    "long": 37.78365
+  },
+  {
+    "id": 56,
+    "name": "i-tea-san-francisco-3",
+    "rating": "i-Tea",
+    "address": 4.5,
+    "city": "253 Kearny St",
+    "lat": "San Francisco",
+    "long": 37.7905719929647
+  },
+  {
+    "id": 57,
+    "name": "boba-guys-san-francisco-7",
+    "rating": "Boba Guys",
+    "address": 4,
+    "city": "8 Octavia St",
+    "lat": "San Francisco",
+    "long": 37.7728849972724
+  },
+  {
+    "id": 58,
+    "name": "plentea-san-francisco-san-francisco",
+    "rating": "Plentea - San Francisco",
+    "address": 3.5,
+    "city": "341 Kearny St",
+    "lat": "San Francisco",
+    "long": 37.7914264423265
+  },
+  {
+    "id": 59,
+    "name": "steap-tea-bar-san-francisco-3",
+    "rating": "Steap Tea Bar",
+    "address": 4.5,
+    "city": "827 Sacramento St",
+    "lat": "San Francisco",
+    "long": 37.7932604402304
+  },
+  {
+    "id": 60,
+    "name": "purple-kow-san-francisco-2",
+    "rating": "Purple Kow",
+    "address": 3.5,
+    "city": "3620 Balboa St",
+    "lat": "San Francisco",
+    "long": 37.775906
+  },
+  {
+    "id": 61,
+    "name": "omg-tea-san-francisco",
+    "rating": "OMG Tea",
+    "address": 4.5,
+    "city": "2891 San Bruno Ave",
+    "lat": "San Francisco",
+    "long": 37.7254643
+  },
+  {
+    "id": 62,
+    "name": "asha-tea-house-san-francisco",
+    "rating": "Asha Tea House",
+    "address": 4,
+    "city": "17 Kearny St",
+    "lat": "San Francisco",
+    "long": 37.7881894888854
+  },
+  {
+    "id": 63,
+    "name": "super-cue-cafe-san-francisco",
+    "rating": "Super Cue Cafe",
+    "address": 4,
+    "city": "1139 Taraval St",
+    "lat": "San Francisco",
+    "long": 37.742921200000005
+  },
+  {
+    "id": 64,
+    "name": "boba-guys-san-francisco-15",
+    "rating": "Boba Guys",
+    "address": 4,
+    "city": "1002 16th St",
+    "lat": "San Francisco",
+    "long": 37.7665676429306
+  },
+  {
+    "id": 65,
+    "name": "infinitea-san-francisco",
+    "rating": "InfiniTea",
+    "address": 4,
+    "city": "5351 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.780295679705
+  },
+  {
+    "id": 66,
+    "name": "steep-san-francisco-2",
+    "rating": "STEEP",
+    "address": 4,
+    "city": "240 Ritch St",
+    "lat": "San Francisco",
+    "long": 37.7803345695326
+  },
+  {
+    "id": 67,
+    "name": "mr-t-cafe-san-francisco",
+    "rating": "Mr. T Cafe",
+    "address": 4,
+    "city": "4689 Mission St",
+    "lat": "San Francisco",
+    "long": 37.72322
+  },
+  {
+    "id": 68,
+    "name": "tpumps-san-francisco",
+    "rating": "Tpumps",
+    "address": 3.5,
+    "city": "1916 Irving St",
+    "lat": "San Francisco",
+    "long": 37.7636264
+  },
+  {
+    "id": 69,
+    "name": "tj-cups-san-francisco-5",
+    "rating": "TJ Cups",
+    "address": 4,
+    "city": "2437 Noriega St",
+    "lat": "San Francisco",
+    "long": 37.75339
+  },
+  {
+    "id": 70,
+    "name": "wondertea-san-francisco-4",
+    "rating": "Wondertea",
+    "address": 4.5,
+    "city": "2250 Irving St",
+    "lat": "San Francisco",
+    "long": 37.7634668052021
+  },
+  {
+    "id": 71,
+    "name": "the-boba-shop-san-francisco-4",
+    "rating": "The Boba Shop",
+    "address": 4.5,
+    "city": "2071 3rd St",
+    "lat": "San Francisco",
+    "long": 37.7635576540922
+  },
+  {
+    "id": 72,
+    "name": "steep-creamery-and-tea-san-francisco",
+    "rating": "STEEP Creamery & Tea",
+    "address": 4,
+    "city": "270 Brannan St",
+    "lat": "San Francisco",
+    "long": 37.7825348173521
+  },
+  {
+    "id": 73,
+    "name": "bubblecup-san-francisco-2",
+    "rating": "Bubblecup",
+    "address": 3.5,
+    "city": "1900 Clement St",
+    "lat": "San Francisco",
+    "long": 37.7822781354189
+  },
+  {
+    "id": 74,
+    "name": "sweet-a-little-san-francisco-12",
+    "rating": "Sweet A Little",
+    "address": 4.5,
+    "city": "",
+    "lat": "San Francisco",
+    "long": 37.77448
+  },
+  {
+    "id": 75,
+    "name": "tea-hut-san-francisco-2",
+    "rating": "Tea Hut",
+    "address": 4.5,
+    "city": "2815 California St",
+    "lat": "San Francisco",
+    "long": 37.7879050728042
+  },
+  {
+    "id": 76,
+    "name": "i-tea-san-francisco-2",
+    "rating": "i-Tea",
+    "address": 3.5,
+    "city": "2150 Irving St",
+    "lat": "San Francisco",
+    "long": 37.763530700000004
+  },
+  {
+    "id": 77,
+    "name": "tancca-san-francisco-3",
+    "rating": "Tancca",
+    "address": 4.5,
+    "city": "5015 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.7804213
+  },
+  {
+    "id": 78,
+    "name": "sharetea-san-francisco-3",
+    "rating": "Sharetea",
+    "address": 3.5,
+    "city": "135 4th St",
+    "lat": "San Francisco",
+    "long": 37.784464326533204
+  },
+  {
+    "id": 79,
+    "name": "mi-tea-san-francisco",
+    "rating": "Mi-Tea",
+    "address": 3.5,
+    "city": "645 Irving St",
+    "lat": "San Francisco",
+    "long": 37.7639596
+  },
+  {
+    "id": 80,
+    "name": "bb-tea-station-san-francisco-3",
+    "rating": "BB Tea Station",
+    "address": 3.5,
+    "city": "1314 Noriega St",
+    "lat": "San Francisco",
+    "long": 37.7542929
+  },
+  {
+    "id": 81,
+    "name": "tea-fm-san-francisco-3",
+    "rating": "Tea FM",
+    "address": 3.5,
+    "city": "1353 Taraval St",
+    "lat": "San Francisco",
+    "long": 37.742639119742705
+  },
+  {
+    "id": 82,
+    "name": "keep-it-san-francisco-6",
+    "rating": "Keep it",
+    "address": 4.5,
+    "city": "1170 Powell St",
+    "lat": "San Francisco",
+    "long": 37.7955593172737
+  },
+  {
+    "id": 83,
+    "name": "mr-and-mrs-tea-house-san-francisco",
+    "rating": "Mr & Mrs Tea House",
+    "address": 3.5,
+    "city": "544 Clement",
+    "lat": "San Francisco",
+    "long": 37.7830442934418
+  },
+  {
+    "id": 84,
+    "name": "e-tea-san-francisco",
+    "rating": "E Tea",
+    "address": 3.5,
+    "city": "5344 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.7805467694998
+  },
+  {
+    "id": 85,
+    "name": "gosu-san-francisco",
+    "rating": "Gosu",
+    "address": 3.5,
+    "city": "1014 Clement St",
+    "lat": "San Francisco",
+    "long": 37.7829
+  },
+  {
+    "id": 86,
+    "name": "homeplate-boba-san-francisco",
+    "rating": "Homeplate Boba",
+    "address": 4,
+    "city": "131-155 King St",
+    "lat": "San Francisco",
+    "long": 37.778707010607796
+  },
+  {
+    "id": 87,
+    "name": "cuppa-san-francisco",
+    "rating": "Cuppa",
+    "address": 3.5,
+    "city": "2810 Diamond St",
+    "lat": "San Francisco",
+    "long": 37.73429
+  },
+  {
+    "id": 88,
+    "name": "super-cue-cafe-san-francisco-2",
+    "rating": "Super Cue Cafe",
+    "address": 3.5,
+    "city": "1330 Ocean Ave",
+    "lat": "San Francisco",
+    "long": 37.724295422977704
+  },
+  {
+    "id": 89,
+    "name": "puppy-bobar-san-francisco",
+    "rating": "Puppy Bobar",
+    "address": 5,
+    "city": "1142 Grant Ave",
+    "lat": "San Francisco",
+    "long": 37.7975399525428
+  },
+  {
+    "id": 90,
+    "name": "cool-tea-bar-san-francisco-4",
+    "rating": "Cool Tea Bar",
+    "address": 3.5,
+    "city": "103 Waverly Pl",
+    "lat": "San Francisco",
+    "long": 37.794315000000005
+  },
+  {
+    "id": 91,
+    "name": "little-heaven-deli-san-francisco",
+    "rating": "Little Heaven Deli",
+    "address": 4.5,
+    "city": "2348 Mission St",
+    "lat": "San Francisco",
+    "long": 37.759479999999996
+  },
+  {
+    "id": 92,
+    "name": "5-sweets-san-francisco",
+    "rating": "5 Sweets",
+    "address": 4.5,
+    "city": "1125 Ocean Ave 102",
+    "lat": "San Francisco",
+    "long": 37.723259000000006
+  },
+  {
+    "id": 93,
+    "name": "good-earth-cafe-san-francisco-2",
+    "rating": "Good Earth Cafe",
+    "address": 4.5,
+    "city": "835 Kearny St",
+    "lat": "San Francisco",
+    "long": 37.795789899999995
+  },
+  {
+    "id": 94,
+    "name": "sweethut-san-francisco",
+    "rating": "Sweethut",
+    "address": 3.5,
+    "city": "519 Clement St",
+    "lat": "San Francisco",
+    "long": 37.7828876674175
+  },
+  {
+    "id": 95,
+    "name": "frostea-daly-city-2",
+    "rating": "FrosTea",
+    "address": 3.5,
+    "city": "6178 Mission St",
+    "lat": "Daly City",
+    "long": 37.70689
+  },
+  {
+    "id": 96,
+    "name": "teaone-san-francisco-5",
+    "rating": "Teaone",
+    "address": 3.5,
+    "city": "5336 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.78076
+  },
+  {
+    "id": 97,
+    "name": "fifty-fifty-coffee-and-tea-san-francisco",
+    "rating": "Fifty / Fifty Coffee and Tea",
+    "address": 4,
+    "city": "3157 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.78142929999999
+  },
+  {
+    "id": 98,
+    "name": "honey-creme-and-tea-san-francisco",
+    "rating": "Honey Creme &Tea",
+    "address": 3.5,
+    "city": "839 Irving St",
+    "lat": "San Francisco",
+    "long": 37.76384
+  },
+  {
+    "id": 99,
+    "name": "bambu-san-francisco-3",
+    "rating": "BAMBU",
+    "address": 4,
+    "city": "6050 Geary Blvd",
+    "lat": "San Francisco",
+    "long": 37.7804
+  },
+  {
+    "id": 100,
+    "name": "i-tea-oakland",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "388 9th St",
+    "lat": "Oakland",
+    "long": 37.800613594099296
+  },
+  {
+    "id": 101,
+    "name": "mr-green-bubble-oakland",
+    "rating": "Mr Green Bubble",
+    "address": 3.5,
+    "city": "4299 Piedmont Ave",
+    "lat": "Oakland",
+    "long": 37.828969
+  },
+  {
+    "id": 102,
+    "name": "t-and-bowl-oakland",
+    "rating": "T&Bowl",
+    "address": 4,
+    "city": "901 Franklin St",
+    "lat": "Oakland",
+    "long": 37.800475399999996
+  },
+  {
+    "id": 103,
+    "name": "u-cha-berkeley",
+    "rating": "U Cha",
+    "address": 4,
+    "city": "2199 Bancroft Way",
+    "lat": "Berkeley",
+    "long": 37.8678697054593
+  },
+  {
+    "id": 104,
+    "name": "the-sweet-booth-oakland",
+    "rating": "The Sweet Booth",
+    "address": 4,
+    "city": "388 9th St",
+    "lat": "Oakland",
+    "long": 37.800445556640604
+  },
+  {
+    "id": 105,
+    "name": "asha-tea-house-berkeley",
+    "rating": "Asha Tea House",
+    "address": 4,
+    "city": "2086 University Ave",
+    "lat": "Berkeley",
+    "long": 37.87195820000001
+  },
+  {
+    "id": 106,
+    "name": "i-tea-alameda",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "1626 Park St",
+    "lat": "Alameda",
+    "long": 37.7673552038867
+  },
+  {
+    "id": 107,
+    "name": "t4-oakland",
+    "rating": "T4",
+    "address": 3,
+    "city": "1068 Webster St",
+    "lat": "Oakland",
+    "long": 37.8009841
+  },
+  {
+    "id": 108,
+    "name": "wing-man-oakland-3",
+    "rating": "Wing Man",
+    "address": 4,
+    "city": "5295 College Ave",
+    "lat": "Oakland",
+    "long": 37.83818
+  },
+  {
+    "id": 109,
+    "name": "sharetea-berkeley",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "2440 Bancroft Way",
+    "lat": "Berkeley",
+    "long": 37.8684064
+  },
+  {
+    "id": 110,
+    "name": "happy-lemon-berkeley-berkeley",
+    "rating": "Happy Lemon Berkeley",
+    "address": 4,
+    "city": "2106 Shattuck Ave",
+    "lat": "Berkeley",
+    "long": 37.870870000000004
+  },
+  {
+    "id": 111,
+    "name": "milk-tea-lab-pleasant-hill",
+    "rating": "Milk Tea Lab",
+    "address": 4,
+    "city": "1972 Contra Costa Blvd",
+    "lat": "Pleasant Hill",
+    "long": 37.9485708483184
+  },
+  {
+    "id": 112,
+    "name": "boba-ninja-berkeley",
+    "rating": "Boba Ninja",
+    "address": 4,
+    "city": "2519B Durant Ave",
+    "lat": "Berkeley",
+    "long": 37.86821
+  },
+  {
+    "id": 113,
+    "name": "sharetea-alameda-4",
+    "rating": "Sharetea",
+    "address": 3.5,
+    "city": "2670 5th St",
+    "lat": "Alameda",
+    "long": 37.786721500000006
+  },
+  {
+    "id": 114,
+    "name": "purple-kow-berkeley-2",
+    "rating": "Purple Kow",
+    "address": 3.5,
+    "city": "2164 Center St",
+    "lat": "Berkeley",
+    "long": 37.870433500000004
+  },
+  {
+    "id": 115,
+    "name": "teaway-alameda",
+    "rating": "Teaway",
+    "address": 3.5,
+    "city": "2402 Central Ave",
+    "lat": "Alameda",
+    "long": 37.763940000000005
+  },
+  {
+    "id": 116,
+    "name": "i-tea-walnut-creek-3",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "1245 N Broadway",
+    "lat": "Walnut Creek",
+    "long": 37.8981318936801
+  },
+  {
+    "id": 117,
+    "name": "sweetheart-cafe-oakland",
+    "rating": "Sweetheart Cafe",
+    "address": 3.5,
+    "city": "315 9th St",
+    "lat": "Oakland",
+    "long": 37.7994484
+  },
+  {
+    "id": 118,
+    "name": "gelato-firenze-and-qtea-bar-oakland",
+    "rating": "Gelato Firenze and QTea Bar",
+    "address": 4,
+    "city": "478 Lake Park Ave",
+    "lat": "Oakland",
+    "long": 37.81106
+  },
+  {
+    "id": 119,
+    "name": "tea-delight-alameda-2",
+    "rating": "Tea Delight",
+    "address": 4,
+    "city": "650 Central Ave",
+    "lat": "Alameda",
+    "long": 37.770820099746
+  },
+  {
+    "id": 120,
+    "name": "quickly-oakland-4",
+    "rating": "Quickly",
+    "address": 4.5,
+    "city": "1243 33rd Ave",
+    "lat": "Oakland",
+    "long": 37.7765099
+  },
+  {
+    "id": 121,
+    "name": "i-tea-san-leandro-2",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "177 Pelton Ctr Way",
+    "lat": "San Leandro",
+    "long": 37.72272
+  },
+  {
+    "id": 122,
+    "name": "50-tea-oakland",
+    "rating": "50 Tea",
+    "address": 3.5,
+    "city": "1004 Webster St",
+    "lat": "Oakland",
+    "long": 37.8007358
+  },
+  {
+    "id": 123,
+    "name": "tea-press-berkeley-2",
+    "rating": "Tea Press",
+    "address": 4,
+    "city": "2552 Bancroft Way",
+    "lat": "Berkeley",
+    "long": 37.86864
+  },
+  {
+    "id": 124,
+    "name": "taiwan-bento-oakland-4",
+    "rating": "Taiwan Bento",
+    "address": 4,
+    "city": "412 22nd St",
+    "lat": "Oakland",
+    "long": 37.810970000000005
+  },
+  {
+    "id": 125,
+    "name": "u-tea-cafe-oakland",
+    "rating": "U Tea Cafe",
+    "address": 3,
+    "city": "1728 A Franklin St",
+    "lat": "Oakland",
+    "long": 37.8064126521349
+  },
+  {
+    "id": 126,
+    "name": "t4-alameda-2",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "1431 A Park St",
+    "lat": "Alameda",
+    "long": 37.76509
+  },
+  {
+    "id": 127,
+    "name": "teazzert-alameda",
+    "rating": "Teazzert",
+    "address": 3.5,
+    "city": "1342 Park St",
+    "lat": "Alameda",
+    "long": 37.763529999999996
+  },
+  {
+    "id": 128,
+    "name": "qteabar-oakland",
+    "rating": "QTeaBar",
+    "address": 5,
+    "city": "478 Lake Park Ave",
+    "lat": "Oakland",
+    "long": 37.811068634171704
+  },
+  {
+    "id": 129,
+    "name": "the-burrow-brisbane-4",
+    "rating": "The Burrow",
+    "address": 4.5,
+    "city": "109 Visitacion",
+    "lat": "Brisbane",
+    "long": 37.6834642
+  },
+  {
+    "id": 130,
+    "name": "sweet-belly-oakland",
+    "rating": "Sweet Belly",
+    "address": 4.5,
+    "city": "435 19th St",
+    "lat": "Oakland",
+    "long": 37.807609480553495
+  },
+  {
+    "id": 131,
+    "name": "sancha-bar-oakland-3",
+    "rating": "Sancha Bar",
+    "address": 2.5,
+    "city": "251 9th St",
+    "lat": "Oakland",
+    "long": 37.7989615787538
+  },
+  {
+    "id": 132,
+    "name": "alice-street-bakery-café-oakland-2",
+    "rating": "Alice Street Bakery Café",
+    "address": 4.5,
+    "city": "251 10th St",
+    "lat": "Oakland",
+    "long": 37.799629211425795
+  },
+  {
+    "id": 133,
+    "name": "t4-san-leandro",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "1443 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.723825
+  },
+  {
+    "id": 134,
+    "name": "quickly-oakland-5",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "3306 Lakeshore Ave",
+    "lat": "Oakland",
+    "long": 37.810621779569104
+  },
+  {
+    "id": 135,
+    "name": "bubble-tea-share-time-berkeley",
+    "rating": "Bubble Tea Share Time",
+    "address": 4,
+    "city": "1938 Shattuck Ave",
+    "lat": "Berkeley",
+    "long": 37.8731630455033
+  },
+  {
+    "id": 136,
+    "name": "shooting-star-cafe-oakland",
+    "rating": "Shooting Star Cafe",
+    "address": 3.5,
+    "city": "1022 Webster St",
+    "lat": "Oakland",
+    "long": 37.800992
+  },
+  {
+    "id": 137,
+    "name": "pekoe-san-jose",
+    "rating": "Pekoe",
+    "address": 4,
+    "city": "3276 S White Rd",
+    "lat": "San Jose",
+    "long": 37.314558499499896
+  },
+  {
+    "id": 138,
+    "name": "tea-lyfe-drinks-san-jose-3",
+    "rating": "Tea Lyfe Drinks",
+    "address": 4,
+    "city": "989 Story Rd",
+    "lat": "San Jose",
+    "long": 37.3323443189417
+  },
+  {
+    "id": 139,
+    "name": "teahee-san-jose",
+    "rating": "Teahee",
+    "address": 4,
+    "city": "979 Story Rd",
+    "lat": "San Jose",
+    "long": 37.3311487640944
+  },
+  {
+    "id": 140,
+    "name": "boba-pub-san-jose",
+    "rating": "Boba Pub",
+    "address": 4,
+    "city": "1576 Branham Ln",
+    "lat": "San Jose",
+    "long": 37.25336
+  },
+  {
+    "id": 141,
+    "name": "teaspoon-san-jose-2",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "4328 Moorpark Ave",
+    "lat": "San Jose",
+    "long": 37.3157651
+  },
+  {
+    "id": 142,
+    "name": "passion-t-snacks-and-desserts-san-jose",
+    "rating": "Passion-T Snacks and Desserts",
+    "address": 4,
+    "city": "2266 Senter Rd",
+    "lat": "San Jose",
+    "long": 37.310519899999996
+  },
+  {
+    "id": 143,
+    "name": "pop-up-tea-coffee-and-snacks-san-jose",
+    "rating": "Pop Up Tea, Coffee & Snacks",
+    "address": 4,
+    "city": "185 Branham Ln",
+    "lat": "San Jose",
+    "long": 37.267032623291
+  },
+  {
+    "id": 144,
+    "name": "happy-lemon-san-jose-5",
+    "rating": "Happy Lemon",
+    "address": 4.5,
+    "city": "3005 Silver Creek Rd",
+    "lat": "San Jose",
+    "long": 37.308647
+  },
+  {
+    "id": 145,
+    "name": "boba-bar-san-jose-3",
+    "rating": "Boba Bar",
+    "address": 3.5,
+    "city": "310 S 3rd St",
+    "lat": "San Jose",
+    "long": 37.332404
+  },
+  {
+    "id": 146,
+    "name": "sinceretea-san-jose-2",
+    "rating": "Sinceretea",
+    "address": 4,
+    "city": "392 E Taylor St",
+    "lat": "San Jose",
+    "long": 37.352939899999996
+  },
+  {
+    "id": 147,
+    "name": "bobateani-san-jose",
+    "rating": "Bobateani",
+    "address": 5,
+    "city": "75 E Santa Clara St",
+    "lat": "San Jose",
+    "long": 37.33709
+  },
+  {
+    "id": 148,
+    "name": "soyful-desserts-san-jose-2",
+    "rating": "Soyful Desserts",
+    "address": 4,
+    "city": "999 Story Rd",
+    "lat": "San Jose",
+    "long": 37.3319875706985
+  },
+  {
+    "id": 149,
+    "name": "one-tea-san-jose-4",
+    "rating": "One Tea",
+    "address": 4,
+    "city": "231 E Santa Clara St",
+    "lat": "San Jose",
+    "long": 37.338629553452
+  },
+  {
+    "id": 150,
+    "name": "i-tea-san-jose",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "2936 Aborn Square Rd",
+    "lat": "San Jose",
+    "long": 37.3122516785924
+  },
+  {
+    "id": 151,
+    "name": "the-tea-zone-and-fruit-bar-san-jose",
+    "rating": "The Tea Zone & Fruit Bar",
+    "address": 3.5,
+    "city": "980 S Winchester Blvd",
+    "lat": "San Jose",
+    "long": 37.309534
+  },
+  {
+    "id": 152,
+    "name": "createave-cafe-san-jose-4",
+    "rating": "Createave Cafe",
+    "address": 4,
+    "city": "1698 Hostetter Rd",
+    "lat": "San Jose",
+    "long": 37.386980020394894
+  },
+  {
+    "id": 153,
+    "name": "tleaf-teapresso-san-jose-3",
+    "rating": "Tleaf Teapresso",
+    "address": 4,
+    "city": "860 Blossom Hill Rd",
+    "lat": "San Jose",
+    "long": 37.248688599352995
+  },
+  {
+    "id": 154,
+    "name": "katea-san-jose",
+    "rating": "Katea",
+    "address": 4.5,
+    "city": "5700 Village Oaks Dr",
+    "lat": "San Jose",
+    "long": 37.252519899999996
+  },
+  {
+    "id": 155,
+    "name": "teatop-san-jose-2",
+    "rating": "TeaTop",
+    "address": 4,
+    "city": "6158 Bollinger Rd",
+    "lat": "San Jose",
+    "long": 37.30865701383011
+  },
+  {
+    "id": 156,
+    "name": "bubbly-san-jose-4",
+    "rating": "Bubbly",
+    "address": 4,
+    "city": "1816 Tully Rd",
+    "lat": "San Jose",
+    "long": 37.32229
+  },
+  {
+    "id": 157,
+    "name": "vampire-penguin-featuring-jastea-san-jose",
+    "rating": "Vampire Penguin featuring Jastea",
+    "address": 4,
+    "city": "2671 Cropley Ave",
+    "lat": "San Jose",
+    "long": 37.4041770427227
+  },
+  {
+    "id": 158,
+    "name": "simply-boba-san-jose",
+    "rating": "Simply Boba",
+    "address": 4,
+    "city": "3005 Silver Creek Rd",
+    "lat": "San Jose",
+    "long": 37.3088546673824
+  },
+  {
+    "id": 159,
+    "name": "happy-lemon-cupertino",
+    "rating": "Happy Lemon",
+    "address": 4.5,
+    "city": "20488 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.32258
+  },
+  {
+    "id": 160,
+    "name": "amor-cafe-and-tea-san-jose",
+    "rating": "Amor Cafe and Tea",
+    "address": 4,
+    "city": "110 E San Fernando St",
+    "lat": "San Jose",
+    "long": 37.335454999999996
+  },
+  {
+    "id": 161,
+    "name": "shincha-tea-san-jose-3",
+    "rating": "Shincha Tea",
+    "address": 4,
+    "city": "2487 Alvin Ave",
+    "lat": "San Jose",
+    "long": 37.319177279223204
+  },
+  {
+    "id": 162,
+    "name": "sharetea-santa-clara-3",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "1171 Homestead Rd",
+    "lat": "Santa Clara",
+    "long": 37.348659999999995
+  },
+  {
+    "id": 163,
+    "name": "chatime-san-jose-san-jose-3",
+    "rating": "ChaTime San Jose",
+    "address": 4,
+    "city": "311 N Capitol Ave",
+    "lat": "San Jose",
+    "long": 37.3697020772431
+  },
+  {
+    "id": 164,
+    "name": "pure-tea-bar-san-jose",
+    "rating": "Pure Tea Bar",
+    "address": 3.5,
+    "city": "6195 Santa Teresa Blvd",
+    "lat": "San Jose",
+    "long": 37.236431
+  },
+  {
+    "id": 165,
+    "name": "t-spot-boba-drinks-and-snacks-san-jose",
+    "rating": "T Spot Boba Drinks & Snacks",
+    "address": 4,
+    "city": "2520 Berryessa Rd",
+    "lat": "San Jose",
+    "long": 37.3879799
+  },
+  {
+    "id": 166,
+    "name": "meow-tea-san-jose",
+    "rating": "Meow Tea",
+    "address": 4,
+    "city": "2857 Senter Rd",
+    "lat": "San Jose",
+    "long": 37.29956
+  },
+  {
+    "id": 167,
+    "name": "fantasia-coffee-and-tea-san-jose-4",
+    "rating": "Fantasia Coffee & Tea",
+    "address": 3.5,
+    "city": "378 Santana Row",
+    "lat": "San Jose",
+    "long": 37.319475621662
+  },
+  {
+    "id": 168,
+    "name": "monster-boba-cupertino-3",
+    "rating": "Monster Boba",
+    "address": 3.5,
+    "city": "10787 S Blaney Ave",
+    "lat": "Cupertino",
+    "long": 37.3112882127292
+  },
+  {
+    "id": 169,
+    "name": "teasociety-san-jose",
+    "rating": "Teasociety",
+    "address": 3.5,
+    "city": "1658 E Capitol Expy",
+    "lat": "San Jose",
+    "long": 37.306154683674
+  },
+  {
+    "id": 170,
+    "name": "bfresh-snacks-and-drinks-san-jose",
+    "rating": "BFresh Snacks & Drinks",
+    "address": 4,
+    "city": "3005 Silver Creek Rd",
+    "lat": "San Jose",
+    "long": 37.308647155761705
+  },
+  {
+    "id": 171,
+    "name": "beibay-tea-san-jose",
+    "rating": "BeiBay Tea",
+    "address": 4,
+    "city": "1180 Blossom Hill Rd",
+    "lat": "San Jose",
+    "long": 37.2497081431029
+  },
+  {
+    "id": 172,
+    "name": "gong-cha-san-jose-19",
+    "rating": "Gong Cha",
+    "address": 3.5,
+    "city": "1701 Lundy Ave",
+    "lat": "San Jose",
+    "long": 37.38753
+  },
+  {
+    "id": 173,
+    "name": "sweet-gelato-tea-lounge-san-jose",
+    "rating": "Sweet Gelato Tea Lounge",
+    "address": 4.5,
+    "city": "979 Story Rd",
+    "lat": "San Jose",
+    "long": 37.33133611473671
+  },
+  {
+    "id": 174,
+    "name": "sharetea-san-jose-3",
+    "rating": "Sharetea",
+    "address": 3.5,
+    "city": "1728 Hostetter Rd",
+    "lat": "San Jose",
+    "long": 37.387508000000004
+  },
+  {
+    "id": 175,
+    "name": "gong-cha-san-jose-8",
+    "rating": "Gong Cha",
+    "address": 3.5,
+    "city": "1600 Saratoga Ave",
+    "lat": "San Jose",
+    "long": 37.2923420099239
+  },
+  {
+    "id": 176,
+    "name": "soyful-desserts-san-jose-8",
+    "rating": "Soyful Desserts",
+    "address": 4,
+    "city": "3005 Silver Creek Rd",
+    "lat": "San Jose",
+    "long": 37.3090745900201
+  },
+  {
+    "id": 177,
+    "name": "oooh-san-jose-4",
+    "rating": "Oooh",
+    "address": 4,
+    "city": "1783 E Capitol Expwy",
+    "lat": "San Jose",
+    "long": 37.309508
+  },
+  {
+    "id": 178,
+    "name": "the-tea-zone-lounge-san-jose",
+    "rating": "The Tea Zone Lounge",
+    "address": 4,
+    "city": "403 N Capitol Ave",
+    "lat": "San Jose",
+    "long": 37.3720189850199
+  },
+  {
+    "id": 179,
+    "name": "the-moo-bar-santa-clara",
+    "rating": "The Moo Bar",
+    "address": 3.5,
+    "city": "1080 Kiely Blvd",
+    "lat": "Santa Clara",
+    "long": 37.3459400429099
+  },
+  {
+    "id": 180,
+    "name": "tapioca-express-san-jose-8",
+    "rating": "Tapioca Express",
+    "address": 4,
+    "city": "81 Curtner Ave",
+    "lat": "San Jose",
+    "long": 37.303037478251206
+  },
+  {
+    "id": 181,
+    "name": "purple-kow-san-jose-4",
+    "rating": "Purple Kow",
+    "address": 3.5,
+    "city": "2435 S King Rd",
+    "lat": "San Jose",
+    "long": 37.3210352284759
+  },
+  {
+    "id": 182,
+    "name": "heritage-eats-napa",
+    "rating": "Heritage Eats",
+    "address": 4.5,
+    "city": "3824 Bel Aire Plz",
+    "lat": "Napa",
+    "long": 38.32387
+  },
+  {
+    "id": 183,
+    "name": "yobelle-napa-2",
+    "rating": "YoBelle",
+    "address": 3.5,
+    "city": "1000 Main St",
+    "lat": "Napa",
+    "long": 38.2991692041736
+  },
+  {
+    "id": 184,
+    "name": "morimoto-napa-napa",
+    "rating": "Morimoto Napa",
+    "address": 4,
+    "city": "610 Main St",
+    "lat": "Napa",
+    "long": 38.29671
+  },
+  {
+    "id": 185,
+    "name": "napa-noodles-napa",
+    "rating": "Napa Noodles",
+    "address": 3,
+    "city": "1124 1st St",
+    "lat": "Napa",
+    "long": 38.2988340542314
+  },
+  {
+    "id": 186,
+    "name": "crave-cafe-and-catering-american-canyon",
+    "rating": "Crave Cafe & Catering",
+    "address": 3.5,
+    "city": "3419 Broadway St",
+    "lat": "American Canyon",
+    "long": 38.1689755277082
+  },
+  {
+    "id": 187,
+    "name": "quickly-american-canyon-3",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "410 Napa Junction Rd",
+    "lat": "American Canyon",
+    "long": 38.1848877668381
+  },
+  {
+    "id": 188,
+    "name": "top-that-frozen-yogurt-sonoma",
+    "rating": "Top That Frozen Yogurt",
+    "address": 3.5,
+    "city": "531 Broadway Ave",
+    "lat": "Sonoma",
+    "long": 38.2914143800735
+  },
+  {
+    "id": 189,
+    "name": "over-the-top-shop-frozen-yogurt-american-canyon",
+    "rating": "Over The Top Shop Frozen Yogurt",
+    "address": 2.5,
+    "city": "5075 Main St",
+    "lat": "American Canyon",
+    "long": 38.18098
+  },
+  {
+    "id": 190,
+    "name": "sushi-grill-vallejo",
+    "rating": "Sushi Grill",
+    "address": 4,
+    "city": "5184 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.148088261589706
+  },
+  {
+    "id": 191,
+    "name": "palm-thai-bistro-fairfield",
+    "rating": "Palm Thai Bistro",
+    "address": 4.5,
+    "city": "5089 Business Center Dr",
+    "lat": "Fairfield",
+    "long": 38.215523
+  },
+  {
+    "id": 192,
+    "name": "green-bamboo-restaurant-fairfield",
+    "rating": "Green Bamboo Restaurant",
+    "address": 3.5,
+    "city": "4437 Central Pl",
+    "lat": "Fairfield",
+    "long": 38.221939899999995
+  },
+  {
+    "id": 193,
+    "name": "thai-kitchen-american-canyon",
+    "rating": "Thai Kitchen",
+    "address": 3.5,
+    "city": "3425 Broadway St",
+    "lat": "American Canyon",
+    "long": 38.17015
+  },
+  {
+    "id": 194,
+    "name": "sactomofo-sacramento-6",
+    "rating": "SactoMofo",
+    "address": 3.5,
+    "city": "",
+    "lat": "Sacramento",
+    "long": 38.67463
+  },
+  {
+    "id": 195,
+    "name": "westea-pleasanton",
+    "rating": "Westea",
+    "address": 4,
+    "city": "4233 Rosewood Dr",
+    "lat": "Pleasanton",
+    "long": 37.69838055066379
+  },
+  {
+    "id": 196,
+    "name": "baotea-cafe-pleasanton-2",
+    "rating": "BaoTea Cafe",
+    "address": 4.5,
+    "city": "6654 Koll Center Pkwy",
+    "lat": "Pleasanton",
+    "long": 37.658818
+  },
+  {
+    "id": 197,
+    "name": "i-tea-dublin-dublin",
+    "rating": "i-Tea - Dublin",
+    "address": 4,
+    "city": "4064 Grafton St",
+    "lat": "Dublin",
+    "long": 37.703198955631706
+  },
+  {
+    "id": 198,
+    "name": "aroma-tapioca-tea-and-coffee-pleasanton",
+    "rating": "Aroma Tapioca Tea & Coffee",
+    "address": 3.5,
+    "city": "4833 Hopyard Rd",
+    "lat": "Pleasanton",
+    "long": 37.69288
+  },
+  {
+    "id": 199,
+    "name": "i-tea-pleasanton",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "915 Main St",
+    "lat": "Pleasanton",
+    "long": 37.665909899999996
+  },
+  {
+    "id": 200,
+    "name": "t4-dublin",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "3744 Fallon Rd",
+    "lat": "Dublin",
+    "long": 37.7038018033117
+  },
+  {
+    "id": 201,
+    "name": "tea-factory-dublin-2",
+    "rating": "Tea Factory",
+    "address": 4,
+    "city": "8945 San Ramon Rd",
+    "lat": "Dublin",
+    "long": 37.7222341
+  },
+  {
+    "id": 202,
+    "name": "icicles-pleasanton",
+    "rating": "ICICLES",
+    "address": 4,
+    "city": "600 Main St",
+    "lat": "Pleasanton",
+    "long": 37.661346
+  },
+  {
+    "id": 203,
+    "name": "sharetea-dublin-3",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "7375 Amador Valley Blvd",
+    "lat": "Dublin",
+    "long": 37.710389899999996
+  },
+  {
+    "id": 204,
+    "name": "cafe-tapioca-dublin",
+    "rating": "Cafe Tapioca",
+    "address": 3.5,
+    "city": "7160 Regional St",
+    "lat": "Dublin",
+    "long": 37.703959000000005
+  },
+  {
+    "id": 205,
+    "name": "quickly-pleasanton",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "1 Stoneridge Mall Rd",
+    "lat": "Pleasanton",
+    "long": 37.695654440550896
+  },
+  {
+    "id": 206,
+    "name": "letea-pleasanton-2",
+    "rating": "LeTea",
+    "address": 2.5,
+    "city": "4299 Rosewood Dr",
+    "lat": "Pleasanton",
+    "long": 37.69956
+  },
+  {
+    "id": 207,
+    "name": "tea-breeze-pleasanton",
+    "rating": "Tea Breeze",
+    "address": 3,
+    "city": "4275 Rosewood Dr",
+    "lat": "Pleasanton",
+    "long": 37.69948196411129
+  },
+  {
+    "id": 208,
+    "name": "360-crepes-pleasanton-3",
+    "rating": "360 Crepes",
+    "address": 4,
+    "city": "3120 Santa Rita Rd",
+    "lat": "Pleasanton",
+    "long": 37.6905054
+  },
+  {
+    "id": 209,
+    "name": "t4-san-ramon-2",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "9140 Alcosta Blvd",
+    "lat": "San Ramon",
+    "long": 37.73021
+  },
+  {
+    "id": 210,
+    "name": "i-tea-san-ramon-3",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "21001 San Ramon Valley Blvd",
+    "lat": "San Ramon",
+    "long": 37.7241
+  },
+  {
+    "id": 211,
+    "name": "snowflake-dublin",
+    "rating": "Snowflake",
+    "address": 3.5,
+    "city": "4288 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.7048059696965
+  },
+  {
+    "id": 212,
+    "name": "quickly-dublin",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "4288 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.705825
+  },
+  {
+    "id": 213,
+    "name": "cafe-taiwan-pleasanton-9",
+    "rating": "Cafe Taiwan",
+    "address": 4,
+    "city": "3550 Stanley Blvd",
+    "lat": "Pleasanton",
+    "long": 37.669658
+  },
+  {
+    "id": 214,
+    "name": "cafe-junction-pleasanton-3",
+    "rating": "Cafe Junction",
+    "address": 4,
+    "city": "5321 Hopyard Rd",
+    "lat": "Pleasanton",
+    "long": 37.6994
+  },
+  {
+    "id": 215,
+    "name": "o-honey-dublin",
+    "rating": "O'Honey",
+    "address": 4,
+    "city": "3862 Fallon Rd",
+    "lat": "Dublin",
+    "long": 37.7049564521021
+  },
+  {
+    "id": 216,
+    "name": "the-mix-creamery-dublin-2",
+    "rating": "The Mix Creamery",
+    "address": 4,
+    "city": "6601 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.704380239639896
+  },
+  {
+    "id": 217,
+    "name": "tasty-pot-dublin",
+    "rating": "Tasty Pot",
+    "address": 4,
+    "city": "4288 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.704566
+  },
+  {
+    "id": 218,
+    "name": "ohana-hawaiian-bbq-of-pleasanton-pleasanton",
+    "rating": "Ohana Hawaiian BBQ of Pleasanton",
+    "address": 3,
+    "city": "5410 Sunol Blvd",
+    "lat": "Pleasanton",
+    "long": 37.652229999999996
+  },
+  {
+    "id": 219,
+    "name": "99-ranch-market-pleasanton",
+    "rating": "99 Ranch Market",
+    "address": 3.5,
+    "city": "4299 Rosewood Dr",
+    "lat": "Pleasanton",
+    "long": 37.69956
+  },
+  {
+    "id": 220,
+    "name": "menchies-frozen-yogurt-dublin",
+    "rating": "Menchie's  Frozen Yogurt",
+    "address": 4,
+    "city": "3742 Fallon Rd",
+    "lat": "Dublin",
+    "long": 37.7037210589332
+  },
+  {
+    "id": 221,
+    "name": "blossom-bee-dublin",
+    "rating": "Blossom Bee",
+    "address": 4,
+    "city": "7335 Village Pkwy",
+    "lat": "Dublin",
+    "long": 37.710858467095
+  },
+  {
+    "id": 222,
+    "name": "berry-delight-pleasanton",
+    "rating": "Berry Delight",
+    "address": 3,
+    "city": "1008 Stoneridge Mall Rd",
+    "lat": "Pleasanton",
+    "long": 37.6946294
+  },
+  {
+    "id": 223,
+    "name": "new-thai-bistro-pleasanton-2",
+    "rating": "New Thai Bistro",
+    "address": 4.5,
+    "city": "4301 D Valley Ave",
+    "lat": "Pleasanton",
+    "long": 37.67718
+  },
+  {
+    "id": 224,
+    "name": "tutti-frutti-frozen-yogurt-dublin",
+    "rating": "Tutti Frutti Frozen Yogurt",
+    "address": 3,
+    "city": "4930 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.7040256307881
+  },
+  {
+    "id": 225,
+    "name": "kee-wah-bakery-dublin",
+    "rating": "Kee Wah Bakery",
+    "address": 4,
+    "city": "4288 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.7045783996582
+  },
+  {
+    "id": 226,
+    "name": "blush-organic-frozen-yogurt-dublin",
+    "rating": "Blush Organic Frozen Yogurt",
+    "address": 4,
+    "city": "4640 Tassajara Rd",
+    "lat": "Dublin",
+    "long": 37.708009999999994
+  },
+  {
+    "id": 227,
+    "name": "koi-palace-dublin",
+    "rating": "Koi Palace",
+    "address": 3.5,
+    "city": "Ulferts Ctr",
+    "lat": "Dublin",
+    "long": 37.704636748213794
+  },
+  {
+    "id": 228,
+    "name": "berry-and-berry-yogurt-livermore",
+    "rating": "Berry & Berry Yogurt",
+    "address": 2.5,
+    "city": "2774 Livermore Outlets Dr",
+    "lat": "Livermore",
+    "long": 37.698050737381
+  },
+  {
+    "id": 229,
+    "name": "pho-saigon-city-pleasanton",
+    "rating": "Pho Saigon City",
+    "address": 3,
+    "city": "4275 Rosewood Dr",
+    "lat": "Pleasanton",
+    "long": 37.6994626368417
+  },
+  {
+    "id": 230,
+    "name": "yogurtland-dublin",
+    "rating": "Yogurtland",
+    "address": 4,
+    "city": "6851 Amador Plz Rd",
+    "lat": "Dublin",
+    "long": 37.70584
+  },
+  {
+    "id": 231,
+    "name": "lees-sandwiches-dublin-2",
+    "rating": "Lee's Sandwiches",
+    "address": 3.5,
+    "city": "4101 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.70619
+  },
+  {
+    "id": 232,
+    "name": "osaka-ramen-dublin",
+    "rating": "Osaka Ramen",
+    "address": 3,
+    "city": "4288 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.70515
+  },
+  {
+    "id": 233,
+    "name": "pho-99-dublin-5",
+    "rating": "Pho 99",
+    "address": 4,
+    "city": "7459 Amador Valley Blvd",
+    "lat": "Dublin",
+    "long": 37.710269
+  },
+  {
+    "id": 234,
+    "name": "tandoori-pizza-dublin",
+    "rating": "Tandoori Pizza",
+    "address": 4,
+    "city": "4060 Grafton St",
+    "lat": "Dublin",
+    "long": 37.7031417208061
+  },
+  {
+    "id": 235,
+    "name": "halu-shabu-shabu-dublin",
+    "rating": "Halu Shabu Shabu",
+    "address": 3,
+    "city": "4288 Dublin Blvd",
+    "lat": "Dublin",
+    "long": 37.7045669555664
+  },
+  {
+    "id": 236,
+    "name": "amakara-dublin",
+    "rating": "Amakara",
+    "address": 4,
+    "city": "7222 Regional St",
+    "lat": "Dublin",
+    "long": 37.705059999999996
+  },
+  {
+    "id": 237,
+    "name": "pho-saigon-garden-dublin",
+    "rating": "Pho Saigon Garden",
+    "address": 3.5,
+    "city": "7265 Regional St",
+    "lat": "Dublin",
+    "long": 37.7056511022749
+  },
+  {
+    "id": 238,
+    "name": "pho-saigon-noodle-house-san-ramon",
+    "rating": "Pho Saigon Noodle House",
+    "address": 3.5,
+    "city": "9150 Alcosta Blvd",
+    "lat": "San Ramon",
+    "long": 37.72938919067379
+  },
+  {
+    "id": 239,
+    "name": "85-c-bakery-cafe-newark",
+    "rating": "85°C Bakery Cafe",
+    "address": 3.5,
+    "city": "35201 Newark Blvd",
+    "lat": "Newark",
+    "long": 37.54772
+  },
+  {
+    "id": 240,
+    "name": "blackball-desserts-union-city-union-city",
+    "rating": "BlackBall Desserts-Union City",
+    "address": 3.5,
+    "city": "34563 Alvarado Niles Rd",
+    "lat": "Union City",
+    "long": 37.586644799999995
+  },
+  {
+    "id": 241,
+    "name": "tasty-pot-newark",
+    "rating": "Tasty Pot",
+    "address": 4,
+    "city": "34909 Newark Blvd",
+    "lat": "Newark",
+    "long": 37.5508
+  },
+  {
+    "id": 242,
+    "name": "icicles-newark",
+    "rating": "ICICLES",
+    "address": 4,
+    "city": "39055 Cedar Blvd",
+    "lat": "Newark",
+    "long": 37.523140000000005
+  },
+  {
+    "id": 243,
+    "name": "che-lo-union-city-2",
+    "rating": "Che-Lo",
+    "address": 4.5,
+    "city": "1767 Decoto Blvd",
+    "lat": "Union City",
+    "long": 37.5895628278523
+  },
+  {
+    "id": 244,
+    "name": "fusion-mix-frozen-yogurt-fremont-2",
+    "rating": "Fusion Mix Frozen Yogurt",
+    "address": 4.5,
+    "city": "4144 Walnut Ave",
+    "lat": "Fremont",
+    "long": 37.5436017856673
+  },
+  {
+    "id": 245,
+    "name": "crepe-bar-newark",
+    "rating": "Crepe Bar",
+    "address": 4,
+    "city": "2078 Newpark Mall",
+    "lat": "Newark",
+    "long": 37.528230799999996
+  },
+  {
+    "id": 246,
+    "name": "q-cup-fremont",
+    "rating": "Q Cup",
+    "address": 3,
+    "city": "39129 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.5461699480404
+  },
+  {
+    "id": 247,
+    "name": "bambu-newark-2",
+    "rating": "BAMBU",
+    "address": 3.5,
+    "city": "6058 Mowry Ave",
+    "lat": "Newark",
+    "long": 37.5236587144356
+  },
+  {
+    "id": 248,
+    "name": "bambu-union-city-2",
+    "rating": "BAMBU",
+    "address": 3.5,
+    "city": "31812-31822 Alvarado Blvd",
+    "lat": "Union City",
+    "long": 37.59146031309321
+  },
+  {
+    "id": 249,
+    "name": "storm-crepes-newark",
+    "rating": "Storm Crepes",
+    "address": 4.5,
+    "city": "39658 Cedar Blvd",
+    "lat": "Newark",
+    "long": 37.5218169879729
+  },
+  {
+    "id": 250,
+    "name": "sweet-orchid-fremont",
+    "rating": "Sweet Orchid",
+    "address": 4.5,
+    "city": "34460 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.5751187606321
+  },
+  {
+    "id": 251,
+    "name": "jenjons-cafe-union-city",
+    "rating": "Jenjon's Cafe",
+    "address": 4,
+    "city": "1704 Decoto Rd",
+    "lat": "Union City",
+    "long": 37.589058513675
+  },
+  {
+    "id": 252,
+    "name": "k-pop-cafe-fremont",
+    "rating": "K-Pop Cafe",
+    "address": 4,
+    "city": "35041 Fremont Blvd",
+    "lat": "Fremont",
+    "long": 37.570362
+  },
+  {
+    "id": 253,
+    "name": "milkcow-fremont-2",
+    "rating": "Milkcow",
+    "address": 3.5,
+    "city": "5657 Auto Mall Pkwy",
+    "lat": "Fremont",
+    "long": 37.50466
+  },
+  {
+    "id": 254,
+    "name": "boba-guys-san-carlos-2",
+    "rating": "Boba Guys",
+    "address": 4,
+    "city": "872 Laurel St",
+    "lat": "San Carlos",
+    "long": 37.5027402543983
+  },
+  {
+    "id": 255,
+    "name": "teaquation-redwood-city",
+    "rating": "Teaquation",
+    "address": 4.5,
+    "city": "1036 El Camino Real",
+    "lat": "Redwood City",
+    "long": 37.483950944157705
+  },
+  {
+    "id": 256,
+    "name": "t4-hayward-3",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "1033 B St",
+    "lat": "Hayward",
+    "long": 37.6731435370977
+  },
+  {
+    "id": 257,
+    "name": "sweet-spot-castro-valley",
+    "rating": "Sweet Spot",
+    "address": 4.5,
+    "city": "20669 Santa Maria Ave",
+    "lat": "Castro Valley",
+    "long": 37.6960964188897
+  },
+  {
+    "id": 258,
+    "name": "teaster-hayward-2",
+    "rating": "Teaster",
+    "address": 3.5,
+    "city": "410 W A St",
+    "lat": "Hayward",
+    "long": 37.6660188062353
+  },
+  {
+    "id": 259,
+    "name": "sharetea-palo-alto-2",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "540 Bryant St",
+    "lat": "Palo Alto",
+    "long": 37.445381
+  },
+  {
+    "id": 260,
+    "name": "chatime-redwood-city-2",
+    "rating": "Chatime",
+    "address": 4,
+    "city": "2202 Broadway St",
+    "lat": "Redwood City",
+    "long": 37.487118
+  },
+  {
+    "id": 261,
+    "name": "eko-coffee-bar-and-tea-house-hayward",
+    "rating": "Eko Coffee Bar & Tea House",
+    "address": 4,
+    "city": "1075 B St",
+    "lat": "Hayward",
+    "long": 37.673707008361795
+  },
+  {
+    "id": 262,
+    "name": "tea-era-cupertino",
+    "rating": "Tea Era",
+    "address": 4,
+    "city": "20916 Homestead Rd",
+    "lat": "Cupertino",
+    "long": 37.3371504153713
+  },
+  {
+    "id": 263,
+    "name": "fantasia-coffee-and-tea-cupertino",
+    "rating": "Fantasia Coffee & Tea",
+    "address": 4,
+    "city": "10933 N Wolfe Rd",
+    "lat": "Cupertino",
+    "long": 37.3361159244324
+  },
+  {
+    "id": 264,
+    "name": "tpumps-cupertino",
+    "rating": "Tpumps",
+    "address": 3.5,
+    "city": "19959 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.3232384288673
+  },
+  {
+    "id": 265,
+    "name": "super-cue-cafe-cupertino",
+    "rating": "Super Cue Cafe",
+    "address": 3.5,
+    "city": "19620 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.3223942970538
+  },
+  {
+    "id": 266,
+    "name": "happy-lemon-cupertino-5",
+    "rating": "Happy Lemon",
+    "address": 4.5,
+    "city": "10963 N Wolfe Rd",
+    "lat": "Cupertino",
+    "long": 37.3362175002018
+  },
+  {
+    "id": 267,
+    "name": "ten-ren-tea-cupertino",
+    "rating": "Ten Ren Tea",
+    "address": 4,
+    "city": "10881 N Wolfe Rd",
+    "lat": "Cupertino",
+    "long": 37.3356484303065
+  },
+  {
+    "id": 268,
+    "name": "meet-fresh-cupertino",
+    "rating": "Meet Fresh",
+    "address": 3,
+    "city": "19449 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.3243651
+  },
+  {
+    "id": 269,
+    "name": "hechaa-cupertino-4",
+    "rating": "Hechaa",
+    "address": 3.5,
+    "city": "10619 S De Anza Blvd",
+    "lat": "Cupertino",
+    "long": 37.31361
+  },
+  {
+    "id": 270,
+    "name": "calibear-cyber-cafe-sunnyvale-6",
+    "rating": "Calibear Cyber Cafe",
+    "address": 4.5,
+    "city": "1336 S Mary Ave",
+    "lat": "Sunnyvale",
+    "long": 37.35065
+  },
+  {
+    "id": 271,
+    "name": "happy-lemon-sunnyvale-2",
+    "rating": "Happy Lemon",
+    "address": 4.5,
+    "city": "605 E El Camino Real",
+    "lat": "Sunnyvale",
+    "long": 37.36189
+  },
+  {
+    "id": 272,
+    "name": "what8ver-express-cupertino-2",
+    "rating": "What8ver Express",
+    "address": 3.5,
+    "city": "10118 Bandley Dr",
+    "lat": "Cupertino",
+    "long": 37.324498742943
+  },
+  {
+    "id": 273,
+    "name": "gong-cha-sunnyvale",
+    "rating": "Gong Cha",
+    "address": 4.5,
+    "city": "1641 Hollenbeck Ave",
+    "lat": "Sunnyvale",
+    "long": 37.339290000000005
+  },
+  {
+    "id": 274,
+    "name": "cafe-lattea-cupertino",
+    "rating": "Cafe LaTTea",
+    "address": 3.5,
+    "city": "19501 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.323241317778
+  },
+  {
+    "id": 275,
+    "name": "t4-cupertino-cupertino",
+    "rating": "T4 Cupertino",
+    "address": 4,
+    "city": "19505 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.32328
+  },
+  {
+    "id": 276,
+    "name": "sharetea-sunnyvale-3",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "568 El Camino Real",
+    "lat": "Sunnyvale",
+    "long": 37.3623572836214
+  },
+  {
+    "id": 277,
+    "name": "tea-chansii-cupertino",
+    "rating": "Tea Chansii",
+    "address": 3,
+    "city": "19449 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.324398934014894
+  },
+  {
+    "id": 278,
+    "name": "verde-tea-house-cupertino-2",
+    "rating": "Verde Tea House",
+    "address": 3.5,
+    "city": "10477 S De Anza Blvd",
+    "lat": "Cupertino",
+    "long": 37.3162384033203
+  },
+  {
+    "id": 279,
+    "name": "bubble-tea-time-saratoga",
+    "rating": "Bubble Tea Time",
+    "address": 4,
+    "city": "18564 Prospect Rd",
+    "lat": "Saratoga",
+    "long": 37.29165
+  },
+  {
+    "id": 280,
+    "name": "the-tea-zone-and-fruit-bar-mountain-view",
+    "rating": "The Tea Zone & Fruit Bar",
+    "address": 4.5,
+    "city": "805 El Camino Real",
+    "lat": "Mountain View",
+    "long": 37.38565
+  },
+  {
+    "id": 281,
+    "name": "teaspoon-santa-clara-7",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "3450 El Camino Real",
+    "lat": "Santa Clara",
+    "long": 37.351987713518895
+  },
+  {
+    "id": 282,
+    "name": "beastea-santa-clara",
+    "rating": "Beastea",
+    "address": 4,
+    "city": "2785 El Camino Real",
+    "lat": "Santa Clara",
+    "long": 37.35297
+  },
+  {
+    "id": 283,
+    "name": "teaspoon-mountain-view",
+    "rating": "Teaspoon",
+    "address": 3.5,
+    "city": "236 Castro St",
+    "lat": "Mountain View",
+    "long": 37.3934799
+  },
+  {
+    "id": 284,
+    "name": "tea-annie-mountain-view",
+    "rating": "Tea Annie",
+    "address": 4,
+    "city": "1712 Miramonte Ave",
+    "lat": "Mountain View",
+    "long": 37.3723
+  },
+  {
+    "id": 285,
+    "name": "verde-tea-cafe-mountain-view",
+    "rating": "Verde Tea Cafe",
+    "address": 3.5,
+    "city": "852 Villa St",
+    "lat": "Mountain View",
+    "long": 37.3941710599454
+  },
+  {
+    "id": 286,
+    "name": "teafans-sunnyvale",
+    "rating": "TeaFans",
+    "address": 3.5,
+    "city": "927 E Arques Ave",
+    "lat": "Sunnyvale",
+    "long": 37.381369899999996
+  },
+  {
+    "id": 287,
+    "name": "85-c-bakery-cafe-san-jose-5",
+    "rating": "85°C Bakery Cafe",
+    "address": 3.5,
+    "city": "1183 S De Anza Blvd",
+    "lat": "San Jose",
+    "long": 37.3035809397697
+  },
+  {
+    "id": 288,
+    "name": "matcha-love-san-jose-6",
+    "rating": "Matcha Love",
+    "address": 4,
+    "city": "675 Saratoga Ave",
+    "lat": "San Jose",
+    "long": 37.314963205990004
+  },
+  {
+    "id": 289,
+    "name": "bambu-sunnyvale-2",
+    "rating": "BAMBU",
+    "address": 3.5,
+    "city": "189 W Washington Ave",
+    "lat": "Sunnyvale",
+    "long": 37.3763175470854
+  },
+  {
+    "id": 290,
+    "name": "icicles-cupertino",
+    "rating": "Icicles",
+    "address": 4,
+    "city": "19622 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.3225177360044
+  },
+  {
+    "id": 291,
+    "name": "sunnywich-cafe-sunnyvale",
+    "rating": "Sunnywich Cafe",
+    "address": 4.5,
+    "city": "223 East Maude Ave",
+    "lat": "Sunnyvale",
+    "long": 37.3878822408982
+  },
+  {
+    "id": 292,
+    "name": "ocha-tea-café-and-restaurant-mountain-view-2",
+    "rating": "Ocha Tea Café & Restaurant",
+    "address": 3.5,
+    "city": "1350 Grant Rd",
+    "lat": "Mountain View",
+    "long": 37.3770405227974
+  },
+  {
+    "id": 293,
+    "name": "bubble-bay-tea-santa-clara",
+    "rating": "Bubble Bay Tea",
+    "address": 3.5,
+    "city": "4300 Great America Pkwy",
+    "lat": "Santa Clara",
+    "long": 37.3928752137833
+  },
+  {
+    "id": 294,
+    "name": "jazen-tea-san-jose-4",
+    "rating": "Jazen Tea",
+    "address": 3.5,
+    "city": "1089 S De Anza Blvd",
+    "lat": "San Jose",
+    "long": 37.30656389999999
+  },
+  {
+    "id": 295,
+    "name": "comebuy-tea-and-coffee-santa-clara",
+    "rating": "Comebuy Tea & Coffee",
+    "address": 3.5,
+    "city": "2712 Augustine Dr",
+    "lat": "Santa Clara",
+    "long": 37.3822051
+  },
+  {
+    "id": 296,
+    "name": "music-tunnel-ktv-cafe-san-jose-2",
+    "rating": "Music Tunnel KTV Cafe",
+    "address": 3.5,
+    "city": "1132 S De Anza Blvd",
+    "lat": "San Jose",
+    "long": 37.30529
+  },
+  {
+    "id": 297,
+    "name": "jazen-tea-santa-clara-3",
+    "rating": "Jazen Tea",
+    "address": 3.5,
+    "city": "3147 Mission College Blvd",
+    "lat": "Santa Clara",
+    "long": 37.3882893
+  },
+  {
+    "id": 298,
+    "name": "butterfly-santa-clara",
+    "rating": "Butterfly",
+    "address": 4,
+    "city": "1000 Lafayette St",
+    "lat": "Santa Clara",
+    "long": 37.350311600000005
+  },
+  {
+    "id": 299,
+    "name": "quickly-cupertino",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "21265 Stevens Creek Blvd",
+    "lat": "Cupertino",
+    "long": 37.32349
+  },
+  {
+    "id": 300,
+    "name": "california-mochi-santa-clara-4",
+    "rating": "California Mochi",
+    "address": 4,
+    "city": "3030 El Camino Real",
+    "lat": "Santa Clara",
+    "long": 37.3517723083496
+  },
+  {
+    "id": 301,
+    "name": "t4-livermore-livermore-2",
+    "rating": "T4 Livermore",
+    "address": 4,
+    "city": "4010 E Ave",
+    "lat": "Livermore",
+    "long": 37.68077
+  },
+  {
+    "id": 302,
+    "name": "orange-tea-livermore",
+    "rating": "Orange Tea",
+    "address": 4.5,
+    "city": "6033 Northfront Rd",
+    "lat": "Livermore",
+    "long": 37.711910145866796
+  },
+  {
+    "id": 303,
+    "name": "big-fat-straw-cafe-livermore-2",
+    "rating": "Big Fat Straw Cafe",
+    "address": 4,
+    "city": "980 Murrieta Blvd",
+    "lat": "Livermore",
+    "long": 37.6761474995967
+  },
+  {
+    "id": 304,
+    "name": "donut-wheel-livermore",
+    "rating": "Donut Wheel",
+    "address": 4,
+    "city": "2017 1st St",
+    "lat": "Livermore",
+    "long": 37.680747985839794
+  },
+  {
+    "id": 305,
+    "name": "t4-san-ramon-3",
+    "rating": "T4",
+    "address": 3,
+    "city": "11020 Bollinger Canyon Rd",
+    "lat": "San Ramon",
+    "long": 37.7749533109683
+  },
+  {
+    "id": 306,
+    "name": "saigon-cafe-livermore",
+    "rating": "Saigon Cafe",
+    "address": 4,
+    "city": "2011 2nd St",
+    "lat": "Livermore",
+    "long": 37.68
+  },
+  {
+    "id": 307,
+    "name": "rice-paper-bistro-livermore",
+    "rating": "Rice Paper Bistro",
+    "address": 3.5,
+    "city": "1548 N Vasco Rd",
+    "lat": "Livermore",
+    "long": 37.718175655226496
+  },
+  {
+    "id": 308,
+    "name": "menchies-frozen-yogurt-livermore",
+    "rating": "Menchie's Frozen Yogurt",
+    "address": 4,
+    "city": "973 E Stanley Blvd",
+    "lat": "Livermore",
+    "long": 37.6783516
+  },
+  {
+    "id": 309,
+    "name": "la-farfalla-bakery-fremont",
+    "rating": "La Farfalla Bakery",
+    "address": 4,
+    "city": "39947 Mission Blvd",
+    "lat": "Fremont",
+    "long": 37.5566932750951
+  },
+  {
+    "id": 310,
+    "name": "ice3-creamery-fremont",
+    "rating": "Ice3 Creamery",
+    "address": 4,
+    "city": "39957 Mission Blvd",
+    "lat": "Fremont",
+    "long": 37.556529
+  },
+  {
+    "id": 311,
+    "name": "yogurt-shop-danville",
+    "rating": "Yogurt Shop",
+    "address": 4,
+    "city": "3450 Camino Tassajara Rd",
+    "lat": "Danville",
+    "long": 37.7986554
+  },
+  {
+    "id": 312,
+    "name": "bean-scene-cafe-fremont-2",
+    "rating": "Bean Scene Cafe",
+    "address": 4,
+    "city": "4000 Bay St",
+    "lat": "Fremont",
+    "long": 37.532728999999996
+  },
+  {
+    "id": 313,
+    "name": "yogurtland-san-ramon",
+    "rating": "Yogurtland",
+    "address": 4,
+    "city": "152 Sunset Dr",
+    "lat": "San Ramon",
+    "long": 37.7624177187681
+  },
+  {
+    "id": 314,
+    "name": "chilly-and-munch-mountain-view",
+    "rating": "Chilly & Munch",
+    "address": 4.5,
+    "city": "2101 Showers Dr",
+    "lat": "Mountain View",
+    "long": 37.4068109566105
+  },
+  {
+    "id": 315,
+    "name": "jazen-tea-mountain-view-3",
+    "rating": "Jazen Tea",
+    "address": 3,
+    "city": "220 Castro St",
+    "lat": "Mountain View",
+    "long": 37.3936614990234
+  },
+  {
+    "id": 316,
+    "name": "t4-palo-alto-2",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "165 University Ave",
+    "lat": "Palo Alto",
+    "long": 37.44451
+  },
+  {
+    "id": 317,
+    "name": "pearl-cafe-mountain-view",
+    "rating": "Pearl Cafe",
+    "address": 3.5,
+    "city": "506A Showers Dr",
+    "lat": "Mountain View",
+    "long": 37.402982863672
+  },
+  {
+    "id": 318,
+    "name": "tapioca-express-mountain-view",
+    "rating": "Tapioca Express",
+    "address": 3,
+    "city": "740 Villa St",
+    "lat": "Mountain View",
+    "long": 37.39379
+  },
+  {
+    "id": 319,
+    "name": "teaspoon-palo-alto-7",
+    "rating": "Teaspoon",
+    "address": 4.5,
+    "city": "2675 Middlefield Rd",
+    "lat": "Palo Alto",
+    "long": 37.434084999999996
+  },
+  {
+    "id": 320,
+    "name": "teaspoon-milpitas",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "201 W Calaveras Blvd",
+    "lat": "Milpitas",
+    "long": 37.42868
+  },
+  {
+    "id": 321,
+    "name": "teasociety-milpitas",
+    "rating": "Teasociety",
+    "address": 3.5,
+    "city": "55 N Milpitas Blvd",
+    "lat": "Milpitas",
+    "long": 37.4341782
+  },
+  {
+    "id": 322,
+    "name": "t4-milpitas",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "540 Barber Ln",
+    "lat": "Milpitas",
+    "long": 37.4207404131486
+  },
+  {
+    "id": 323,
+    "name": "bcute-tea-drinks-and-finger-foods-milpitas-2",
+    "rating": "BCUTE tea drinks and finger foods",
+    "address": 4,
+    "city": "200 Serra Way",
+    "lat": "Milpitas",
+    "long": 37.426490149909895
+  },
+  {
+    "id": 324,
+    "name": "poke-xpress-milpitas",
+    "rating": "Poke Xpress",
+    "address": 4.5,
+    "city": "1236 S Abel St",
+    "lat": "Milpitas",
+    "long": 37.4128099773883
+  },
+  {
+    "id": 325,
+    "name": "happy-lemon-milpitas-6",
+    "rating": "Happy Lemon",
+    "address": 4,
+    "city": "279 W Calaveras Blvd",
+    "lat": "Milpitas",
+    "long": 37.4274706596526
+  },
+  {
+    "id": 326,
+    "name": "yummi-tea-cafe-san-jose-3",
+    "rating": "Yummi Tea Cafe",
+    "address": 4,
+    "city": "2191 Morrill Ave",
+    "lat": "San Jose",
+    "long": 37.414925
+  },
+  {
+    "id": 327,
+    "name": "sno-crave-tea-house-milpitas",
+    "rating": "Sno-Crave Tea House",
+    "address": 3.5,
+    "city": "1777 N Milpitas Blvd",
+    "lat": "Milpitas",
+    "long": 37.455807700753205
+  },
+  {
+    "id": 328,
+    "name": "sancha-bar-milpitas",
+    "rating": "Sancha Bar",
+    "address": 3.5,
+    "city": "279 Jacklin Rd",
+    "lat": "Milpitas",
+    "long": 37.4464966
+  },
+  {
+    "id": 329,
+    "name": "chick-and-tea-milpitas-4",
+    "rating": "Chick & Tea",
+    "address": 3.5,
+    "city": "1723 N Milpitas Blvd",
+    "lat": "Milpitas",
+    "long": 37.4551887512207
+  },
+  {
+    "id": 330,
+    "name": "t4-san-jose",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "1671 N Capitol Ave",
+    "lat": "San Jose",
+    "long": 37.3973731994629
+  },
+  {
+    "id": 331,
+    "name": "queens-cafe-milpitas",
+    "rating": "Queen's Cafe",
+    "address": 3.5,
+    "city": "372 Barber Ln",
+    "lat": "Milpitas",
+    "long": 37.4224649523506
+  },
+  {
+    "id": 332,
+    "name": "the-pennywort-san-jose-5",
+    "rating": "The Pennywort",
+    "address": 4,
+    "city": "2056 N Capitol Ave",
+    "lat": "San Jose",
+    "long": 37.40685
+  },
+  {
+    "id": 333,
+    "name": "bambu-san-jose-9",
+    "rating": "BAMBU",
+    "address": 4,
+    "city": "1688 Hostetter Rd",
+    "lat": "San Jose",
+    "long": 37.38620887762679
+  },
+  {
+    "id": 334,
+    "name": "black-pearl-san-jose-2",
+    "rating": "Black Pearl",
+    "address": 3,
+    "city": "1055 E Brokaw Rd",
+    "lat": "San Jose",
+    "long": 37.384315924191704
+  },
+  {
+    "id": 335,
+    "name": "happiness-cafe-san-jose",
+    "rating": "Happiness Cafe",
+    "address": 4.5,
+    "city": "1688 Hostetter Rd",
+    "lat": "San Jose",
+    "long": 37.3863881481701
+  },
+  {
+    "id": 336,
+    "name": "85-c-bakery-cafe-milpitas-2",
+    "rating": "85°C Bakery Cafe",
+    "address": 3.5,
+    "city": "672 Barber Ln",
+    "lat": "Milpitas",
+    "long": 37.419465
+  },
+  {
+    "id": 337,
+    "name": "simpletea-milpitas",
+    "rating": "Simpletea",
+    "address": 3.5,
+    "city": "1535 Landess Ave",
+    "lat": "Milpitas",
+    "long": 37.416848
+  },
+  {
+    "id": 338,
+    "name": "bambu-milpitas-7",
+    "rating": "BAMBU",
+    "address": 3.5,
+    "city": "89 S Park Victoria Dr",
+    "lat": "Milpitas",
+    "long": 37.433926
+  },
+  {
+    "id": 339,
+    "name": "fantasia-coffee-and-tea-santa-clara",
+    "rating": "Fantasia Coffee & Tea",
+    "address": 3,
+    "city": "3969 Rivermark Plz",
+    "lat": "Santa Clara",
+    "long": 37.3953035880334
+  },
+  {
+    "id": 340,
+    "name": "shihlin-taiwan-street-snacks-milpitas",
+    "rating": "Shihlin Taiwan Street Snacks",
+    "address": 4,
+    "city": "522 Barber Ln",
+    "lat": "Milpitas",
+    "long": 37.420773
+  },
+  {
+    "id": 341,
+    "name": "quickly-milpitas-2",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "1350 S Park Victoria Dr",
+    "lat": "Milpitas",
+    "long": 37.4178751788897
+  },
+  {
+    "id": 342,
+    "name": "honeyberry-san-jose-9",
+    "rating": "Honeyberry",
+    "address": 4.5,
+    "city": "3655 N 1st St",
+    "lat": "San Jose",
+    "long": 37.4093138578249
+  },
+  {
+    "id": 343,
+    "name": "aroma-coffee-and-snacks-milpitas",
+    "rating": "Aroma Coffee and Snacks",
+    "address": 4,
+    "city": "1535 Landess Ave",
+    "lat": "Milpitas",
+    "long": 37.416845952699106
+  },
+  {
+    "id": 344,
+    "name": "teatime-redwood-city",
+    "rating": "Teatime",
+    "address": 4,
+    "city": "1003 El Camino Real",
+    "lat": "Redwood City",
+    "long": 37.48460420714571
+  },
+  {
+    "id": 345,
+    "name": "comebuy-drinks-redwood-city",
+    "rating": "Comebuy Drinks",
+    "address": 4,
+    "city": "2074 Broadway",
+    "lat": "Redwood City",
+    "long": 37.4868
+  },
+  {
+    "id": 346,
+    "name": "teaspoon-redwood-city",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "2361 Broadway St",
+    "lat": "Redwood City",
+    "long": 37.4861601263273
+  },
+  {
+    "id": 347,
+    "name": "davidstea-palo-alto-2",
+    "rating": "DAVIDsTEA",
+    "address": 4.5,
+    "city": "318 University Ave",
+    "lat": "Palo Alto",
+    "long": 37.446105700000004
+  },
+  {
+    "id": 348,
+    "name": "pokélove-palo-alto",
+    "rating": "pokéLOVE",
+    "address": 3.5,
+    "city": "855 El Camino Real",
+    "lat": "Palo Alto",
+    "long": 37.438632
+  },
+  {
+    "id": 349,
+    "name": "bare-bowls-palo-alto",
+    "rating": "Bare Bowls",
+    "address": 4,
+    "city": "530 Emerson St",
+    "lat": "Palo Alto",
+    "long": 37.44413
+  },
+  {
+    "id": 350,
+    "name": "tea-time-palo-alto",
+    "rating": "Tea Time",
+    "address": 3.5,
+    "city": "542 Ramona St",
+    "lat": "Palo Alto",
+    "long": 37.444610595703104
+  },
+  {
+    "id": 351,
+    "name": "chantal-guillon-macarons-and-teas-palo-alto-2",
+    "rating": "Chantal Guillon Macarons & Teas",
+    "address": 4.5,
+    "city": "444 University Ave",
+    "lat": "Palo Alto",
+    "long": 37.447520000000004
+  },
+  {
+    "id": 352,
+    "name": "happy-donuts-palo-alto",
+    "rating": "Happy Donuts",
+    "address": 3.5,
+    "city": "3916 El Camino Real",
+    "lat": "Palo Alto",
+    "long": 37.41643
+  },
+  {
+    "id": 353,
+    "name": "quickly-sunnyvale-4",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "415 N Mary Ave",
+    "lat": "Sunnyvale",
+    "long": 37.390076192143
+  },
+  {
+    "id": 354,
+    "name": "fraiche-palo-alto-2",
+    "rating": "Fraiche",
+    "address": 4,
+    "city": "200 Hamilton Ave",
+    "lat": "Palo Alto",
+    "long": 37.443875467424796
+  },
+  {
+    "id": 355,
+    "name": "quickly-redwood-city",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "300 Walnut St",
+    "lat": "Redwood City",
+    "long": 37.4917931901457
+  },
+  {
+    "id": 356,
+    "name": "coupa-café-palo-alto-3",
+    "rating": "Coupa Café",
+    "address": 3.5,
+    "city": "538 Ramona St",
+    "lat": "Palo Alto",
+    "long": 37.444682
+  },
+  {
+    "id": 357,
+    "name": "cream-palo-alto-3",
+    "rating": "CREAM",
+    "address": 3.5,
+    "city": "440 University Ave",
+    "lat": "Palo Alto",
+    "long": 37.447555
+  },
+  {
+    "id": 358,
+    "name": "ohana-express-redwood-city-2",
+    "rating": "Ohana Express",
+    "address": 4,
+    "city": "640 Woodside Rd",
+    "lat": "Redwood City",
+    "long": 37.46868
+  },
+  {
+    "id": 359,
+    "name": "yogurtland-palo-alto",
+    "rating": "Yogurtland",
+    "address": 4,
+    "city": "494 University Ave",
+    "lat": "Palo Alto",
+    "long": 37.4480657
+  },
+  {
+    "id": 360,
+    "name": "coupa-café-lytton-palo-alto",
+    "rating": "Coupa Café - Lytton",
+    "address": 3.5,
+    "city": "111 Lytton Ave",
+    "lat": "Palo Alto",
+    "long": 37.4444718383711
+  },
+  {
+    "id": 361,
+    "name": "green-bakery-and-café-los-altos-11",
+    "rating": "Green Bakery & Café",
+    "address": 3.5,
+    "city": "692 Fremont Ave",
+    "lat": "Los Altos",
+    "long": 37.360467292665504
+  },
+  {
+    "id": 362,
+    "name": "wild-berry-yogurt-menlo-park",
+    "rating": "Wild Berry Yogurt",
+    "address": 3.5,
+    "city": "325 Sharon Park Dr",
+    "lat": "Menlo Park",
+    "long": 37.42398
+  },
+  {
+    "id": 363,
+    "name": "the-posh-bagel-los-altos",
+    "rating": "The Posh Bagel",
+    "address": 3.5,
+    "city": "310 Main St",
+    "lat": "Los Altos",
+    "long": 37.3783798
+  },
+  {
+    "id": 364,
+    "name": "paris-baguette-palo-alto",
+    "rating": "Paris Baguette",
+    "address": 3.5,
+    "city": "383 University Ave",
+    "lat": "Palo Alto",
+    "long": 37.447196960449205
+  },
+  {
+    "id": 365,
+    "name": "taza-deli-and-cafe-redwood-city",
+    "rating": "Taza Deli & Cafe",
+    "address": 5,
+    "city": "1796 Broadway",
+    "lat": "Redwood City",
+    "long": 37.4868656
+  },
+  {
+    "id": 366,
+    "name": "rojoz-gourmet-wraps-palo-alto-2",
+    "rating": "Rojoz Gourmet Wraps",
+    "address": 3.5,
+    "city": "3906 Middlefield Rd",
+    "lat": "Palo Alto",
+    "long": 37.41883
+  },
+  {
+    "id": 367,
+    "name": "froyola-redwood-city",
+    "rating": "Froyola",
+    "address": 4,
+    "city": "2206 Broadway St",
+    "lat": "Redwood City",
+    "long": 37.4867482944358
+  },
+  {
+    "id": 368,
+    "name": "mr-green-bubble-sunnyvale",
+    "rating": "Mr. Green Bubble",
+    "address": 5,
+    "city": "1255 S Mary Ave",
+    "lat": "Sunnyvale",
+    "long": 37.35338
+  },
+  {
+    "id": 369,
+    "name": "coupa-cafe-green-library-stanford",
+    "rating": "Coupa Cafe - Green Library",
+    "address": 3.5,
+    "city": "571 Escondido Mall",
+    "lat": "Stanford",
+    "long": 37.426249336151
+  },
+  {
+    "id": 370,
+    "name": "dohatsuten-palo-alto",
+    "rating": "Dohatsuten",
+    "address": 3.5,
+    "city": "799 San Antonio Rd",
+    "lat": "Palo Alto",
+    "long": 37.4203109741211
+  },
+  {
+    "id": 371,
+    "name": "panda-express-mountain-view-2",
+    "rating": "Panda Express",
+    "address": 2,
+    "city": "1035 El Monte Ave",
+    "lat": "Mountain View",
+    "long": 37.390983766688
+  },
+  {
+    "id": 372,
+    "name": "nekter-juice-bar-mountain-view",
+    "rating": "Nekter Juice Bar",
+    "address": 3.5,
+    "city": "685 San Antonio Rd",
+    "lat": "Mountain View",
+    "long": 37.401559899999995
+  },
+  {
+    "id": 373,
+    "name": "green-leaf-asian-bistro-and-cafe-redwood-city-2",
+    "rating": "Green Leaf Asian Bistro & Cafe",
+    "address": 4,
+    "city": "865 Middlefield Rd",
+    "lat": "Redwood City",
+    "long": 37.4857502210641
+  },
+  {
+    "id": 374,
+    "name": "koma-sushi-restaurant-menlo-park-3",
+    "rating": "Koma Sushi Restaurant",
+    "address": 3.5,
+    "city": "211 El Camino Real",
+    "lat": "Menlo Park",
+    "long": 37.4483544
+  },
+  {
+    "id": 375,
+    "name": "the-axe-and-palm-stanford",
+    "rating": "The Axe and Palm",
+    "address": 2.5,
+    "city": "Old Union Stanford University",
+    "lat": "Stanford",
+    "long": 37.425371754743
+  },
+  {
+    "id": 376,
+    "name": "cocohodo-sunnyvale-2",
+    "rating": "Cocohodo",
+    "address": 4,
+    "city": "1082 E El Camino Real",
+    "lat": "Sunnyvale",
+    "long": 37.3517264451999
+  },
+  {
+    "id": 377,
+    "name": "hotpot-first-sunnyvale",
+    "rating": "Hotpot First",
+    "address": 3.5,
+    "city": "1149 N Lawrence Expy",
+    "lat": "Sunnyvale",
+    "long": 37.3973885
+  },
+  {
+    "id": 378,
+    "name": "bean-scene-sunnyvale",
+    "rating": "Bean Scene",
+    "address": 3.5,
+    "city": "186 S Murphy Ave",
+    "lat": "Sunnyvale",
+    "long": 37.376183399999995
+  },
+  {
+    "id": 379,
+    "name": "sharetea-santa-clara-7",
+    "rating": "Sharetea",
+    "address": 3.5,
+    "city": "2855 Stevens Creek Blvd",
+    "lat": "Santa Clara",
+    "long": 37.325509999999994
+  },
+  {
+    "id": 380,
+    "name": "jazen-tea-santa-clara-santa-clara",
+    "rating": "Jazen Tea Santa Clara",
+    "address": 2.5,
+    "city": "3484 El Camino Real",
+    "lat": "Santa Clara",
+    "long": 37.351586391268796
+  },
+  {
+    "id": 381,
+    "name": "honeyberry-santa-clara",
+    "rating": "Honeyberry",
+    "address": 3.5,
+    "city": "3488 El Camino Real",
+    "lat": "Santa Clara",
+    "long": 37.35156814963771
+  },
+  {
+    "id": 382,
+    "name": "world-wrapps-2-0-santa-clara",
+    "rating": "World Wrapps 2.0",
+    "address": 4.5,
+    "city": "3125 Mission College Blvd",
+    "lat": "Santa Clara",
+    "long": 37.38919
+  },
+  {
+    "id": 383,
+    "name": "youji-fresh-rolls-wine-and-tea-santa-clara",
+    "rating": "Youji Fresh Rolls Wine & Tea",
+    "address": 2.5,
+    "city": "2855 Stevens Creek Blvd",
+    "lat": "Santa Clara",
+    "long": 37.326036489104
+  },
+  {
+    "id": 384,
+    "name": "frozos-frozen-yogurt-santa-clara",
+    "rating": "Frozo's Frozen Yogurt",
+    "address": 3.5,
+    "city": "1000 Lafayette St",
+    "lat": "Santa Clara",
+    "long": 37.3503848
+  },
+  {
+    "id": 385,
+    "name": "cool-tea-bar-south-san-francisco-4",
+    "rating": "Cool Tea Bar",
+    "address": 3.5,
+    "city": "630 El Camino Real",
+    "lat": "South San Francisco",
+    "long": 37.649255149959394
+  },
+  {
+    "id": 386,
+    "name": "tiger-tea-and-juice-burlingame-3",
+    "rating": "Tiger Tea & Juice",
+    "address": 4.5,
+    "city": "1803 El Camino Real",
+    "lat": "Burlingame",
+    "long": 37.594114000000005
+  },
+  {
+    "id": 387,
+    "name": "aqua-club-dessert-and-beverage-san-bruno",
+    "rating": "Aqua Club Dessert & Beverage",
+    "address": 4.5,
+    "city": "440 San Mateo Ave",
+    "lat": "San Bruno",
+    "long": 37.622566
+  },
+  {
+    "id": 388,
+    "name": "bobabia-san-mateo",
+    "rating": "Bobabia",
+    "address": 4,
+    "city": "271 - 273 Baldwin Ave",
+    "lat": "San Mateo",
+    "long": 37.56719879999999
+  },
+  {
+    "id": 389,
+    "name": "happy-lemon-burlingame-4",
+    "rating": "Happy Lemon",
+    "address": 4,
+    "city": "1419 Burlingame Ave",
+    "lat": "Burlingame",
+    "long": 37.5773026
+  },
+  {
+    "id": 390,
+    "name": "eggettes-south-san-francisco",
+    "rating": "Eggettes",
+    "address": 4,
+    "city": "639 El Camino Real",
+    "lat": "South San Francisco",
+    "long": 37.649226500000005
+  },
+  {
+    "id": 391,
+    "name": "tpumps-burlingame",
+    "rating": "Tpumps",
+    "address": 4,
+    "city": "1118 Burlingame Ave",
+    "lat": "Burlingame",
+    "long": 37.5794379623736
+  },
+  {
+    "id": 392,
+    "name": "teaspoon-san-mateo",
+    "rating": "Teaspoon",
+    "address": 4,
+    "city": "128 E 3rd Ave",
+    "lat": "San Mateo",
+    "long": 37.564318
+  },
+  {
+    "id": 393,
+    "name": "cha-express-san-mateo",
+    "rating": "Cha Express",
+    "address": 4,
+    "city": "212 E 3rd Ave",
+    "lat": "San Mateo",
+    "long": 37.564971299999996
+  },
+  {
+    "id": 394,
+    "name": "search-tea-millbrae-5",
+    "rating": "Search Tea",
+    "address": 4,
+    "city": "105 Park Blvd",
+    "lat": "Millbrae",
+    "long": 37.61218
+  },
+  {
+    "id": 395,
+    "name": "tea-world-pacifica",
+    "rating": "Tea World",
+    "address": 4,
+    "city": "90 Eureka Sq",
+    "lat": "Pacifica",
+    "long": 37.633749200000004
+  },
+  {
+    "id": 396,
+    "name": "t4-millbrae-10",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "315 Broadway",
+    "lat": "Millbrae",
+    "long": 37.601183
+  },
+  {
+    "id": 397,
+    "name": "i-tea-burlingame-2",
+    "rating": "i-Tea",
+    "address": 5,
+    "city": "346 Lorton Ave",
+    "lat": "Burlingame",
+    "long": 37.5801206
+  },
+  {
+    "id": 398,
+    "name": "boba-dude-half-moon-bay",
+    "rating": "Boba Dude",
+    "address": 3.5,
+    "city": "80 Cabrillo Hwy N",
+    "lat": "Half Moon Bay",
+    "long": 37.4702203984019
+  },
+  {
+    "id": 399,
+    "name": "eggettes-millbrae-2",
+    "rating": "Eggettes",
+    "address": 4,
+    "city": "979 Broadway",
+    "lat": "Millbrae",
+    "long": 37.6048409390981
+  },
+  {
+    "id": 400,
+    "name": "gong-cha-san-mateo-2",
+    "rating": "Gong Cha",
+    "address": 3.5,
+    "city": "110 S B St",
+    "lat": "San Mateo",
+    "long": 37.5667191
+  },
+  {
+    "id": 401,
+    "name": "bambu-south-san-francisco",
+    "rating": "BAMBU",
+    "address": 3.5,
+    "city": "2223 Gellert Blvd",
+    "lat": "South San Francisco",
+    "long": 37.649195
+  },
+  {
+    "id": 402,
+    "name": "super-cue-cafe-san-mateo-2",
+    "rating": "Super Cue Cafe",
+    "address": 3.5,
+    "city": "2986 S Norfolk St",
+    "lat": "San Mateo",
+    "long": 37.544473311782106
+  },
+  {
+    "id": 403,
+    "name": "bambu-san-mateo-2",
+    "rating": "BAMBU",
+    "address": 4,
+    "city": "153 South B St",
+    "lat": "San Mateo",
+    "long": 37.5665365
+  },
+  {
+    "id": 404,
+    "name": "eggettes-san-mateo",
+    "rating": "Eggettes",
+    "address": 4,
+    "city": "47 S B St",
+    "lat": "San Mateo",
+    "long": 37.567409999999995
+  },
+  {
+    "id": 405,
+    "name": "chatime-san-mateo-2",
+    "rating": "Chatime",
+    "address": 3.5,
+    "city": "165 E 4th Ave",
+    "lat": "San Mateo",
+    "long": 37.56413
+  },
+  {
+    "id": 406,
+    "name": "tpumps-foster-city",
+    "rating": "Tpumps",
+    "address": 4,
+    "city": "985 E Hillsdale Blvd",
+    "lat": "Foster City",
+    "long": 37.5573531403401
+  },
+  {
+    "id": 407,
+    "name": "creme-brewlee-san-mateo-2",
+    "rating": "Creme Brewlee",
+    "address": 4,
+    "city": "2948 S Norfolk St",
+    "lat": "San Mateo",
+    "long": 37.5448989862154
+  },
+  {
+    "id": 408,
+    "name": "chatime-foster-city",
+    "rating": "Chatime",
+    "address": 3.5,
+    "city": "969A Edgewater Blvd",
+    "lat": "Foster City",
+    "long": 37.544739
+  },
+  {
+    "id": 409,
+    "name": "quickly-san-mateo",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "142 E 3rd Ave",
+    "lat": "San Mateo",
+    "long": 37.564361572265604
+  },
+  {
+    "id": 410,
+    "name": "fresh-nation-desserts-san-mateo-2",
+    "rating": "Fresh Nation Desserts",
+    "address": 3,
+    "city": "30 E 3rd Ave",
+    "lat": "San Mateo",
+    "long": 37.5633809
+  },
+  {
+    "id": 411,
+    "name": "ya-ua-yogurt-and-boba-tea-belmont-2",
+    "rating": "Ya-Ua Yogurt & Boba Tea",
+    "address": 4,
+    "city": "1090 Alameda De Las Pulgas",
+    "lat": "Belmont",
+    "long": 37.5102232
+  },
+  {
+    "id": 412,
+    "name": "snacks-san-mateo-2",
+    "rating": "Snacks",
+    "address": 4.5,
+    "city": "31 N B St",
+    "lat": "San Mateo",
+    "long": 37.568342799999996
+  },
+  {
+    "id": 413,
+    "name": "dessert-republic-san-mateo",
+    "rating": "Dessert Republic",
+    "address": 3.5,
+    "city": "138 Main St",
+    "lat": "San Mateo",
+    "long": 37.566900399999994
+  },
+  {
+    "id": 414,
+    "name": "mints-and-honey-san-carlos",
+    "rating": "Mints & Honey",
+    "address": 4.5,
+    "city": "1524 El Camino Real",
+    "lat": "San Carlos",
+    "long": 37.49613
+  },
+  {
+    "id": 415,
+    "name": "bambu-millbrae-2",
+    "rating": "BAMBU",
+    "address": 4.5,
+    "city": "203 El Camino Real",
+    "lat": "Millbrae",
+    "long": 37.600379700000005
+  },
+  {
+    "id": 416,
+    "name": "icicles-san-mateo",
+    "rating": "ICICLES",
+    "address": 4,
+    "city": "222 E 3rd Ave",
+    "lat": "San Mateo",
+    "long": 37.565219899999995
+  },
+  {
+    "id": 417,
+    "name": "kingkat-bar-and-eatery-san-mateo-2",
+    "rating": "KingKat Bar & Eatery",
+    "address": 4.5,
+    "city": "33 W 25th Ave",
+    "lat": "San Mateo",
+    "long": 37.54368
+  },
+  {
+    "id": 418,
+    "name": "quickly-burlingame-2",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "1407 Burlingame Ave",
+    "lat": "Burlingame",
+    "long": 37.577187594876705
+  },
+  {
+    "id": 419,
+    "name": "antoines-cookie-shop-san-mateo-3",
+    "rating": "Antoine's Cookie Shop",
+    "address": 4.5,
+    "city": "220 2nd Ave",
+    "lat": "San Mateo",
+    "long": 37.56595479999999
+  },
+  {
+    "id": 420,
+    "name": "quickly-foster-city-3",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "969k Edgewater Blvd",
+    "lat": "Foster City",
+    "long": 37.544759899999995
+  },
+  {
+    "id": 421,
+    "name": "moo-moo-yogurt-foster-city",
+    "rating": "Moo Moo Yogurt",
+    "address": 4,
+    "city": "969F Edgewater Blvd",
+    "lat": "Foster City",
+    "long": 37.5441112400917
+  },
+  {
+    "id": 422,
+    "name": "clear-optometry-san-mateo",
+    "rating": "Clear Optometry",
+    "address": 4,
+    "city": "138 E 3rd Ave",
+    "lat": "San Mateo",
+    "long": 37.5643
+  },
+  {
+    "id": 423,
+    "name": "boiling-point-san-mateo",
+    "rating": "Boiling Point",
+    "address": 3,
+    "city": "111 E 4th Ave",
+    "lat": "San Mateo",
+    "long": 37.56386
+  },
+  {
+    "id": 424,
+    "name": "cream-san-mateo",
+    "rating": "CREAM",
+    "address": 4,
+    "city": "134 S B St",
+    "lat": "San Mateo",
+    "long": 37.566510799999996
+  },
+  {
+    "id": 425,
+    "name": "poke-island-creasian-kitchen-san-mateo",
+    "rating": "Poke Island CreAsian Kitchen",
+    "address": 4,
+    "city": "43 S B St",
+    "lat": "San Mateo",
+    "long": 37.5674055
+  },
+  {
+    "id": 426,
+    "name": "waterfront-cafe-burlingame",
+    "rating": "Waterfront Cafe",
+    "address": 5,
+    "city": "500 Airport Blvd",
+    "lat": "Burlingame",
+    "long": 37.590323
+  },
+  {
+    "id": 427,
+    "name": "never-too-latte-san-bruno-2",
+    "rating": "Never Too Latte",
+    "address": 3.5,
+    "city": "486 San Mateo Ave",
+    "lat": "San Bruno",
+    "long": 37.6241
+  },
+  {
+    "id": 428,
+    "name": "jougert-bar-burlingame",
+    "rating": "Jougert Bar",
+    "address": 4.5,
+    "city": "1115 Burlingame Ave",
+    "lat": "Burlingame",
+    "long": 37.5793126
+  },
+  {
+    "id": 429,
+    "name": "mini-coffee-san-mateo-2",
+    "rating": "Mini Coffee",
+    "address": 4,
+    "city": "800 S B St",
+    "lat": "San Mateo",
+    "long": 37.56167
+  },
+  {
+    "id": 430,
+    "name": "sweet-indulgence-millbrae-3",
+    "rating": "Sweet Indulgence",
+    "address": 3,
+    "city": "298 Broadway",
+    "lat": "Millbrae",
+    "long": 37.600790100000005
+  },
+  {
+    "id": 431,
+    "name": "ramen-dojo-san-mateo",
+    "rating": "Ramen Dojo",
+    "address": 4,
+    "city": "805 S B St",
+    "lat": "San Mateo",
+    "long": 37.5621429
+  },
+  {
+    "id": 432,
+    "name": "quickly-millbrae-4",
+    "rating": "Quickly",
+    "address": 4.5,
+    "city": "325 El Camino Real",
+    "lat": "Millbrae",
+    "long": 37.60147
+  },
+  {
+    "id": 433,
+    "name": "bobo-drinks-fairfield-2",
+    "rating": "Bobo Drinks",
+    "address": 3.5,
+    "city": "1305 Gateway Blvd",
+    "lat": "Fairfield",
+    "long": 38.264065585563294
+  },
+  {
+    "id": 434,
+    "name": "t4-tea-for-u-fairfield",
+    "rating": "T4 Tea For U",
+    "address": 3,
+    "city": "2700 N Texas St",
+    "lat": "Fairfield",
+    "long": 38.276709999999994
+  },
+  {
+    "id": 435,
+    "name": "peace-love-and-boba-vacaville",
+    "rating": "Peace Love & Boba",
+    "address": 4,
+    "city": "3083 Alamo Dr",
+    "lat": "Vacaville",
+    "long": 38.33538734674521
+  },
+  {
+    "id": 436,
+    "name": "halo-halo-bar-and-boba-station-suisun-city",
+    "rating": "Halo Halo Bar & Boba Station",
+    "address": 4,
+    "city": "303 Lawler Ctr Dr",
+    "lat": "Suisun City",
+    "long": 38.24225
+  },
+  {
+    "id": 437,
+    "name": "quickly-fairfield-3",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "1350 Travis Blvd",
+    "lat": "Fairfield",
+    "long": 38.2603729
+  },
+  {
+    "id": 438,
+    "name": "tutti-frutti-fairfield-2",
+    "rating": "Tutti Frutti",
+    "address": 4,
+    "city": "3334 N Texas St",
+    "lat": "Fairfield",
+    "long": 38.2890102925701
+  },
+  {
+    "id": 439,
+    "name": "sharetea-concord-3",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "1850 Mount Diablo St",
+    "lat": "Concord",
+    "long": 37.976159602403605
+  },
+  {
+    "id": 440,
+    "name": "i-tea-pittsburg",
+    "rating": "i-Tea",
+    "address": 4,
+    "city": "2121 Loveridge Rd",
+    "lat": "Pittsburg",
+    "long": 38.0108707398176
+  },
+  {
+    "id": 441,
+    "name": "quickly-vallejo-12",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "145 Plaza Dr",
+    "lat": "Vallejo",
+    "long": 38.1340827941895
+  },
+  {
+    "id": 442,
+    "name": "teazentea-brentwood-3",
+    "rating": "TeaZenTea",
+    "address": 4.5,
+    "city": "1135 2nd St",
+    "lat": "Brentwood",
+    "long": 37.9369147127279
+  },
+  {
+    "id": 443,
+    "name": "quickly-vacaville",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "1667 E Monte Vista Ave",
+    "lat": "Vacaville",
+    "long": 38.3700576
+  },
+  {
+    "id": 444,
+    "name": "mandro-teahouse-davis",
+    "rating": "MandRo Teahouse",
+    "address": 4,
+    "city": "1260 Lake Blvd",
+    "lat": "Davis",
+    "long": 38.5541889
+  },
+  {
+    "id": 445,
+    "name": "tapioca-express-vallejo",
+    "rating": "Tapioca Express",
+    "address": 3,
+    "city": "3720 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.125256896019
+  },
+  {
+    "id": 446,
+    "name": "okashi-fusion-vacaville",
+    "rating": "Okashi Fusion",
+    "address": 4.5,
+    "city": "1679 E Monte Vista Ave",
+    "lat": "Vacaville",
+    "long": 38.3703303337097
+  },
+  {
+    "id": 447,
+    "name": "cafe-tapioca-hercules",
+    "rating": "Cafe Tapioca",
+    "address": 4,
+    "city": "1581 Sycamore Ave",
+    "lat": "Hercules",
+    "long": 38.00996
+  },
+  {
+    "id": 448,
+    "name": "pho-saigon-no-1-vietnamese-restaurant-fairfield-2",
+    "rating": "Pho Saigon No 1 Vietnamese Restaurant",
+    "address": 4,
+    "city": "1972 N Texas St",
+    "lat": "Fairfield",
+    "long": 38.26504
+  },
+  {
+    "id": 449,
+    "name": "ontap-davis",
+    "rating": "OnTap",
+    "address": 4,
+    "city": "825 Russell Blvd",
+    "lat": "Davis",
+    "long": 38.54652539999999
+  },
+  {
+    "id": 450,
+    "name": "t4-antioch-12",
+    "rating": "T4",
+    "address": 4,
+    "city": "4532 Lone Tree Way",
+    "lat": "Antioch",
+    "long": 37.9659262678636
+  },
+  {
+    "id": 451,
+    "name": "bobaloca-concord-4",
+    "rating": "Bobaloca",
+    "address": 3.5,
+    "city": "1843 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.974990319878394
+  },
+  {
+    "id": 452,
+    "name": "teabo-café-davis",
+    "rating": "Teabo Café",
+    "address": 3.5,
+    "city": "2191 Cowell Blvd",
+    "lat": "Davis",
+    "long": 38.5407655197016
+  },
+  {
+    "id": 453,
+    "name": "lazi-cow-davis",
+    "rating": "Lazi Cow",
+    "address": 3.5,
+    "city": "407 G St",
+    "lat": "Davis",
+    "long": 38.5465
+  },
+  {
+    "id": 454,
+    "name": "t4-san-pablo-3",
+    "rating": "T4",
+    "address": 4,
+    "city": "13350 San Pablo Ave",
+    "lat": "San Pablo",
+    "long": 37.954766898894
+  },
+  {
+    "id": 455,
+    "name": "t4-concord-concord",
+    "rating": "T4 - Concord",
+    "address": 3.5,
+    "city": "2151 Salvio St",
+    "lat": "Concord",
+    "long": 37.9776375471723
+  },
+  {
+    "id": 456,
+    "name": "dragon-snow-el-sobrante",
+    "rating": "Dragon Snow",
+    "address": 3.5,
+    "city": "3550 San Pablo Dam Rd",
+    "lat": "El Sobrante",
+    "long": 37.96301
+  },
+  {
+    "id": 457,
+    "name": "cj-fusion-fairfield",
+    "rating": "CJ Fusion",
+    "address": 3.5,
+    "city": "201 Travis Blvd",
+    "lat": "Fairfield",
+    "long": 38.25803
+  },
+  {
+    "id": 458,
+    "name": "gong-cha-davis",
+    "rating": "Gong Cha",
+    "address": 3.5,
+    "city": "1411 W Covell Blvd",
+    "lat": "Davis",
+    "long": 38.5620003834934
+  },
+  {
+    "id": 459,
+    "name": "suisun-seafood-center-suisun-city",
+    "rating": "Suisun Seafood Center",
+    "address": 3.5,
+    "city": "303 Lawler Center Dr",
+    "lat": "Suisun City",
+    "long": 38.24225
+  },
+  {
+    "id": 460,
+    "name": "teaone-davis",
+    "rating": "TeaOne",
+    "address": 3.5,
+    "city": "213 E St",
+    "lat": "Davis",
+    "long": 38.5436287
+  },
+  {
+    "id": 461,
+    "name": "quickly-brentwood-brentwood",
+    "rating": "Quickly Brentwood",
+    "address": 4.5,
+    "city": "2415 Empire Ave",
+    "lat": "Brentwood",
+    "long": 37.960314399999994
+  },
+  {
+    "id": 462,
+    "name": "t4-davis-3",
+    "rating": "T4",
+    "address": 4,
+    "city": "132 E St",
+    "lat": "Davis",
+    "long": 38.543060716395395
+  },
+  {
+    "id": 463,
+    "name": "bangkok-paradise-fairfield",
+    "rating": "Bangkok Paradise",
+    "address": 4,
+    "city": "3344 N Texas St",
+    "lat": "Fairfield",
+    "long": 38.291740000000004
+  },
+  {
+    "id": 464,
+    "name": "easel-davis-2",
+    "rating": "Easel",
+    "address": 4.5,
+    "city": "620 W Covell Blvd",
+    "lat": "Davis",
+    "long": 38.5603285349925
+  },
+  {
+    "id": 465,
+    "name": "sharetea-davis-davis-2",
+    "rating": "Sharetea Davis",
+    "address": 3.5,
+    "city": "207 3rd St",
+    "lat": "Davis",
+    "long": 38.5436861078294
+  },
+  {
+    "id": 466,
+    "name": "the-old-teahouse-davis-3",
+    "rating": "The Old Teahouse",
+    "address": 4,
+    "city": "825 Russell Blvd",
+    "lat": "Davis",
+    "long": 38.54652539999999
+  },
+  {
+    "id": 467,
+    "name": "pho-lee-hoa-phat-fairfield",
+    "rating": "Pho Lee Hoa Phat",
+    "address": 3.5,
+    "city": "870 E Travis",
+    "lat": "Fairfield",
+    "long": 38.25835782958921
+  },
+  {
+    "id": 468,
+    "name": "skyview-noodle-and-tea-pittsburg-3",
+    "rating": "Skyview Noodle & Tea",
+    "address": 4.5,
+    "city": "200 E 3rd St",
+    "lat": "Pittsburg",
+    "long": 38.032940110361295
+  },
+  {
+    "id": 469,
+    "name": "noodle-house-fairfield-2",
+    "rating": "Noodle House",
+    "address": 3,
+    "city": "1305 Gateway Blvd",
+    "lat": "Fairfield",
+    "long": 38.263944
+  },
+  {
+    "id": 470,
+    "name": "sisig-suisun-city-3",
+    "rating": "SISIG",
+    "address": 3,
+    "city": "303 Lawler Center Dr",
+    "lat": "Suisun City",
+    "long": 38.24225
+  },
+  {
+    "id": 471,
+    "name": "rrags-caffe-benicia",
+    "rating": "Rrags Caffe",
+    "address": 4.5,
+    "city": "1383 E 2nd St",
+    "lat": "Benicia",
+    "long": 38.0543339252472
+  },
+  {
+    "id": 472,
+    "name": "yumygurt-pinole",
+    "rating": "Yumygurt",
+    "address": 4,
+    "city": "2701 Pinole Valley Rd",
+    "lat": "Pinole",
+    "long": 37.9952735900879
+  },
+  {
+    "id": 473,
+    "name": "vampire-penguin-brentwood-2",
+    "rating": "Vampire Penguin",
+    "address": 3,
+    "city": "2545 Sand Creek Rd",
+    "lat": "Brentwood",
+    "long": 37.946219
+  },
+  {
+    "id": 474,
+    "name": "going-green-martinez",
+    "rating": "Going Green",
+    "address": 4.5,
+    "city": "1160 Arnold Dr",
+    "lat": "Martinez",
+    "long": 37.9934616
+  },
+  {
+    "id": 475,
+    "name": "quickly-antioch-2",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "212 E 18th St",
+    "lat": "Antioch",
+    "long": 38.004497387479
+  },
+  {
+    "id": 476,
+    "name": "pho-lee-hoa-phat-vacaville",
+    "rating": "Pho Lee Hoa Phat",
+    "address": 3.5,
+    "city": "88 Peabody Rd",
+    "lat": "Vacaville",
+    "long": 38.3539886474609
+  },
+  {
+    "id": 477,
+    "name": "ice-monster-walnut-creek",
+    "rating": "Ice Monster",
+    "address": 4,
+    "city": "2230 Oak Grove Rd",
+    "lat": "Walnut Creek",
+    "long": 37.9297795146704
+  },
+  {
+    "id": 478,
+    "name": "t4-walnut-creek",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "1815 Ygnacio Valley Rd",
+    "lat": "Walnut Creek",
+    "long": 37.917413700000004
+  },
+  {
+    "id": 479,
+    "name": "chalogy-tea-bar-walnut-creek-4",
+    "rating": "CHALOGY Tea Bar",
+    "address": 3.5,
+    "city": "1349 Locust St",
+    "lat": "Walnut Creek",
+    "long": 37.8981
+  },
+  {
+    "id": 480,
+    "name": "mr-green-bubble-walnut-creek-2",
+    "rating": "Mr. Green Bubble",
+    "address": 3.5,
+    "city": "1539 Locust St",
+    "lat": "Walnut Creek",
+    "long": 37.9000639934234
+  },
+  {
+    "id": 481,
+    "name": "cool-tea-bar-danville-4",
+    "rating": "Cool Tea Bar",
+    "address": 4,
+    "city": "251 Hartz Ave",
+    "lat": "Danville",
+    "long": 37.822753843136795
+  },
+  {
+    "id": 482,
+    "name": "quickly-concord-5",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "4115 Concord Blvd",
+    "lat": "Concord",
+    "long": 37.97879750393
+  },
+  {
+    "id": 483,
+    "name": "quickly-concord",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "1657 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.9728660583496
+  },
+  {
+    "id": 484,
+    "name": "t4-and-poke-walnut-creek",
+    "rating": "T4 And Poke",
+    "address": 3.5,
+    "city": "1385C N Main St",
+    "lat": "Walnut Creek",
+    "long": 37.89883
+  },
+  {
+    "id": 485,
+    "name": "i-tea-moraga-3",
+    "rating": "i-Tea",
+    "address": 4.5,
+    "city": "1460 Moraga Rd",
+    "lat": "Moraga",
+    "long": 37.8353491
+  },
+  {
+    "id": 486,
+    "name": "panache-caffe-lafayette",
+    "rating": "Panache Caffe",
+    "address": 4,
+    "city": "3653 Mt Diablo Blvd",
+    "lat": "Lafayette",
+    "long": 37.8906068
+  },
+  {
+    "id": 487,
+    "name": "coco-swirl-pleasant-hill",
+    "rating": "Coco Swirl",
+    "address": 4,
+    "city": "35 Crescent Dr",
+    "lat": "Pleasant Hill",
+    "long": 37.94665
+  },
+  {
+    "id": 488,
+    "name": "surf-city-squeeze-concord",
+    "rating": "Surf City Squeeze",
+    "address": 3.5,
+    "city": "282 Sun Valley Mall",
+    "lat": "Concord",
+    "long": 37.9672766
+  },
+  {
+    "id": 489,
+    "name": "hello-pho-concord",
+    "rating": "Hello Pho",
+    "address": 4,
+    "city": "1701 Monument Blvd",
+    "lat": "Concord",
+    "long": 37.95516
+  },
+  {
+    "id": 490,
+    "name": "harvest-house-concord",
+    "rating": "Harvest House",
+    "address": 4,
+    "city": "2395 Monument Blvd",
+    "lat": "Concord",
+    "long": 37.960359999999994
+  },
+  {
+    "id": 491,
+    "name": "i-love-teriyaki-and-sushi-concord-2",
+    "rating": "I Love Teriyaki & Sushi",
+    "address": 3.5,
+    "city": "1950 Salvio St",
+    "lat": "Concord",
+    "long": 37.9762523253409
+  },
+  {
+    "id": 492,
+    "name": "cornology-walnut-creek-3",
+    "rating": "Cornology",
+    "address": 4.5,
+    "city": "1349 Locust St",
+    "lat": "Walnut Creek",
+    "long": 37.8981
+  },
+  {
+    "id": 493,
+    "name": "saigon-bistro-concord",
+    "rating": "Saigon Bistro",
+    "address": 3.5,
+    "city": "1701 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.974103
+  },
+  {
+    "id": 494,
+    "name": "99-ranch-market-concord-2",
+    "rating": "99 Ranch Market",
+    "address": 3.5,
+    "city": "1795 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.974712
+  },
+  {
+    "id": 495,
+    "name": "double-rainbow-cafe-benicia",
+    "rating": "Double Rainbow Cafe",
+    "address": 3.5,
+    "city": "560 1st St",
+    "lat": "Benicia",
+    "long": 38.04837
+  },
+  {
+    "id": 496,
+    "name": "blue-saigon-pittsburg",
+    "rating": "Blue Saigon",
+    "address": 4.5,
+    "city": "2243 Railroad Ave",
+    "lat": "Pittsburg",
+    "long": 38.0134741
+  },
+  {
+    "id": 497,
+    "name": "jollibee-concord",
+    "rating": "Jollibee",
+    "address": 3,
+    "city": "2030 Diamond Blvd",
+    "lat": "Concord",
+    "long": 37.97341
+  },
+  {
+    "id": 498,
+    "name": "pho-huynh-hiep-5-kevins-noodle-house-concord",
+    "rating": "Pho Huynh Hiep 5 - Kevin's Noodle House",
+    "address": 3.5,
+    "city": "1833 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.97514
+  },
+  {
+    "id": 499,
+    "name": "pho-lee-hoa-phat-pleasant-hill",
+    "rating": "Pho Lee Hoa Phat",
+    "address": 3.5,
+    "city": "508 Contra Costa Blvd",
+    "lat": "Pleasant Hill",
+    "long": 37.980899
+  },
+  {
+    "id": 500,
+    "name": "pho-huynh-hiep-6-kevins-noodle-house-walnut-creek",
+    "rating": "Pho Huynh Hiep 6 - Kevin's Noodle House",
+    "address": 4,
+    "city": "2034 N Main St",
+    "lat": "Walnut Creek",
+    "long": 37.907985687255895
+  },
+  {
+    "id": 501,
+    "name": "smitten-ice-cream-lafayette",
+    "rating": "Smitten Ice Cream",
+    "address": 3.5,
+    "city": "3545 Mt Diablo Blvd",
+    "lat": "Lafayette",
+    "long": 37.891620700000004
+  },
+  {
+    "id": 502,
+    "name": "aung-maylika-benicia-4",
+    "rating": "Aung Maylika",
+    "address": 4.5,
+    "city": "836 Southampton Rd",
+    "lat": "Benicia",
+    "long": 38.066112359505
+  },
+  {
+    "id": 503,
+    "name": "izzyas-frozen-custard-lafayette-2",
+    "rating": "IzzyA's Frozen Custard",
+    "address": 4.5,
+    "city": "",
+    "lat": "Lafayette",
+    "long": 37.89301
+  },
+  {
+    "id": 504,
+    "name": "yogurtland-pleasant-hill",
+    "rating": "Yogurtland",
+    "address": 4,
+    "city": "2390 Monument Blvd",
+    "lat": "Pleasant Hill",
+    "long": 37.944833431008604
+  },
+  {
+    "id": 505,
+    "name": "golden-bakery-pittsburg",
+    "rating": "Golden Bakery",
+    "address": 5,
+    "city": "2229 Railroad Ave",
+    "lat": "Pittsburg",
+    "long": 38.0136496
+  },
+  {
+    "id": 506,
+    "name": "tutti-frutti-montclair-oakland",
+    "rating": "Tutti Frutti Montclair",
+    "address": 4,
+    "city": "2066 Mountain Blvd",
+    "lat": "Oakland",
+    "long": 37.82616420000001
+  },
+  {
+    "id": 507,
+    "name": "tangelo-frozen-yogurt-moraga",
+    "rating": "Tangelo Frozen Yogurt",
+    "address": 4.5,
+    "city": "384 Park St",
+    "lat": "Moraga",
+    "long": 37.8600274754793
+  },
+  {
+    "id": 508,
+    "name": "surf-city-squeeze-antioch",
+    "rating": "Surf City Squeeze",
+    "address": 3.5,
+    "city": "2556 Somersville Rd",
+    "lat": "Antioch",
+    "long": 38.0000664
+  },
+  {
+    "id": 509,
+    "name": "lv-vietnamese-pho-and-sandwiches-vallejo",
+    "rating": "LV Vietnamese Pho and Sandwiches",
+    "address": 4,
+    "city": "2621 Springs Rd",
+    "lat": "Vallejo",
+    "long": 38.1054840087891
+  },
+  {
+    "id": 510,
+    "name": "korea-house-concord",
+    "rating": "Korea House",
+    "address": 4,
+    "city": "1835 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.97514
+  },
+  {
+    "id": 511,
+    "name": "yo-sushi-martinez",
+    "rating": "Yo Sushi",
+    "address": 3.5,
+    "city": "1029 Arnold Dr",
+    "lat": "Martinez",
+    "long": 37.9969242
+  },
+  {
+    "id": 512,
+    "name": "lulus-kitchen-concord",
+    "rating": "Lulu's Kitchen",
+    "address": 4,
+    "city": "1657 Willow Pass Rd",
+    "lat": "Concord",
+    "long": 37.9728762316744
+  },
+  {
+    "id": 513,
+    "name": "pho-hoa-an-pleasant-hill",
+    "rating": "Pho Hoa An",
+    "address": 3,
+    "city": "1617 Contra Costa Blvd",
+    "lat": "Pleasant Hill",
+    "long": 37.95448064804079
+  },
+  {
+    "id": 514,
+    "name": "saigon-bistro-restaurant-pittsburg",
+    "rating": "Saigon Bistro Restaurant",
+    "address": 3.5,
+    "city": "4285 Century Blvd",
+    "lat": "Pittsburg",
+    "long": 38.0068147913603
+  },
+  {
+    "id": 515,
+    "name": "pho-lee-hoa-phat-pittsburg-5",
+    "rating": "Pho Lee Hoa Phat",
+    "address": 3.5,
+    "city": "140 E Leland Rd",
+    "lat": "Pittsburg",
+    "long": 38.011477889111795
+  },
+  {
+    "id": 516,
+    "name": "viet-nam-noodle-house-antioch-4",
+    "rating": "Viet Nam Noodle House",
+    "address": 4,
+    "city": "3676 Delta Fair Blvd",
+    "lat": "Antioch",
+    "long": 38.0040780947741
+  },
+  {
+    "id": 517,
+    "name": "little-hearty-noodle-moraga-2",
+    "rating": "Little Hearty Noodle",
+    "address": 3.5,
+    "city": "578 Center St",
+    "lat": "Moraga",
+    "long": 37.857808500000004
+  },
+  {
+    "id": 518,
+    "name": "bubble-loca-richmond",
+    "rating": "Bubble Loca",
+    "address": 3.5,
+    "city": "3288 Pierce St",
+    "lat": "Richmond",
+    "long": 37.8988113
+  },
+  {
+    "id": 519,
+    "name": "ten-ren-tea-co-richmond",
+    "rating": "Ten Ren Tea Co",
+    "address": 4,
+    "city": "3288 Pierce St",
+    "lat": "Richmond",
+    "long": 37.898754308959205
+  },
+  {
+    "id": 520,
+    "name": "tala-coffee-and-tea-el-cerrito-2",
+    "rating": "Tala Coffee & Tea",
+    "address": 3.5,
+    "city": "10734 San Pablo Ave",
+    "lat": "El Cerrito",
+    "long": 37.9131379268406
+  },
+  {
+    "id": 521,
+    "name": "sharetea-san-rafael-3",
+    "rating": "Sharetea",
+    "address": 3.5,
+    "city": "967 Grand Ave",
+    "lat": "San Rafael",
+    "long": 37.9717057943344
+  },
+  {
+    "id": 522,
+    "name": "tpartea-boba-drinks-and-banh-mi-san-rafael-3",
+    "rating": "TPartea Boba Drinks And Banh Mi",
+    "address": 3.5,
+    "city": "5800 Northgate Dr",
+    "lat": "San Rafael",
+    "long": 38.0039492652398
+  },
+  {
+    "id": 523,
+    "name": "sunny-day-sweet-house-richmond",
+    "rating": "Sunny Day Sweet House",
+    "address": 3.5,
+    "city": "3288 Pierce St",
+    "lat": "Richmond",
+    "long": 37.89881
+  },
+  {
+    "id": 524,
+    "name": "aloha-pure-water-shaved-ice-san-pablo",
+    "rating": "Aloha Pure Water Shaved Ice",
+    "address": 4.5,
+    "city": "2300 El Portal Dr",
+    "lat": "San Pablo",
+    "long": 37.966045
+  },
+  {
+    "id": 525,
+    "name": "world-wrapps-corte-madera-7",
+    "rating": "World Wrapps",
+    "address": 4.5,
+    "city": "208 Corte Madera Town Ctr",
+    "lat": "Corte Madera",
+    "long": 37.9283378273249
+  },
+  {
+    "id": 526,
+    "name": "quickly-el-cerrito",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "3080 El Cerrito Plz",
+    "lat": "El Cerrito",
+    "long": 37.9012082234262
+  },
+  {
+    "id": 527,
+    "name": "tay-tah-cafe-albany",
+    "rating": "Tay Tah Cafe",
+    "address": 3.5,
+    "city": "1182 Solano Ave",
+    "lat": "Albany",
+    "long": 37.890229999999995
+  },
+  {
+    "id": 528,
+    "name": "sweetheart-cafe-berkeley",
+    "rating": "Sweetheart Cafe",
+    "address": 3.5,
+    "city": "2523 Durant Ave",
+    "lat": "Berkeley",
+    "long": 37.868052500000005
+  },
+  {
+    "id": 529,
+    "name": "teaone-berkeley-berkeley",
+    "rating": "TeaOne Berkeley",
+    "address": 3.5,
+    "city": "2380 Telegraph Ave",
+    "lat": "Berkeley",
+    "long": 37.86727
+  },
+  {
+    "id": 530,
+    "name": "quickly-kobe-bento-richmond-2",
+    "rating": "Quickly - Kobe Bento",
+    "address": 2,
+    "city": "3288 Pierce St",
+    "lat": "Richmond",
+    "long": 37.898897999999996
+  },
+  {
+    "id": 531,
+    "name": "quickly-san-rafael",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "1128 4th St",
+    "lat": "San Rafael",
+    "long": 37.973353700000004
+  },
+  {
+    "id": 532,
+    "name": "sivans-cafe-hayward",
+    "rating": "Sivan's Cafe",
+    "address": 4.5,
+    "city": "766 A St",
+    "lat": "Hayward",
+    "long": 37.67244
+  },
+  {
+    "id": 533,
+    "name": "honey-bear-smoothie-tea-and-dessert-hayward",
+    "rating": "Honey Bear Smoothie Tea & Dessert",
+    "address": 5,
+    "city": "1 Southland Mall Dr",
+    "lat": "Hayward",
+    "long": 37.65423320000001
+  },
+  {
+    "id": 534,
+    "name": "sharetea-san-ramon",
+    "rating": "Sharetea",
+    "address": 4,
+    "city": "2441 San Ramon Valley Blvd",
+    "lat": "San Ramon",
+    "long": 37.774742126464794
+  },
+  {
+    "id": 535,
+    "name": "t4-castro-valley",
+    "rating": "T4",
+    "address": 3.5,
+    "city": "18911 Lake Chabot Rd",
+    "lat": "Castro Valley",
+    "long": 37.70864
+  },
+  {
+    "id": 536,
+    "name": "quickly-hayward",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "25034 Hesperian Blvd",
+    "lat": "Hayward",
+    "long": 37.644355022049204
+  },
+  {
+    "id": 537,
+    "name": "8-twelve-oriental-market-san-leandro",
+    "rating": "8-Twelve Oriental Market",
+    "address": 4,
+    "city": "596 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.731047700000005
+  },
+  {
+    "id": 538,
+    "name": "polaris-ice-cream-rolls-hayward",
+    "rating": "Polaris Ice Cream Rolls",
+    "address": 4,
+    "city": "595 Southland Mall",
+    "lat": "Hayward",
+    "long": 37.652548372651
+  },
+  {
+    "id": 539,
+    "name": "milkcow-castro-valley",
+    "rating": "Milkcow",
+    "address": 3.5,
+    "city": "3223 Castro Valley Blvd",
+    "lat": "Castro Valley",
+    "long": 37.69529
+  },
+  {
+    "id": 540,
+    "name": "satori-tea-company-saratoga",
+    "rating": "Satori Tea Company",
+    "address": 3.5,
+    "city": "14482 Big Basin Way",
+    "lat": "Saratoga",
+    "long": 37.2574696
+  },
+  {
+    "id": 541,
+    "name": "creative-sips-san-jose",
+    "rating": "Creative Sips",
+    "address": 4,
+    "city": "",
+    "lat": "San Jose",
+    "long": 37.3136978149414
+  },
+  {
+    "id": 542,
+    "name": "saratoga-bagels-saratoga",
+    "rating": "Saratoga Bagels",
+    "address": 4.5,
+    "city": "12840 Saratoga Sunnyvale Rd",
+    "lat": "Saratoga",
+    "long": 37.282037944475
+  },
+  {
+    "id": 543,
+    "name": "snowflake-san-jose",
+    "rating": "Snowflake",
+    "address": 3.5,
+    "city": "4306 Moorpark Ave",
+    "lat": "San Jose",
+    "long": 37.3155981167824
+  },
+  {
+    "id": 544,
+    "name": "steepers-campbell",
+    "rating": "Steepers",
+    "address": 4.5,
+    "city": "346 E Campbell Ave",
+    "lat": "Campbell",
+    "long": 37.28691
+  },
+  {
+    "id": 545,
+    "name": "yodo-yogurt-campbell",
+    "rating": "YoDo Yogurt",
+    "address": 3.5,
+    "city": "2475 S Winchester Blvd",
+    "lat": "Campbell",
+    "long": 37.2784787
+  },
+  {
+    "id": 546,
+    "name": "caffé-central-santa-clara",
+    "rating": "Caffé Central",
+    "address": 2.5,
+    "city": "2855 Stevens Creek Blvd",
+    "lat": "Santa Clara",
+    "long": 37.3260982962994
+  },
+  {
+    "id": 547,
+    "name": "bar-code-santa-clara",
+    "rating": "Bar Code",
+    "address": 3,
+    "city": "2855 Stevens Crk Blvd",
+    "lat": "Santa Clara",
+    "long": 37.3260983428105
+  },
+  {
+    "id": 548,
+    "name": "jovie-coffee-and-pho-campbell",
+    "rating": "Jovie Coffee & Pho",
+    "address": 3.5,
+    "city": "136 N San Tomas Aquino",
+    "lat": "Campbell",
+    "long": 37.2878194445875
+  },
+  {
+    "id": 549,
+    "name": "tous-les-jours-santa-clara",
+    "rating": "Tous Les Jours",
+    "address": 3.5,
+    "city": "3535 Homestead Rd",
+    "lat": "Santa Clara",
+    "long": 37.33882
+  },
+  {
+    "id": 550,
+    "name": "menchies-frozen-yogurt-vallejo",
+    "rating": "Menchie's Frozen Yogurt",
+    "address": 4.5,
+    "city": "972 Admiral Callaghan Ln",
+    "lat": "Vallejo",
+    "long": 38.133641
+  },
+  {
+    "id": 551,
+    "name": "starbread-bakery-vallejo",
+    "rating": "Starbread Bakery",
+    "address": 4.5,
+    "city": "3718 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.1253132837656
+  },
+  {
+    "id": 552,
+    "name": "pho-1-vallejo",
+    "rating": "Pho #1",
+    "address": 4,
+    "city": "3885 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.1266670227051
+  },
+  {
+    "id": 553,
+    "name": "sunshine-bakery-vallejo-3",
+    "rating": "Sunshine Bakery",
+    "address": 3,
+    "city": "3570 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.1221466064453
+  },
+  {
+    "id": 554,
+    "name": "original-red-onion-vallejo-2",
+    "rating": "Original Red Onion",
+    "address": 3,
+    "city": "1321 Springs Rd",
+    "lat": "Vallejo",
+    "long": 38.10589
+  },
+  {
+    "id": 555,
+    "name": "yo-sushi-vallejo-2",
+    "rating": "Yo Sushi",
+    "address": 3.5,
+    "city": "114 Robles Way",
+    "lat": "Vallejo",
+    "long": 38.0837651342154
+  },
+  {
+    "id": 556,
+    "name": "midori-japanese-cuisine-vallejo",
+    "rating": "Midori Japanese Cuisine",
+    "address": 3.5,
+    "city": "3440 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.1214397080506
+  },
+  {
+    "id": 557,
+    "name": "pho-lee-hoa-phat-vallejo-2",
+    "rating": "Pho Lee Hoa Phat",
+    "address": 3,
+    "city": "102 Springstowne Ctr",
+    "lat": "Vallejo",
+    "long": 38.10499
+  },
+  {
+    "id": 558,
+    "name": "pho-saigon-village-noodle-house-vallejo",
+    "rating": "Pho Saigon Village Noodle House",
+    "address": 4.5,
+    "city": "3636 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.123849663673894
+  },
+  {
+    "id": 559,
+    "name": "pho-lee-hoa-phat-2-vallejo-3",
+    "rating": "Pho Lee Hoa Phat 2",
+    "address": 3,
+    "city": "3495 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.122412702549894
+  },
+  {
+    "id": 560,
+    "name": "chowking-vallejo",
+    "rating": "Chowking",
+    "address": 3,
+    "city": "3495 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.121818
+  },
+  {
+    "id": 561,
+    "name": "tacos-jalisco-vallejo",
+    "rating": "Tacos Jalisco",
+    "address": 4,
+    "city": "3420 Sonoma Blvd",
+    "lat": "Vallejo",
+    "long": 38.121189117431605
+  },
+  {
+    "id": 562,
+    "name": "menchies-frozen-yogurt-belmont-2",
+    "rating": "Menchie's Frozen Yogurt",
+    "address": 4,
+    "city": "1200 El Camino Real",
+    "lat": "Belmont",
+    "long": 37.5189045
+  },
+  {
+    "id": 563,
+    "name": "fashion-wok-foster-city",
+    "rating": "Fashion Wok",
+    "address": 4,
+    "city": "929 A Edgewater Blvd",
+    "lat": "Foster City",
+    "long": 37.5452836454887
+  },
+  {
+    "id": 564,
+    "name": "pho-new-saigon-foster-city",
+    "rating": "Pho New Saigon",
+    "address": 3.5,
+    "city": "1088 Foster City Blvd",
+    "lat": "Foster City",
+    "long": 37.553293700000005
+  },
+  {
+    "id": 565,
+    "name": "hongry-kong-belmont-2",
+    "rating": "Hongry Kong",
+    "address": 3.5,
+    "city": "",
+    "lat": "Belmont",
+    "long": 37.5240325927734
+  },
+  {
+    "id": 566,
+    "name": "marina-food-san-mateo",
+    "rating": "Marina Food",
+    "address": 3,
+    "city": "2992 S Norfolk St",
+    "lat": "San Mateo",
+    "long": 37.5444118546376
+  },
+  {
+    "id": 567,
+    "name": "cooking-papa-restaurant-foster-city",
+    "rating": "Cooking Papa Restaurant",
+    "address": 3.5,
+    "city": "949A Edgewater Blvd",
+    "lat": "Foster City",
+    "long": 37.5446131174646
+  },
+  {
+    "id": 568,
+    "name": "sheng-kee-bakery-san-mateo-2",
+    "rating": "Sheng Kee Bakery",
+    "address": 3,
+    "city": "2964 S Norfolk St",
+    "lat": "San Mateo",
+    "long": 37.5452652
+  },
+  {
+    "id": 569,
+    "name": "eat-on-monday-mountain-view-3",
+    "rating": "Eat On Monday",
+    "address": 4.5,
+    "city": "",
+    "lat": "Mountain View",
+    "long": 37.39316940307621
+  },
+  {
+    "id": 570,
+    "name": "pho-little-saigon-san-mateo",
+    "rating": "Pho Little Saigon",
+    "address": 3,
+    "city": "2978 S Norfolk St",
+    "lat": "San Mateo",
+    "long": 37.5445885811679
+  },
+  {
+    "id": 571,
+    "name": "myung-dong-tofu-cabin-san-mateo",
+    "rating": "Myung Dong Tofu Cabin",
+    "address": 3.5,
+    "city": "2968 S Norfolk St",
+    "lat": "San Mateo",
+    "long": 37.5447841763127
+  },
+  {
+    "id": 572,
+    "name": "bagel-street-cafe-redwood-city",
+    "rating": "Bagel Street Cafe",
+    "address": 3,
+    "city": "254 Redwood Shores Pkwy",
+    "lat": "Redwood City",
+    "long": 37.522466833140996
+  },
+  {
+    "id": 573,
+    "name": "east-14th-bakery-and-cafe-san-leandro-3",
+    "rating": "East 14th Bakery & Cafe",
+    "address": 3.5,
+    "city": "1780 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.7215444
+  },
+  {
+    "id": 574,
+    "name": "tapioca-express-san-leandro",
+    "rating": "Tapioca Express",
+    "address": 3.5,
+    "city": "129 W Joaquin Ave",
+    "lat": "San Leandro",
+    "long": 37.7239999
+  },
+  {
+    "id": 575,
+    "name": "quickly-san-leandro",
+    "rating": "Quickly",
+    "address": 2.5,
+    "city": "15251 Hesperian Blvd",
+    "lat": "San Leandro",
+    "long": 37.6978340148926
+  },
+  {
+    "id": 576,
+    "name": "sweethoney-dessert-san-leandro-3",
+    "rating": "Sweethoney Dessert",
+    "address": 3.5,
+    "city": "1423 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.7240845354245
+  },
+  {
+    "id": 577,
+    "name": "hanoi-chicken-noodle-san-leandro",
+    "rating": "Hanoi Chicken Noodle",
+    "address": 3.5,
+    "city": "13720 Doolittle Dr",
+    "lat": "San Leandro",
+    "long": 37.69982
+  },
+  {
+    "id": 578,
+    "name": "loving-tea-san-leandro",
+    "rating": "Loving Tea",
+    "address": 2,
+    "city": "1338 Fairmont Dr",
+    "lat": "San Leandro",
+    "long": 37.7026172
+  },
+  {
+    "id": 579,
+    "name": "cafe-sorriso-san-leandro",
+    "rating": "Cafe Sorriso",
+    "address": 4,
+    "city": "1501 Washington Ave",
+    "lat": "San Leandro",
+    "long": 37.7228
+  },
+  {
+    "id": 580,
+    "name": "d-t-dim-sum-and-tea-san-leandro",
+    "rating": "D T Dim Sum & Tea",
+    "address": 3.5,
+    "city": "1970 Lewelling Blvd",
+    "lat": "San Leandro",
+    "long": 37.6799806952477
+  },
+  {
+    "id": 581,
+    "name": "milk-and-cookie-bar-castro-valley-3",
+    "rating": "Milk & Cookie Bar",
+    "address": 4.5,
+    "city": "18911 Lake Chabot Rd",
+    "lat": "Castro Valley",
+    "long": 37.70864
+  },
+  {
+    "id": 582,
+    "name": "sweet-dee-cupcakes-and-snow-ice-san-leandro",
+    "rating": "Sweet Dee Cupcakes & Snow Ice",
+    "address": 4,
+    "city": "109 Pelton Ctr Way",
+    "lat": "San Leandro",
+    "long": 37.7229449751301
+  },
+  {
+    "id": 583,
+    "name": "quickly-san-lorenzo",
+    "rating": "Quickly",
+    "address": 3.5,
+    "city": "17940 Hesperian Blvd",
+    "lat": "San Lorenzo",
+    "long": 37.672988996068895
+  },
+  {
+    "id": 584,
+    "name": "tapioca-express-alameda",
+    "rating": "Tapioca Express",
+    "address": 3.5,
+    "city": "2306 Encinal Ave",
+    "lat": "Alameda",
+    "long": 37.76273
+  },
+  {
+    "id": 585,
+    "name": "leisure-cafe-san-leandro-2",
+    "rating": "Leisure Cafe",
+    "address": 2.5,
+    "city": "1443 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.7236583501576
+  },
+  {
+    "id": 586,
+    "name": "quickly-castro-valley",
+    "rating": "Quickly",
+    "address": 3,
+    "city": "20893 Redwood Rd",
+    "lat": "Castro Valley",
+    "long": 37.6947791129351
+  },
+  {
+    "id": 587,
+    "name": "china-kitchen-express-san-leandro",
+    "rating": "China Kitchen Express",
+    "address": 2,
+    "city": "13780 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.715400700000004
+  },
+  {
+    "id": 588,
+    "name": "pho-an-hoa-san-leandro",
+    "rating": "Pho An Hoa",
+    "address": 3.5,
+    "city": "14391 Washington Ave",
+    "lat": "San Leandro",
+    "long": 37.702842
+  },
+  {
+    "id": 589,
+    "name": "tuttimelon-alameda",
+    "rating": "Tuttimelon",
+    "address": 3.5,
+    "city": "2402 Central Ave",
+    "lat": "Alameda",
+    "long": 37.763940000000005
+  },
+  {
+    "id": 590,
+    "name": "banh-mi-ba-le-oakland",
+    "rating": "Banh Mi Ba Le",
+    "address": 4.5,
+    "city": "1909 International Blvd",
+    "lat": "Oakland",
+    "long": 37.78606
+  },
+  {
+    "id": 591,
+    "name": "pokeatery-castro-valley",
+    "rating": "Pokeatery",
+    "address": 4.5,
+    "city": "18911 Lake Chabot Rd",
+    "lat": "Castro Valley",
+    "long": 37.70864
+  },
+  {
+    "id": 592,
+    "name": "hot-spot-alameda",
+    "rating": "Hot Spot",
+    "address": 3.5,
+    "city": "2321 Santa Clara Ave",
+    "lat": "Alameda",
+    "long": 37.765703473918
+  },
+  {
+    "id": 593,
+    "name": "worlds-fare-donuts-hayward",
+    "rating": "World's Fare Donuts",
+    "address": 4.5,
+    "city": "20770 Hesperian Blvd",
+    "lat": "Hayward",
+    "long": 37.6651882648286
+  },
+  {
+    "id": 594,
+    "name": "taqueria-los-pericos-san-leandro",
+    "rating": "Taqueria Los Pericos",
+    "address": 4,
+    "city": "1389 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.72437
+  },
+  {
+    "id": 595,
+    "name": "pho-anh-ha-san-leandro",
+    "rating": "Pho Anh-Ha",
+    "address": 3.5,
+    "city": "2089 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.71929
+  },
+  {
+    "id": 596,
+    "name": "craw-station-san-leandro",
+    "rating": "Craw Station",
+    "address": 3.5,
+    "city": "15040 Farnsworth St",
+    "lat": "San Leandro",
+    "long": 37.690664720659704
+  },
+  {
+    "id": 597,
+    "name": "r-and-d-cafe-san-lorenzo",
+    "rating": "R & D Cafe",
+    "address": 4,
+    "city": "15813 Channel St",
+    "lat": "San Lorenzo",
+    "long": 37.6770314768334
+  },
+  {
+    "id": 598,
+    "name": "munch-hayward",
+    "rating": "Munch",
+    "address": 4,
+    "city": "27560 Tampa Ave",
+    "lat": "Hayward",
+    "long": 37.631869
+  },
+  {
+    "id": 599,
+    "name": "foodnet-supermarket-san-leandro-2",
+    "rating": "Foodnet Supermarket",
+    "address": 3.5,
+    "city": "1960 Lewelling Blvd",
+    "lat": "San Leandro",
+    "long": 37.6795
+  },
+  {
+    "id": 600,
+    "name": "yo-bowl-hayward",
+    "rating": "Yo Bowl",
+    "address": 4,
+    "city": "8 Southland Mall",
+    "lat": "Hayward",
+    "long": 37.651128
+  },
+  {
+    "id": 601,
+    "name": "yogurt-hill-hayward-4",
+    "rating": "Yogurt Hill",
+    "address": 4,
+    "city": "1081 B St",
+    "lat": "Hayward",
+    "long": 37.67355
+  },
+  {
+    "id": 602,
+    "name": "alohana-hawaiian-grill-san-leandro",
+    "rating": "Alohana Hawaiian Grill",
+    "address": 3,
+    "city": "15555 E 14th St",
+    "lat": "San Leandro",
+    "long": 37.700115999999994
+  }
+]
