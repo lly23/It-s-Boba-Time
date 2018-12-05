@@ -307,7 +307,26 @@ a {
 
     .boba-box img {
         width: 45%;
-        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+
+    #types {
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .boba-hover {
+        width: 100%;
+    }
+
+    .boba-hover img {
+        width: 6em;
+        margin-left: 2em;
+        margin-right: 2em;
     }
 
     #types p, #what p {
@@ -322,14 +341,6 @@ a {
 
     .left-arrow img, .right-arrow img {
         width: 6em;
-    }
-
-    #types {
-        display: none;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
     }
 
     .left-arrow {
