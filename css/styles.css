@@ -362,23 +362,40 @@ a {
 
     #interactive {
         background-color: #FF6653;
+        padding-top: 10%;
     }
 
+    /* Grid display for look up part of interactive section */
     #lookup {
         display: grid;
         grid-template-areas: 
           "search map-result"
-          "list map-result";
+          "search map-result";
         grid-template-rows: 50% 50%;  
         grid-template-columns: 50% 50%;   
     }
 
-    .search {
-        grid-area: search;
+    #lookup {
+        margin-bottom: 10%;
     }
 
-    .list {
-        grid-area: list;
+    .search {
+        grid-area: search;
+        background-color: #FFFFFF;
+        width: 80%;
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-field {
+        padding: 2em;
+        text-align: left;
+    }
+
+    #boba-results {
+        text-align: center;
+        margin-bottom: 3em;
     }
 
     .map-result {
@@ -387,8 +404,9 @@ a {
 
     /* Leaflet map */
     #mapid { 
-        width: 80%;
-        height: 30vh; 
+        width: 90%;
+        height: 60vh; 
+        border-radius: 1em;
     }
 
     #boba-quiz {

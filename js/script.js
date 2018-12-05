@@ -76,6 +76,8 @@ $(function() {
             async: false,
             success: function(foursquaredata) {
                 var results = searchBoba(foursquaredata);
+                var coordinates = getCoordinates(foursquaredata);
+                console.log(coordinates);
                 // show results in div
                 $('#boba-results').html(results);
             }
@@ -95,8 +97,18 @@ $(function() {
         async: false,
         success: function(foursquaredata) {
             var results = searchBoba(foursquaredata);
+            var coordinates = getCoordinates(foursquaredata);
+            console.log(coordinates);
             // show results in div
             $('#boba-results').html(results);
+            // $('#boba-results').pagination({
+            //     dataSource: [1, 2, 3, 4, 5, 6, 7],
+            //     callback: function(data, pagination) {
+            //         // template method of yourself
+            //         var html = template(data);
+            //         dataContainer.html(html);
+            //     }
+            // });
         }
     });
 
@@ -164,6 +176,7 @@ $(function() {
             bobaHTML += bobaResults[b];
             bobaHTML += '</br>';
             bobaHTML += bobaLocation[b];
+            bobaHTML += '</br>';
             bobaHTML += '</br>';
         }
 
@@ -306,9 +319,58 @@ $(function() {
         id: 'mapbox.streets',
         accessToken: config.MAPBOX_TOKEN
     }).addTo(mymap);
-    
-    
-    // var map = kartograph.map('#map');
 
+    //adding markers
+    var marker = L.marker([51.5, -0.09]).addTo(mymap);
+
+    // var polygon = L.polygon([
+    //     [51.509, -0.08],
+    //     [51.503, -0.06],
+    //     [51.51, -0.047]
+    // ]).addTo(mymap);
+
+    marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+    // polygon.bindPopup("I am a polygon.");
+
+    // helper functions to retrieve data from FourSquare API and get the coordinates for the markers used with Leaflet + MapBox
+    function getCoordinates(data) {
+        var coordinates = {};
+        var coordinate = [];
+        var searchList = [];
+        var lat = '';
+        var long = '';
+
+        // use these filters to narrow down search results
+        var filters = ['Bubble Tea Shop', 'Boba']; 
+
+        for (var i = 0; i < filters.length; i++) {
+            var filterItem = filters[i];
+            data.response.venues.forEach(venue => {
+                for (var j = 0; j < venue.categories.length; j++) {
+                    // get each name
+                    var name = venue.categories[j].name;
+                    
+                    // if name matches filter item then add it to boba results array
+                    if (name == filterItem) {
+                        searchList.push(venue);
+                    }
+                }
+            });  
+        }
+
+        searchList.forEach(venue => {
+            lat = venue.location.lat;
+            long = venue.location.lng;
+            coordinate.push(lat);
+            coordinate.push(long);
+            coordinates[venue.name] = coordinate;
+        });
+
+        return coordinates;
+    }
+    
+    function createMarkers(data) {
+
+    }
   
 });
