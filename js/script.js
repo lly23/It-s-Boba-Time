@@ -225,14 +225,14 @@ $(function() {
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
 
-        // display menu button after title
-        if (scrollTop >= $('#title').offset().top) {
-            $('#nav').css('display', 'block');
+        // hide menu button on title
+        if (scrollTop > $('#title').height) {
+            $('#nav').css('display', 'none');
         }
 
-        // hide menu button on title
-        if (scrollTop < $('#intro').offset().top) {
-            $('#nav').css('display', 'none');
+        // display menu button after title
+        if (scrollTop >= $('#intro').offset().top) {
+            $('#nav').css('display', 'block');
         }
 
         // Scroll Animation
@@ -269,9 +269,8 @@ $(function() {
             //     console.log(clsCounter);
             // }
             // $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
-        }
 
-        // if (scrollTop > $('#history').offset().top) {
+                    // if (scrollTop > $('#history').offset().top) {
             // console.log($('.cls-1:nth-child(' + 3 + ')').offset().top);
             // clsCounter += 1; 
             // $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
@@ -285,6 +284,16 @@ $(function() {
             //     $('.cls-1:nth-child(' + clsCounter + ')').fadeTo("slow", 1);
             // }
         // } 
+        } else if (scrollTop < $('#history').offset().top || scrollTop > $('#stats').offset().top) {
+        // if user goes past history section or before history section, reset yellow path animation
+            clsCounter = 0; 
+            $('#box1').css("opacity", 0);
+            $('#box2').css("opacity", 0);
+            $('#box3').css("opacity", 0);
+            $('#box4').css("opacity", 0);
+            $('#box5').css("opacity", 0);
+            $('.cls-1').css("opacity", 0);
+        }
 
     });    
 

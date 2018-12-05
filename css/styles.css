@@ -42,6 +42,13 @@ a {
     text-decoration: none;
 }
 
+.parallax {
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Supports checks whether the user browswer supports this */
 @supports (grid-area:auto) {
     /* each section will be full screen */
@@ -84,10 +91,6 @@ a {
 
     #title {
         background-image: url('../img/boba_title.png');
-        background-attachment: fixed;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     /* Navigation Menu */
@@ -293,7 +296,7 @@ a {
     }
 
     #intro {
-        background-color: #FC8D81;
+        background-image: url('../img/red_background.png');
         height: 100vh;
     }
 
@@ -361,10 +364,35 @@ a {
         background-color: #FF6653;
     }
 
+    #lookup {
+        display: grid;
+        grid-template-areas: 
+          "search map-result"
+          "list map-result";
+        grid-template-rows: 50% 50%;  
+        grid-template-columns: 50% 50%;   
+    }
+
+    .search {
+        grid-area: search;
+    }
+
+    .list {
+        grid-area: list;
+    }
+
+    .map-result {
+        grid-area: map-result;
+    }
+
     /* Leaflet map */
     #mapid { 
         width: 80%;
         height: 30vh; 
+    }
+
+    #boba-quiz {
+        display: none;
     }
 
     /* background shapes */
@@ -412,6 +440,10 @@ a {
     }
 
     #box1, #box2, #box3, #box4, #box5 {
+        opacity: 0;
+    }
+
+    .no-opacity {
         opacity: 0;
     }
 

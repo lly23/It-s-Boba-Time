@@ -29,7 +29,7 @@
     
 <body>
     <!-- Title Page -->
-    <div id="title" class="landing page">
+    <div id="title" class="landing page parallax">
         <div class="overlay">
             <div class="main-heading">
                 <h1 class="big-heading gray" data-md-skew>It's Boba Time</h1>
@@ -59,7 +59,7 @@
     </div>
 
     <!-- Introduction -->
-    <div id="intro" class="layout page">
+    <div id="intro" class="layout page parallax">
         <div id="red">
             <img id="" data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
             <img data-depth="0.6" class="bubble small-bubble" src="img/bubble_red.png" alt="red bubble">
@@ -217,13 +217,15 @@
         </div>
         <div class="main">
             <div id="lookup">
-                <div>
+                <div class="search"> 
                     <input type="text" id="location" value="Chapel Hill, NC"/>
                     <input type="number" id="radius" value="250" />Meters (Max: 100,000)
                     <input type="button" id="search" value="Submit"></button>
                 </div>
-                <div>
+                <div class="list">
                     <div id="boba-results"></div>
+                </div>
+                <div class="map-results">
                     <div id="mapid"></div>
                 </div>
             </div>
@@ -238,7 +240,6 @@
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
         crossorigin="anonymous">
     </script> 
-    <script src="plugins/kartograph.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="plugins/mdSkew.js-master/dist/mdSkew.min.js"></script>
