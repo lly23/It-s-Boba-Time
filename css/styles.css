@@ -74,9 +74,9 @@ a {
         display: grid;
         grid-template-areas: 
           "main-heading"
-          "content"
-          "content";
-        grid-template-rows: 200px auto auto;  
+          "title-content"
+          "title-footer";
+        grid-template-rows: 150px auto 150px;  
         grid-template-columns: 100%;
     }
 
@@ -86,7 +86,12 @@ a {
     }
 
     .content {
-        grid-area: content;
+        grid-area: title-content;
+        text-align: center;
+    }
+
+    .title-footer {
+        grid-area: title-footer;
         text-align: center;
     }
 
@@ -296,6 +301,15 @@ a {
         position: relative;
     }
 
+    .boba-box {
+        text-align: center;
+    }
+
+    .boba-box img {
+        width: 45%;
+        padding-top: 2em;
+    }
+
     #types p, #what p {
         text-align: left;
     }
@@ -313,7 +327,6 @@ a {
     #types {
         display: none;
         width: 50%;
-        margin-top: 8em;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -338,12 +351,6 @@ a {
         margin-left: 3em;
         margin-top: 3em;
         margin-bottom: 3em;
-    }
-
-    /* history picture items */
-    #teapot {
-        width: 10em;
-        padding-top: 2em;
     }
 
     .container {
@@ -449,10 +456,6 @@ a {
         border-radius: 1em;
     }
 
-    #boba-quiz {
-        display: none;
-    }
-
     /* background shapes */
     .bubble {
         position: absolute;
@@ -479,9 +482,40 @@ a {
         opacity: 0;
     }
 
-    #box2 img {
+    /* history picture items */
+    #teapot {
+        width: 15%;
+        padding-top: 2em;
+    }
+
+    #taiwan {
         position: absolute;
-        width: 10em;
+        width: 25%;
+        top: 65%;
+        right: -25%;
+    }
+
+    #starbucks {
+        position: absolute;
+        width: 25%;
+        top: 65%;
+        left: -25%;
+    }
+
+    #boba {
+        position: absolute;
+        width: 15%;
+        top: 55%;
+        left: -25%;  
+    }
+
+    #boba-guys {
+        position: absolute;
+        width: 45%;
+        top: 100%;
+        left: 9%;
+        border-radius: 1em;
+        margin-top: 20%;
     }
 
     #sidebox {
