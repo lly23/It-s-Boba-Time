@@ -1,9 +1,9 @@
-$(function() {
+$(function() { 
     // switching between sections in intro
     $('#right-click').click(function() {
         $('#intro1').fadeOut( "slow", function() {
             $('#intro1').css('display', 'none');
-            $('#intro2').fadeIn("slow", function() {
+            $('#intro2').fadeIn("slow", function() { 
                 $('#intro2').css('display', 'block');
             });
         });
@@ -63,6 +63,38 @@ $(function() {
     var location = $('#location').val();
     var radius = $('#radius').val();
 
+    // set map view to current city, state coordinates in the input field using Geocode API
+    var geocodedata = [];
+    // create a string array from the input value
+    var locationSet = location.split(",");
+    var setCity = locationSet[0];
+    var setState =locationSet[1];
+
+    // initialize map with 0,0 coordinates first since data from ajax call can't be retrieved outside success function
+    var mymap = L.map('mapid').setView([0, 0], 13);
+
+    // Geocoding API
+    $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address=' + setCity + '+' + setState + '&key=' + config.GOOGLE_API_KEY,
+        data: geocodedata,
+        dataType: 'json',
+        type: 'GET',
+        async: false,
+        success: function(geocodedata) {
+            console.log(geocodedata.results[0].geometry.location);
+            mymap.setView([getLat(geocodedata), getLong(geocodedata)], 13);
+        } 
+    });
+
+    // helper functions to get latitude and longitude of input location value
+    function getLat(data) {
+        return data.results[0].geometry.location.lat;
+    }
+
+    function getLong(data) {
+        return data.results[0].geometry.location.lng;
+    }
+
     $('#search').click(function() {
         // once user inputs a new location or radius, value will change
         location = $('#location').val();
@@ -73,11 +105,29 @@ $(function() {
             data: foursquaredata,
             type: 'GET',
             dataType: 'json',
-            async: false,
+            async: true,
             success: function(foursquaredata) {
                 var results = searchBoba(foursquaredata);
                 var coordinates = getCoordinates(foursquaredata);
                 console.log(coordinates);
+
+                // Leaflet JS and MapBox
+                L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 18,
+                    id: 'mapbox.streets',
+                    accessToken: config.MAPBOX_TOKEN
+                }).addTo(mymap);
+
+                for (var venue in coordinates) {
+                    console.log(venue);
+                    var obj = coordinates[venue];
+
+                    marker = new L.marker([obj[0],obj[1]])
+                            .bindPopup(venue)
+                            .addTo(mymap);
+                }
+
                 // show results in div
                 $('#boba-results').html(results);
             }
@@ -94,11 +144,29 @@ $(function() {
         data: foursquaredata,
         type: 'GET',
         dataType: 'json',
-        async: false,
+        async: true,
         success: function(foursquaredata) {
             var results = searchBoba(foursquaredata);
             var coordinates = getCoordinates(foursquaredata);
             console.log(coordinates);
+
+            // Leaflet JS and MapBox
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                maxZoom: 18,
+                id: 'mapbox.streets',
+                accessToken: config.MAPBOX_TOKEN
+            }).addTo(mymap);
+
+            for (var venue in coordinates) {
+                console.log(venue);
+                var obj = coordinates[venue];
+
+                marker = new L.marker([obj[0],obj[1]])
+                        .bindPopup(venue)
+                        .addTo(mymap);
+            }
+
             // show results in div
             $('#boba-results').html(results);
             // $('#boba-results').pagination({
@@ -182,19 +250,6 @@ $(function() {
 
         return bobaHTML;
     }
-
-    // Google Places API
-    // var placesdata = [];
-
-    // $.ajax({
-    //     url: 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=' + config.GOOGLE_API_KEY,
-    //     data: placesdata,
-    //     type: 'GET',
-    //     dataType: 'jsonp',
-    //     success: function(placesdata) {
-    //         console.log(placesdata);
-    //     }
-    // });
 
     // Sliding Navigation
     let menu = $('li:first-child'),
@@ -310,28 +365,6 @@ $(function() {
 
     });    
 
-    // Leaflet JS and MapBox
-    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
-        id: 'mapbox.streets',
-        accessToken: config.MAPBOX_TOKEN
-    }).addTo(mymap);
-
-    //adding markers
-    var marker = L.marker([51.5, -0.09]).addTo(mymap);
-
-    // var polygon = L.polygon([
-    //     [51.509, -0.08],
-    //     [51.503, -0.06],
-    //     [51.51, -0.047]
-    // ]).addTo(mymap);
-
-    marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-    // polygon.bindPopup("I am a polygon.");
-
     // helper functions to retrieve data from FourSquare API and get the coordinates for the markers used with Leaflet + MapBox
     function getCoordinates(data) {
         var coordinates = {};
@@ -367,10 +400,6 @@ $(function() {
         });
 
         return coordinates;
-    }
-    
-    function createMarkers(data) {
-
     }
   
 });
