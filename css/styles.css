@@ -324,9 +324,22 @@ a {
     }
 
     .boba-hover img {
-        width: 6em;
+        width: 7em;
         margin-left: 2em;
         margin-right: 2em;
+    }
+
+    .hover-content {
+        background-color: #FFFFFF;
+        color: #000;
+        border-radius: 1em;
+        width: 100%;
+        margin-top: 3em;
+        padding: 1em;
+    }
+
+    #hover-box-classic, #hover-box-milk, #hover-box-slush, #hover-box-other {
+        display: none;
     }
 
     #types p, #what p {

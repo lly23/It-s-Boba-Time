@@ -285,9 +285,58 @@ $(function() {
         reset: false
     });
 
-    // Parallax bubbles
-    // var red = document.getElementById('red');
-    // var parallaxInstance = new Parallax('red');
+    //Hover in Intro: Different Types of Boba
+    $('#hover-classic').mouseover(function() {
+        $("#hover-classic").attr("src","../img/blank_classic.png");
+        // $('#hover-box-classic').fadeIn("slow", function() { 
+            $('#hover-box-classic').css('display', 'block');
+        // });
+    });
+
+    $('#hover-classic').mouseleave(function() {
+        $("#hover-classic").attr("src","../img/hover_classic.png");
+        // $('#hover-box-classic').fadeOut("slow", function() { 
+            $('#hover-box-classic').css('display', 'none');
+        // });
+    });
+
+    $('#hover-milk').mouseover(function() {
+        $("#hover-milk").attr("src","../img/blank_milk.png");
+        // $('#hover-box-milk').fadeIn("slow", function() { 
+            $('#hover-box-milk').css('display', 'block');
+        // });
+    });
+
+    $('#hover-milk').mouseleave(function() {
+        $("#hover-milk").attr("src","../img/hover_milk.png");
+        // $('#hover-box-milk').fadeOut("slow", function() { 
+            $('#hover-box-milk').css('display', 'none');
+        // });
+    });
+
+    $('#hover-slush').mouseover(function() {
+        $("#hover-slush").attr("src","../img/blank_slush.png");
+        // $('#hover-box-slush').fadeIn("slow", function() { 
+            $('#hover-box-slush').css('display', 'block');
+        // });
+    });
+
+    $('#hover-slush').mouseleave(function() {
+        $("#hover-slush").attr("src","../img/hover_slush.png");
+        // $('#hover-box-slush').fadeOut("slow", function() { 
+            $('#hover-box-slush').css('display', 'none');
+        // });
+    });
+
+    $('#hover-other').mouseover(function() {
+        $("#hover-other").attr("src","../img/blank_other.png");
+        $('#hover-box-other').css('display', 'block');
+    });
+
+    $('#hover-other').mouseleave(function() {
+        $("#hover-other").attr("src","../img/hover_other.png");
+        $('#hover-box-other').css('display', 'none');
+    });
 
     // History section animation
     // create a counter for the number of cls-1 classes touched when scrolling
