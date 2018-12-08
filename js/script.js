@@ -4,7 +4,6 @@ $(function() {
     $('#intro').makeBokeh();
     $('#history').makeBokeh();
     $('#interactive').makeBokeh();
-    // $('#sources').makeBokeh();
 
     // navigation menu
     $('#list1').click(function(e) {
@@ -388,79 +387,5 @@ $(function() {
 
         return coordinates;
     }
-
-    // High Charts 
-    // Prepare random data
-    // var data = [
-    //     ['DE.SH', 728],
-    //     ['DE.BE', 710],
-    //     ['DE.MV', 963],
-    //     ['DE.HB', 541],
-    //     ['DE.HH', 622],
-    //     ['DE.RP', 866],
-    //     ['DE.SL', 398],
-    //     ['DE.BY', 785],
-    //     ['DE.SN', 223],
-    //     ['DE.ST', 605],
-    //     ['DE.NW', 237],
-    //     ['DE.BW', 157],
-    //     ['DE.HE', 134],
-    //     ['DE.NI', 136],
-    //     ['DE.TH', 704],
-    //     ['DE.', 361]
-    // ];
-
-    // var caliData = [];
-    // $.ajax({
-    //     url: '../data/bayarea_boba_spots.json',
-    //     data: caliData,
-    //     dataType: 'json',
-    //     type: 'GET',
-    //     success: function(caliData) {
-    //         console.log(caliData);
-    //         // Initiate the chart
-    //         Highcharts.mapChart('caliChart', {
-    //             chart: {
-    //                 map: caliData
-    //             },
-
-    //             title: {
-    //                 text: 'Boba Shops in the Bay Area'
-    //             },
-
-    //             mapNavigation: {
-    //                 enabled: true,
-    //                 buttonOptions: {
-    //                     verticalAlign: 'bottom'
-    //                 }
-    //             },
-
-    //             colorAxis: {
-    //                 tickPixelInterval: 100
-    //             },
-
-    //             series: [{
-    //                 data: caliData,
-    //                 keys: ['code_hasc', 'value'],
-    //                 joinBy: 'code_hasc',
-    //                 name: 'Random data',
-    //                 states: {
-    //                     hover: {
-    //                         color: '#a4edba'
-    //                     }
-    //                 },
-    //                 dataLabels: {
-    //                     enabled: true,
-    //                     format: '{point.properties.postal}'
-    //                 }
-    //             }]
-    //         });
-    //     }
-    // });
-
-    // $.getJSON('../data/bayarea_boba_spots.json', function (caliData) {
-
-        
-    // });
   
 });
