@@ -1,6 +1,6 @@
 /* Universal attributes */
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Esteban', serif;
     min-height:100%;
     min-width:100%;
     height: 100%;
@@ -65,7 +65,6 @@ a {
 @supports (grid-area:auto) {
     /* each section will be full screen */
     .page {
-        padding-top: 10%;
         height: 100vh;
     }
 
@@ -85,7 +84,7 @@ a {
         text-align: center;
     }
 
-    .content {
+    .title-content {
         grid-area: title-content;
         text-align: center;
     }
@@ -96,9 +95,28 @@ a {
     }
 
     #title {
-        background-image: url('../img/boba_title.png');
-        height: 100vh;
+        /* background-image: url('../img/boba_title.png'); */
+        /* background-color: #FFDE67; */
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        border-radius: 5px solid #FFFFFF;
+      }
 
     /* Navigation Menu */
     #nav {
@@ -125,11 +143,13 @@ a {
 
     /* sliding navigation menu properties */
     ul {
-        width: 860px;
-        height: 120px;
+        /* width: 860px;
+        height: 120px; */
+        /* width: 100px; */
+        height: 860px;
         background: transparent;
         border-radius: 5px;
-        overflow: hidden;
+        /* overflow: hidden; */
         position: relative;
     }
       
@@ -165,16 +185,8 @@ a {
         transform: translateX(0);
     }
 
-    ul li:nth-child(2) {
-        margin-left: 1em;
-    }
-
-    ul li:nth-child(3) {
-        margin-left: 1em;
-    }
-
-    ul li:nth-child(4) {
-        margin-left: 1em;
+    ul li:nth-child(2),  ul li:nth-child(3), ul li:nth-child(4), ul li:nth-child(5) {
+        margin-left: 100%;
     }
 
     #menu-button .bar {
@@ -283,92 +295,135 @@ a {
         grid-area: head;
     }
 
+    .head h2 {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
     .main {
         grid-area: main;
     }
 
-    #intro {
-        background-image: url('../img/red_background.png');
-        height: 100vh;
+    #title, #intro, #history, #interactive, #sources {
+        overflow: hidden;
         position: relative;
+    }
+
+    #intro p {
+        font-size: 18px;
     }
 
     /* intro text properties */
     #what {
-        width: 50%;
+        width: 60%;
+        padding: 2em;
+        padding: 2em;
         margin-left: auto;
         margin-right: auto;
-        position: relative;
     }
 
-    .boba-box {
+    .intro-layout {
+        display: grid;
+        grid-template-areas: 
+          "intro-text intro-pic";
+        grid-template-rows: 100%;  
+        grid-template-columns: 55% 45%;
+    }
+
+    .intro-layout, .second-intro-layout {
+        /* opacity: 0; */
+    }
+
+    .intro-pic {
+        grid-area: intro-pic;
+        
+    }
+
+    .intro-text {
+        grid-area: intro-text;
+    }
+
+    .second-intro-layout {
+        display: grid;
+        grid-template-areas: 
+          "second-head second-head"
+          "second-pic second-text";
+        grid-template-rows: 150px 400px;
+        grid-template-columns: 60% 50%;
+    }
+
+    .second-intro-layout {
+        margin-top: 10%;
+    }
+
+    .second-head {
+        grid-area: second-head;
         text-align: center;
     }
 
-    .boba-box img {
-        width: 45%;
-        padding-bottom: 2em;
+    .second-pic {
+        grid-area: second-pic;
     }
 
+    .second-text {
+        grid-area: second-text;
+    }
 
-    #types {
-        display: none;
-        width: 50%;
+    #boba-box img {
+        border-radius: 100%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
-        position: relative;
     }
 
-    .boba-hover {
+    #types {
+        width: 60%;
+        margin-top: 3em;
+    }
+
+    #boba-hover {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
-    .boba-hover img {
-        width: 7em;
+    #boba-hover img {
+        width: 6em;
+        margin-bottom: 1em;
         margin-left: 2em;
         margin-right: 2em;
     }
 
     .hover-content {
-        background-color: #FFFFFF;
-        color: #000;
-        border-radius: 1em;
         width: 100%;
-        margin-top: 3em;
-        padding: 1em;
+        border: 5px solid rgb(233, 78, 97);
+        background-color: #FFFFFF;
+        color: #575757;
+        border-radius: 1em;
+        padding: 2em;
     }
 
     #hover-box-classic, #hover-box-milk, #hover-box-slush, #hover-box-other {
         display: none;
+        height: 100%;
     }
 
     #types p, #what p {
         text-align: left;
     }
 
-    .right-arrow {
-        position: absolute;
-        right: -25%;
-        top: 5%;
-    }
-
     .left-arrow img, .right-arrow img {
         width: 6em;
     }
 
-    .left-arrow {
+    #left-click {
         position: absolute;
-        left: -25%;
-        top: 5%;
-    }
-
-    #intro2 {
-        display: none;
+        right: 0;
     }
 
     #history {
         background-color: #80A6CF;
-        padding-top: 10%;
     }
 
     .headline {
@@ -391,7 +446,6 @@ a {
 
     #interactive {
         background-color: #FF6653;
-        padding-top: 10%;
     }
 
     /* Grid display for look up part of interactive section */
@@ -405,16 +459,19 @@ a {
     }
 
     #lookup {
-        margin-bottom: 10%;
+        /* margin-bottom: 10%; */
+        height: 100%;
     }
 
     .search {
         grid-area: search;
         background-color: #FFFFFF;
-        width: 80%;
-        border-radius: 1em;
+        width: 90%;
+        height: auto;
+        border-radius: 0.7em;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 3em;
     }
 
     .input-field {
@@ -442,23 +499,51 @@ a {
         margin-bottom: 3em;
     }
 
+    /* Leaflet map */
+    #mapid { 
+        width: 90%;
+        height: 70vh;
+        margin-bottom: 3em; 
+        border-radius: 0.7em;
+    }
+
     .map-result {
         grid-area: map-result;
     }
 
     #sources {
-        background-color: #FFDE67;
+        background-color: #FFFFFF;
     }
 
     .source-flex {
         display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
         width: 70%;
     }
 
+    #source-pics {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #source-pics img {
+        width: 5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        -webkit-box-shadow: 4px 6px 71px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 6px 71px -1px rgba(0,0,0,0.75);
+        box-shadow: 4px 6px 71px -1px rgba(0,0,0,0.75);
+    }
+
     .credits {
-        width: 70%;
+        padding: 4em;
+        text-align: center;
+    }
+
+    .credits h3 {
+        color: #DD4D9B;
     }
 
     .credits a {
@@ -469,29 +554,25 @@ a {
         color: #DD4D9B;
     }
 
-    #source-pic {
-        width: 10em;
-    }
-
-    /* Leaflet map */
-    #mapid { 
-        width: 90%;
-        height: 60vh; 
-        border-radius: 1em;
-    }
-
     /* background shapes */
+    .ellipse {
+        position: absolute;
+        top: -14%;
+        left: -18%;
+        width: 100%;    
+    }
+
     .bubble {
         position: absolute;
         left: 15%;
-        top: 15%;
+        top: 45%;
         z-index: 10;
     }
 
     .small-bubble {
         position: absolute;
         width: 7em;
-        left: 65%; 
+        left: 76%; 
         top: 60%;
     }
 
@@ -623,7 +704,7 @@ a {
 
 /* media screen for navigation menu */
 @media screen and (max-width: 467px) {
-    ul {
+    #nav {
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
     }
@@ -634,11 +715,11 @@ a {
     .layout {
         display: grid;
         grid-template-areas: 
-          "head"
-          "main"
-          "main";
-        grid-template-rows: 150px auto auto;  
-        grid-template-columns: 100%;
+          "head head"
+          "main main"
+          "main main";
+        grid-template-rows: 20% 40% 40%;  
+        grid-template-columns: 50% 50%;
     }
 
     .head {
@@ -647,6 +728,11 @@ a {
 
     .main {
         grid-area: main;
+    }
+
+    /* Intro Section */
+    #what {
+        width: 100%;
     }
 
     /* History Section */
@@ -701,3 +787,20 @@ a {
         display: none;
     }
 }
+
+      
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    }

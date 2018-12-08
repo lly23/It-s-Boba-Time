@@ -11,6 +11,7 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="plugins/jQuery-Plugin-To-Generate-Parallax-Bokeh-Background/bokeh-style.css">
 
         <!-- Leaflet JS Library -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
@@ -18,26 +19,34 @@
         crossorigin=""/>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Esteban" rel="stylesheet">
         
         <!-- Title Icon -->
-        <link rel="shortcut icon" href="img/red_boba.svg" />
+        <link rel="shortcut icon" href="img/Ellipse_Red.png" />
     </head>
     
     
 <body>
     <!-- Title Page -->
-    <div id="title" class="landing parallax">
+    <div id="title" class="landing page parallax">
         <div class="main-heading">
-            <h1 class="big-heading black" data-md-skew>It's Boba Time</h1>
+            <h1 class="big-heading" data-md-skew>It's Boba Time</h1>
         </div>
         <div class="title-content">
-            
+            <div class="row">
+                <div class="column">
+                    <img src="img/boba-guys grid.jpg" alt="boba guys">
+                    <img src="img/boba-grid-2.jpg" alt="more boba">
+                    <img src="img/kungfutea-grid.jpg" alt="kung fu tea">
+                </div>
+                <div class="column">
+
+                </div>
+            </div>
         </div>
         <div class="title-footer">
-            <h2>Scroll down to learn more</h2>
+            <h2>Scroll down to get started</h2>
         </div>
     </div>
 
@@ -53,57 +62,55 @@
             </li>
             <li id="list1"><a>Intro<img src="img/strawberry_boba.svg" alt="strawberry boba"></a></li>
             <li id="list2"><a>History<img id="milktea" src="img/milktea_boba.svg" alt="milk tea boba"></a></li>
-            <!-- <li id="list3"><a>Impact</a></li> -->
             <li id="list4"><a>Find your Boba<img id="mocha" src="img/mocha_boba.svg" alt="mocha boba"></a></li>
             <li id="list5"><a>Sources<img id="matcha" src="img/matcha_boba.svg" alt="matcha boba"></a></li>
         </ul>
     </div>
 
     <!-- Introduction -->
-    <div id="intro" class="layout page parallax">
-        <div id="red">
-            <img data-depth="0.2" class="bubble" src="img/bubble_red.png" alt="red bubble">
-            <img data-depth="0.6" class="small-bubble" src="img/bubble_red.png" alt="red bubble">
-        </div>
-        <div id="red-background" class="head display">
+    <div id="intro" class="layout">
+        <img class="ellipse" src="img/Ellipse_Pink.png" alt="big red bubble">
+        <img class="bubble" src="img/bubble_red.png" alt="red bubble">
+        <img class="small-bubble" src="img/bubble_red.png" alt="red bubble">
+        <div class="head display">
             <h2 class="white big" id="intro1" data-md-skew>What is Boba?</h2>
-            <h2 class="white big" id="intro2" data-md-skew>Different Types of Boba</h2>
         </div>
         <div class="main display white">
-            <div id="what">
-                <div class="boba-box">
-                    <img src="img/boba.jpg" alt="pic of boba">
+            <div class="intro-layout">
+                <div id="boba-box" class="intro-pic">
+                    <img src="img/boba.jpg" alt="boba">
                 </div>
-                <p>Boba, Boba Tea, or Bubble Tea is a Taiwanese-based dessert drink that comes in different flavors of tea mixed with milk and sweet, chewy tapioca balls called boba. Hence the name, Boba Tea.</p>
-                <p>Boba first started out as just cold tea infused with fruity flavoring originating from Taiwan. As the technique spread, creativity began to spread as well as topping choices expanded beyond tapioca balls to include elements like grass jelly, almond jelly, egg pudding, and red beans. Even in classic boba, the milk in the milk tea was swapped out for non-dairy creamer because it was more shelf-stable, and as a result, the drink became known for its incredibly sweet, creamy taste. Today, the U.S. is populated with an abundance of bubble tea chains selling Boba of all different kinds.</p>
-                </p>
-                <div class="right-arrow">
-                   <img id="right-click" src="img/right-arrow.png" alt="right arrow"> 
+                <div id="what" class="intro-text">
+                    <p>Boba Tea or Bubble Tea is a Taiwanese-based dessert drink that comes in different flavors of tea mixed with milk and sweet, chewy tapioca balls called boba. Hence the name, Boba Tea.</p>
+                    <p>Boba first started out as just cold tea infused with fruity flavoring originating from Taiwan. As the technique spread, creativity began to spread as well as topping choices expanded beyond tapioca balls to include elements like grass jelly, almond jelly, egg pudding, and red beans.</p>
+                    <p>Today, the U.S. is populated with an abundance of bubble tea chains selling Boba of all different kinds.</p>
                 </div>
             </div>
-            <div id="types">
-                <div class="boba-hover">
-                    <img id="hover-classic" src="img/hover_classic.png" alt="classic milk tea">
-                    <img id="hover-milk" src="img/hover_milk.png" alt="milk tea">
-                    <img id="hover-slush" src="img/hover_slush.png" alt="slush boba">
-                    <img id="hover-other" src="img/hover_other.png" alt="other boba">
+            <div class="second-intro-layout">
+                <div class="second-head">
+                    <h2 class="white big" data-md-skew>The Different Types of Boba</h2>
                 </div>
-                <div id="hover-box">
-                    <div class="hover-content" id="hover-box-classic">
-                        <p>The Classic Milk Tea is the original boba tea drink. It consists of a tea of your choice (usually Black Tea, Oolong Tea, Jasmine Tea, and Green Tea are offered) that is sometimes paired with a fruit flavor such as Strawberry or Peach. As always, you can include boba as well as other toppings such as lychee or aloe bits.</p>
-                    </div>
-                    <div class="hover-content" id="hover-box-milk">
-                        <p>Milk tea is the most popular boba tea. You are given tea flavors (usually Black Tea, Oolong Tea, Jasmine Tea, and Early Gray Tea are offered) to chose from. Milk is then added to the tea along with a topping of your choice (usually honey-coated boba).</p>
-                    </div>
-                    <div class="hover-content"id="hover-box-slush">
-                        <p>Slush Boba is not a tea-based boba but is in fact a smoothie that can have boba and other toppings added to it. They usually come in fruit flavors such as Strawberry, Mango, Coconut, and Lychee.</p>
-                    </div>
-                    <div class="hover-content" id="hover-box-other">
-                        <p>A few other honorable mentions that don't quite have their own "type" or cateory include boba tea creations using jellies and other Asian toppings. This includes: boba with milkcap or cheesecap (a creamy, sweet foam that is poured on top of the tea-base) and shaved ice cream with condensed milk and jelly toppings and tofu drenched with honey.</p>
-                    </div>
+                <div id="boba-hover" class="second-pic">
+                        <img id="hover-classic" src="img/hover_classic.png" alt="classic milk tea">
+                        <img id="hover-milk" src="img/hover_milk.png" alt="milk tea">
+                        <img id="hover-slush" src="img/hover_slush.png" alt="slush boba">
+                        <img id="hover-other" src="img/hover_other.png" alt="other boba">
                 </div>
-                <div class="left-arrow">
-                    <img id="left-click" src="img/left-arrow.png" alt="left arrow">
+                <div id="types" class="second-text">
+                    <div id="hover-box">
+                        <div class="hover-content" id="hover-box-classic">
+                            <p>The Classic Milk Tea is the original boba tea drink. It consists of a tea of your choice (usually Black Tea, Oolong Tea, Jasmine Tea, and Green Tea are offered) that is sometimes paired with a fruit flavor such as Strawberry or Peach. As always, you can include boba as well as other toppings such as lychee or aloe bits.</p>
+                        </div>
+                        <div class="hover-content" id="hover-box-milk">
+                            <p>Milk tea is the most popular boba tea. You are given tea flavors (usually Black Tea, Oolong Tea, Jasmine Tea, and Early Gray Tea are offered) to chose from. Milk is then added to the tea along with a topping of your choice (usually honey-coated boba).</p>
+                        </div>
+                        <div class="hover-content"id="hover-box-slush">
+                            <p>Slush Boba is not a tea-based boba but is in fact a smoothie that can have boba and other toppings added to it. They usually come in fruit flavors such as Strawberry, Mango, Coconut, and Lychee.</p>
+                        </div>
+                        <div class="hover-content" id="hover-box-other">
+                            <p>A few other honorable mentions that don't quite have their own "type" or cateory include boba tea creations using jellies and other Asian toppings. This includes: boba with milkcap or cheesecap (a creamy, sweet foam that is poured on top of the tea-base) and shaved ice cream with condensed milk and jelly toppings and tofu drenched with honey.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,16 +242,6 @@
         </div>
     </div>
 
-    <!-- Stats -->
-    <!-- <div id="stats" class="layout page">
-        <div class="head display">
-            <h2 class="white big" data-md-skew>Impact</h2>
-        </div>
-        <div class="main">
-            <div id="caliChart"></div>
-        </div>
-    </div> -->
-
     <!-- Interactive -->
     <div id="interactive" class="layout">  
         <div class="head display">
@@ -276,7 +273,7 @@
                         
                     </div>
                 </div>
-                <div class="map-results">
+                <div class="map-result">
                     <div id="mapid"></div>
                 </div>
             </div>
@@ -284,14 +281,20 @@
     </div>
 
     <!-- Sources and Credits -->
-    <div id="sources" class="layout page">
+    <div id="sources" class="layout">
         <div class="head display">
             <h2 class="black big" data-md-skew>Sources</h2>
         </div>
         <div class="main">
             <div class="source-flex">
+                <div id="source-pics">
+                    <img src="img/hover_strawberry.png" alt="strawberry boba">
+                    <img src="img/hover_mocha.png" alt="milk tea boba">
+                    <img src="img/hover_other.png" alt="mocha boba">
+                    <img src="img/hover_milk.png" alt="matcha boba">
+                </div>
                 <div class="credits">
-                <h3>Articles and Data</h3>
+                <h3>Articles</h3>
                     <a href="https://www.bubbleteasupply.com/bubble-tea-history/">Bubble Tea History</a>
                     <br>
                     <a href="https://www.foodandwine.com/tea/bubble-tea-taiwanese-street-drink-turned-american-addiction">Bubble Tea Taiwanese Street Drink Turned American Addiction</a>
@@ -309,26 +312,30 @@
                     <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwikrsHS1YjfAhUNhuAKHZ5JBj4QjRx6BAgBEAU&url=https%3A%2F%2Fvector.me%2Fsearch%2Ftea&psig=AOvVaw1qZT6XTF1du6vURkQ6JjnR&ust=1544098554888209">Tea Pot</a>
                     <br>
                     <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_map_of_Taiwan_%28ROC%29.svg/2000px-Flag_map_of_Taiwan_%28ROC%29.svg.png">Taiwan</a>
-                </div>
-                <div class="credits-image">
-                    <img id="source-pic" src="img/sipped_tea.png" alt="strawberry boba">
+                    <br>
+                    <br>
+                <h3>API's</h3>
+                    <a href="https://developer.foursquare.com/">Foursquare API</a>
+                    <br>
+                    <a href="https://developers.google.com/maps/documentation/geocoding/start">GeoCode API</a>
+                    <br>
+                    <a href="https://www.mapbox.com/">MapBox API</a>
                 </div>
             </div>
         </div>
     </div>
+
                 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
         crossorigin="anonymous">
     </script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="plugins/mdSkew.js-master/dist/mdSkew.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
     integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
     crossorigin=""></script>
-    <script src="https://code.highcharts.com/highcharts.src.js"></script>
-    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="plugins/jQuery-Plugin-To-Generate-Parallax-Bokeh-Background/bokeh-script.js"></script>
     <script src="plugins/pagination.min.js"></script>
 
     <!-- JavaScript -->

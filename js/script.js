@@ -1,34 +1,10 @@
 $(function() { 
-    // switching between sections in intro
-    $('#right-click').click(function() {
-        $('#intro1').fadeOut( "slow", function() {
-            $('#intro1').css('display', 'none');
-            $('#intro2').fadeIn("slow", function() { 
-                $('#intro2').css('display', 'block');
-            });
-        });
-        $('#what').fadeOut( "slow", function() {
-            $('#what').css('display', 'none');
-            $('#types').fadeIn("slow", function() {
-                $('#types').css('display', 'block');
-            });
-        });
-    });
-
-    $('#left-click').click(function() {
-        $('#intro2').fadeOut( "slow", function() {
-            $('#intro2').css('display', 'none');
-            $('#intro1').fadeIn("slow", function() {
-                $('#intro1').css('display', 'block');
-            });
-        });
-        $('#types').fadeOut( "slow", function() {
-            $('#types').css('display', 'none');
-            $('#what').fadeIn("slow", function() {
-                $('#what').css('display', 'block');
-            });
-        });
-    });
+    // Bokeh parallax bubbles
+    $('#title').makeBokeh();
+    $('#intro').makeBokeh();
+    $('#history').makeBokeh();
+    $('#interactive').makeBokeh();
+    // $('#sources').makeBokeh();
 
     // navigation menu
     $('#list1').click(function(e) {
@@ -256,26 +232,22 @@ $(function() {
         intro = $('li:nth-child(2)'),
         history = $('li:nth-child(3)'),
         stats = $('li:nth-child(4)'),
-        fun = $('li:nth-child(5)');
-        sources = $('li:nth-child(6)');
+        sources = $('li:nth-child(5)');
 
     menu.on('click',() => {
         menuButton.toggleClass('active');
         if(menuButton.hasClass('active')){
-            intro.animate({'left':'180px','opacity':'1','z-index':'8'},500);
-            history.animate({'left':'340px','opacity':'1','z-index':'6'},500);
-            stats.animate({'left':'500px','opacity':'1','z-index':'4'},500);
-            fun.animate({'left':'680px','opacity':'1','z-index':'2'},500);
-            sources.animate({'left':'840px','opacity':'1','z-index':'1'},500);
+            intro.animate({'top':'15%','opacity':'1','z-index':'8'},500);
+            history.animate({'top':'30%','opacity':'1','z-index':'6'},500);
+            stats.animate({'top':'45%','opacity':'1','z-index':'4'},500);
+            sources.animate({'top':'60%','opacity':'1','z-index':'2'},500);
         } else {
-            intro.animate({'left':'0','opacity':'0'},500);
-            history.animate({'left':'0','opacity':'0'},500);
-            stats.animate({'left':'0','opacity':'0'},500);
-            fun.animate({'left':'0','opacity':'0'},500);
-            sources.animate({'left':'0','opacity':'0'},500);
+            intro.animate({'top':'0','opacity':'0'},500);
+            history.animate({'top':'0','opacity':'0'},500);
+            stats.animate({'top':'0','opacity':'0'},500);
+            sources.animate({'top':'0','opacity':'0'},500);
         }
     });
-
 
     // Skew Effect
     $('[data-md-skew]').mdSkew({
