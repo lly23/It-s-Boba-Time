@@ -52,7 +52,7 @@ $(function() {
     var setCity = locationSet[0];
     var setState =locationSet[1];
 
-    // initialize map with 0,0 coordinates first since data from ajax call can't be retrieved outside success function
+    // initialize map with 0,0 coordinates first since data from ajax call can't be retrieved outside success function and mymap needs to be initialized outside a function
     var mymap = L.map('mapid').setView([0, 0], 13);
 
     // Geocoding API
@@ -64,23 +64,17 @@ $(function() {
         async: false,
         success: function(geocodedata) {
             console.log(geocodedata.results[0].geometry.location);
-            mymap.setView([getLat(geocodedata), getLong(geocodedata)], 13);
+            mymap.setView([geocodedata.results[0].geometry.location.lat, geocodedata.results[0].geometry.location.lng], 13);
         } 
     });
-
-    // helper functions to get latitude and longitude of input location value
-    function getLat(data) {
-        return data.results[0].geometry.location.lat;
-    }
-
-    function getLong(data) {
-        return data.results[0].geometry.location.lng;
-    }
 
     $('#search').click(function() {
         // once user inputs a new location or radius, value will change
         location = $('#location').val();
         radius = $('#radius').val();
+        locationSet = location.split(",");
+        setCity = locationSet[0];
+        setState =locationSet[1];
         // calling Foursquare API AJAX call again for new location or radius
         $.ajax({
             url: 'https://api.foursquare.com/v2/venues/search?client_id=' + config.FOURSQUARE_CLIENT_ID + '&client_secret=' + config.FOURSQUARE_CLIENT_SECRET + '&v=20180323&categoryId=52e81612bcbc57f1066b7a0c,4bf58dd8d48988d1dc931735&radius=' + radius + '&near=' + location,
@@ -89,6 +83,19 @@ $(function() {
             dataType: 'json',
             async: true,
             success: function(foursquaredata) {
+                // Geocoding API
+                $.ajax({
+                    url: 'https://maps.googleapis.com/maps/api/geocode/json?address=' + setCity + '+' + setState + '&key=' + config.GOOGLE_API_KEY,
+                    data: geocodedata,
+                    dataType: 'json',
+                    type: 'GET',
+                    async: false,
+                    success: function(geocodedata) {
+                        console.log(geocodedata.results[0].geometry.location);
+                        mymap.setView([geocodedata.lat, geocodedata.results[0].geometry.location.lng], 13);
+                    } 
+                });
+
                 var results = searchBoba(foursquaredata);
                 var coordinates = getCoordinates(foursquaredata);
                 console.log(coordinates);
@@ -101,13 +108,16 @@ $(function() {
                     accessToken: config.MAPBOX_TOKEN
                 }).addTo(mymap);
 
+                var lat = 0;
+                var long = 1;
                 for (var venue in coordinates) {
-                    console.log(venue);
-                    var obj = coordinates[venue];
-
-                    marker = new L.marker([obj[0],obj[1]])
-                            .bindPopup(venue)
-                            .addTo(mymap);
+                    console.log(coordinates[venue][lat],coordinates[venue][long]);
+                    console.log(coordinates[venue]);      
+                    new L.marker([coordinates[venue][lat],coordinates[venue][long]])
+                        // .bindPopup(venue)
+                        .addTo(mymap);
+                    lat+=2;
+                    long+=2;
                 }
 
                 // show results in div
@@ -140,13 +150,15 @@ $(function() {
                 accessToken: config.MAPBOX_TOKEN
             }).addTo(mymap);
 
+            var lat = 0;
+            var long = 1;
             for (var venue in coordinates) {
-                console.log(venue);
-                var obj = coordinates[venue];
-
-                marker = new L.marker([obj[0],obj[1]])
-                        .bindPopup(venue)
-                        .addTo(mymap);
+                console.log(coordinates[venue]);
+                new L.marker([coordinates[venue][lat],coordinates[venue][long]])
+                    // .bindPopup(venue)
+                    .addTo(mymap);
+                lat+=2;
+                long+=2;
             }
 
             // show results in div
@@ -257,57 +269,104 @@ $(function() {
     });
 
     //Hover in Intro: Different Types of Boba
-    $('#hover-classic').mouseover(function() {
-        $("#hover-classic").attr("src","../img/blank_classic.png");
-        // $('#hover-box-classic').fadeIn("slow", function() { 
+    if ($(document).width() > 600) {
+        $('#hover-classic').mouseover(function() {
+            $("#hover-classic").attr("src","../img/blank_classic.png");
             $('#hover-box-classic').css('display', 'block');
-        // });
-    });
+        });
 
-    $('#hover-classic').mouseleave(function() {
-        $("#hover-classic").attr("src","../img/hover_classic.png");
-        // $('#hover-box-classic').fadeOut("slow", function() { 
+        $('#hover-classic').mouseleave(function() {
+            $("#hover-classic").attr("src","../img/hover_classic.png");
             $('#hover-box-classic').css('display', 'none');
-        // });
-    });
+        });
 
-    $('#hover-milk').mouseover(function() {
-        $("#hover-milk").attr("src","../img/blank_milk.png");
-        // $('#hover-box-milk').fadeIn("slow", function() { 
+        $('#hover-milk').mouseover(function() {
+            $("#hover-milk").attr("src","../img/blank_milk.png");
             $('#hover-box-milk').css('display', 'block');
-        // });
-    });
+        });
 
-    $('#hover-milk').mouseleave(function() {
-        $("#hover-milk").attr("src","../img/hover_milk.png");
-        // $('#hover-box-milk').fadeOut("slow", function() { 
+        $('#hover-milk').mouseleave(function() {
+            $("#hover-milk").attr("src","../img/hover_milk.png");
             $('#hover-box-milk').css('display', 'none');
-        // });
-    });
+        });
 
-    $('#hover-slush').mouseover(function() {
-        $("#hover-slush").attr("src","../img/blank_slush.png");
-        // $('#hover-box-slush').fadeIn("slow", function() { 
+        $('#hover-slush').mouseover(function() {
+            $("#hover-slush").attr("src","../img/blank_slush.png");
             $('#hover-box-slush').css('display', 'block');
-        // });
-    });
+        });
 
-    $('#hover-slush').mouseleave(function() {
-        $("#hover-slush").attr("src","../img/hover_slush.png");
-        // $('#hover-box-slush').fadeOut("slow", function() { 
+        $('#hover-slush').mouseleave(function() {
+            $("#hover-slush").attr("src","../img/hover_slush.png");
             $('#hover-box-slush').css('display', 'none');
-        // });
-    });
+        });
 
-    $('#hover-other').mouseover(function() {
-        $("#hover-other").attr("src","../img/blank_other.png");
-        $('#hover-box-other').css('display', 'block');
-    });
+        $('#hover-other').mouseover(function() {
+            $("#hover-other").attr("src","../img/blank_other.png");
+            $('#hover-box-other').css('display', 'block');
+        });
 
-    $('#hover-other').mouseleave(function() {
-        $("#hover-other").attr("src","../img/hover_other.png");
-        $('#hover-box-other').css('display', 'none');
-    });
+        $('#hover-other').mouseleave(function() {
+            $("#hover-other").attr("src","../img/hover_other.png");
+            $('#hover-box-other').css('display', 'none');
+        });
+    }
+
+    //Click in Intro: Different Types of Boba for mobile
+    // if screen is mobile sized then switch to click function
+    if ($(document).width() <= 600) {
+        var classicClicks = 0;
+        var milkClicks = 0;
+        var slushClicks = 0;
+        var otherClicks = 0;
+
+        $('#hover-classic').click(function() { 
+            if (classicClicks == 0) {
+                classicClicks += 1; 
+                $("#hover-classic").attr("src","../img/blank_classic.png");
+                $('#hover-box-classic').css('display', 'block');
+            } else {
+                classicClicks -= 1;
+                $("#hover-classic").attr("src","../img/hover_classic.png");
+                $('#hover-box-classic').css('display', 'none');
+            }
+        });
+
+        $('#hover-milk').click(function() {
+            if (milkClicks == 0) {
+                milkClicks += 1;
+                $("#hover-milk").attr("src","../img/blank_milk.png");
+                $('#hover-box-milk').css('display', 'block');
+            } else {
+                milkClicks -= 1;
+                $("#hover-milk").attr("src","../img/hover_milk.png");
+                $('#hover-box-milk').css('display', 'none');
+            }
+        });
+
+        $('#hover-slush').click(function() {
+            if (slushClicks == 0) {
+                slushClicks += 1;
+                $("#hover-slush").attr("src","../img/blank_slush.png");
+                $('#hover-box-slush').css('display', 'block');
+            } else {
+                slushClicks -= 1;
+                $("#hover-slush").attr("src","../img/hover_slush.png");
+                $('#hover-box-slush').css('display', 'none');
+            }  
+        });
+
+        $('#hover-other').click(function() {
+            if (otherClicks == 0 ) {
+                otherClicks += 1;
+                $("#hover-other").attr("src","../img/blank_other.png");
+                $('#hover-box-other').css('display', 'block');
+            } else {
+                otherClicks -= 1;
+                $("#hover-other").attr("src","../img/hover_other.png");
+                $('#hover-box-other').css('display', 'none');
+            } 
+        });
+    }
 
     // History section animation
     // create a counter for the number of cls-1 classes touched when scrolling

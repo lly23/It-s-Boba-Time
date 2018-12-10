@@ -93,6 +93,7 @@ a {
     .title-content {
         grid-area: title-content;
         background-color: rgba(87, 87, 87, 0.6);
+        height: 100%;
         z-index: 10;
         overflow: scroll;
     } 
@@ -511,14 +512,6 @@ a {
         background-color: #FFFFFF;
     }
 
-    .source-flex {
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-    }
-
     #source-pics {
         margin-left: auto;
         margin-right: auto;
@@ -534,6 +527,11 @@ a {
     }
 
     .credits {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
         padding: 4em;
         text-align: center;
     }
@@ -644,31 +642,31 @@ a {
         margin-right: 3em;
     }
 
-    .history-box:first-child {
+    #box1 {
         top: 3%;
         width: 70%;  
         right: 0;
     }
 
-    .history-box:nth-child(2) {
+    #box2 {
         width: 60%;
         left: 0;
         top: 25%;
     }
 
-    .history-box:nth-child(3) {
+    #box3 {
         width: 80%;
         right: 0;  
         top: 50%; 
     }
 
-    .history-box:nth-child(4) {
+    #box4 {
         width: 60%;
         right: 0;
         top: 59%;
     }
 
-    .history-box:nth-child(5) {
+    #box5 {
         width: 60%;
         left: 0;
         top: 75%;
@@ -759,7 +757,7 @@ a {
         grid-template-areas: 
           "head"
           "main";
-        grid-template-rows: 10% auto;  
+        grid-template-rows: 150px auto;  
         grid-template-columns: 100%;
     }
 
@@ -777,17 +775,31 @@ a {
         grid-template-areas: 
           "intro-pic"
           "intro-text";
-        grid-template-rows: 10% 80%;  
+        grid-template-rows: 35% auto;  
         grid-template-columns: 100%;
+    }
+
+    #boba-box {
+        text-align: center;
     }
 
     .intro-pic {
         grid-area: intro-pic;
-        
     }
 
     .intro-text {
         grid-area: intro-text;
+        margin-top: 2em;
+    }
+
+    #what {
+        width: 90%;
+        color: #000;
+        padding: 1em;
+    }
+
+    #what p, #types p {
+        font-size: 16px;
     }
 
     .second-intro-layout {
@@ -796,7 +808,7 @@ a {
           "second-head"
           "second-pic"
           "second-text";
-        grid-template-rows: 10% 40% 800px;
+        grid-template-rows: 25% 40% auto;
         grid-template-columns: 100%;
     }
 
@@ -807,6 +819,7 @@ a {
     .second-head {
         grid-area: second-head;
         text-align: center;
+        color: #000;
     }
 
     .second-pic {
@@ -817,9 +830,26 @@ a {
         grid-area: second-text;
     }
 
-    #what, #types {
-        width: 100%;
+    #types {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
         color: #000;
+        padding: 1em;
+    }
+
+    .hover-content {
+        width: 80%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .hover-content p {
+        padding: 1em;
+    }
+
+    .bubble {
+        width: 70%;
     }
 
     /* History Section */
@@ -827,50 +857,33 @@ a {
         position: relative;
         display: flex;
         flex-direction: row;
+        width: 100%;
+        height: 50%;
         margin-left: 0em;
         margin-right: 0em;        
     }
 
-    .history-box:first-child {
-        top: 3%;
-        width: 100%;  
-        right: 0;
-    }
-
-    .history-box:nth-child(2) {
+    #box1, #box2, #box3, #box4, #box5 {
         width: 100%;
-        left: 0;
-        top: 25%;
-    }
-
-    .history-box:nth-child(3) {
-        width: 100%;
-        right: 0;  
-        top: 50%; 
-    }
-
-    .history-box:nth-child(4) {
-        width: 100%;
-        right: 0;
-        top: 59%;
-    }
-
-    .history-box:nth-child(5) {
-        width: 100%;
-        left: 0;
-        top: 75%;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 
     .history-circle {
-        margin-left: 0em;
-        margin-right: 0em;
-    }
-
-    .history-text {
-        
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     #history-line {
+        display: none;
+    }
+
+    .history-text {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #taiwan, #teapot {
         display: none;
     }
 
@@ -878,8 +891,47 @@ a {
         top: -3%;
         left: -5%;
     }
-}
 
+        /* Interactive section */
+    #lookup {
+        display: grid;
+        grid-template-areas: 
+          "search"
+          "map-result";
+        grid-template-rows: 50% 50%;  
+        grid-template-columns: 100%;   
+    }
+    
+    .search {
+        grid-area: search;
+        background-color: #FFFFFF;
+        width: 90%;
+        height: auto;
+        border-radius: 0.7em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3em;
+    }
+
+    .map-result {
+        grid-area: map-result;
+    }
+
+    #mapid { 
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 3em; 
+        border-radius: 0.7em;
+    }
+
+    .credits {
+        padding: 2em;
+    }
+
+    #source-pics {
+        display: none;
+    }
+}
       
     /* Responsive layout - makes a two column-layout instead of four columns */
     @media screen and (max-width: 800px) {
